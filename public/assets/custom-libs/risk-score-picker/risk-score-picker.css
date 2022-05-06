@@ -1,0 +1,15 @@
+.risk-score-picker-input {
+    display: none;
+}
+
+.risk-score-picker-dropdown  {
+    display: none;
+    width: max-content;
+    background: #eee;
+    position: absolute;
+    z-index: 9999;
+}
+
+.risk-score-picker-dropdown.show {
+    display: block;
+}

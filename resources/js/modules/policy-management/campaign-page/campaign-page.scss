@@ -1,0 +1,142 @@
+#policy-management_campaign-page {
+    .project-div {
+        height: 265px;
+        h4 {
+            word-break: break-all;
+        }
+    }
+    .bootstrap-datetimepicker-widget {
+        .fe-chevron-up {
+            background: #fff;
+            color: #6c757d;
+            font-size: 18px;
+            border: 1px solid var(--secondary-color);
+            font-weight: bolder;
+            transition: 0.3s ease;
+            background: #fff !important;
+            color: #6c757d;
+            font-size: 18px;
+            font-weight: bolder;
+            transition: 0.3s ease;
+        }
+        .fe-chevron-down {
+            background: #fff;
+            color: #6c757d;
+            font-size: 18px;
+            border: 1px solid var(--secondary-color);
+            font-weight: bolder;
+            transition: 0.3s ease;
+            background: #fff !important;
+            color: #6c757d;
+            font-size: 18px;
+            font-weight: bolder;
+            transition: 0.3s ease;
+        }
+        .fe-clock {
+            font-size: 18px;
+        }
+        .fe-calendar {
+            font-size: 18px;
+        }
+    }
+    .absolute-error-form {
+        label.invalid-feedback {
+            bottom: -11px;
+        }
+    }
+    #content-loading {
+        position: absolute;
+        left: 50%;
+    }
+}
+
+// Modal
+.modal-header {
+    align-items: center;
+    .modal-title {
+        margin: 0px 0px;
+        .btn-close {
+            padding: 0rem 1rem;
+        }
+    }
+}
+
+/* react select */
+.react-select {
+    .react-select__option--is-selected {
+        background-color: var(--secondary-color);
+    }
+    .react-select__option--is-focused {
+        background-color: var(--bs-light);
+    }
+    .react-select__option--is-focused {
+		&.react-select__option--is-selected {
+			background-color: var(--secondary-color);
+		}
+	}
+    .react-select__multi-value {
+        background-color: var(--secondary-color);
+        .react-select__multi-value__label {
+            color: white;
+        }
+        .react-select__multi-value__remove {            
+            color: white;
+            &:hover {
+                background-color: var(--secondary-color);
+            }
+        }
+    }
+    .react-select__control,
+    .react-select__option {
+        cursor: pointer;
+    }
+}
+
+/* react select */
+/* RDT Datepicker */
+.react-select {
+	.react-select__option--is-selected {
+		background-color: var(--secondary-color);
+	}
+	.react-select__option--is-focused {
+		background-color: var(--bs-light);
+	}
+	.react-select__option--is-focused.react-select__option--is-selected {
+		background-color: var(--secondary-color);
+	}
+}
+.rdtPicker {
+    min-width: 300px !important;
+	.rdtDays {
+		.rdtPrev {
+			span {
+				font-size: 25px;
+			}
+		}
+		.rdtNext {
+			span {
+				font-size: 25px;
+			}
+		}
+		.rdtDay {
+			height: 40px;
+			width: 40px;
+			border-radius: 50%;
+		}
+		tr {
+			&:hover {
+				background-color: transparent;
+				cursor: pointer;
+			}
+		}
+		.rdtDay.rdtActive.rdtToday {
+			border-radius: 50%;
+		}
+		.rdtToday {
+			&::before {
+				display: none !important;
+				border-bottom: 0;
+			}
+		}
+	}
+}

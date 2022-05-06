@@ -1,0 +1,110 @@
+.manual__import-left span {
+    color: red;
+}
+
+.csv {
+    margin-top: -35px;
+}
+
+.edit-control-btn a:nth-child(2) {
+    margin-left: 4px;
+}
+
+.upload_csv_section {
+    display           : block;
+    position          : relative;
+    cursor            : pointer;
+    overflow          : hidden;
+    width             : 100%;
+    max-width         : 100%;
+    padding           : 80px 20px;
+    min-height        : 200px;
+    font-family       : 'Cerebri Sans,sans-serif';
+    font-size         : 14px;
+    line-height       : 22px;
+    color             : #777;
+    background-color  : #FFF;
+    background-image  : none;
+    text-align        : center;
+    border            : 2px dashed #E5E5E5;
+    border-radius     : 10px;
+    -webkit-transition: border-color 0.15s linear;
+    transition        : border-color 0.15s linear;
+}
+
+.upload_csv_section:hover {
+    background-size  : 30px 30px;
+    background-image : -webkit-linear-gradient(135deg, #F6F6F6 25%, transparent 25%, transparent 50%, #F6F6F6 50%, #F6F6F6 75%, transparent 75%, transparent);
+    background-image : linear-gradient(-45deg, #F6F6F6 25%, transparent 25%, transparent 50%, #F6F6F6 50%, #F6F6F6 75%, transparent 75%, transparent);
+    -webkit-animation: stripes 2s linear infinite;
+    animation        : stripes 2s linear infinite;
+}
+
+.react-collapsible-theme .react-collapsible tr.expanded-row td {
+    overflow: visible !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+}
+
+@-webkit-keyframes stripes {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 60px 30px;
+    }
+}
+
+@keyframes stripes {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 60px 30px;
+    }
+}
+
+/*******************
+    RESPONSIVE
+********************/
+@media (max-width: 575px) {
+    .table-right h4 {
+        padding-top: 10px;
+    }
+
+    .upload__btn {
+        margin-bottom: 5px;
+        min-width    : 145px;
+    }
+}
+
+
+/* control List */
+#control-list .react-collapsible-theme .react-collapsible thead tr th.column-controlId {
+    width: 10% !important;
+}
+
+#control-list .react-collapsible-theme .react-collapsible thead tr th.column-name {
+    width: 20% !important;
+}
+
+#control-list .react-collapsible-theme .react-collapsible thead tr th.column-description {
+    width: 50% !important;
+}
+
+/* react select */
+.react-select .react-select__option--is-selected{
+    background-color: var(--secondary-color);
+}
+.react-select .react-select__option--is-focused{
+    background-color: var(--bs-light);
+}
+.react-select .react-select__option--is-focused.react-select__option--is-selected {
+    background-color: var(--secondary-color);
+}
+.react-select .react-select__control,
+.react-select .react-select__option {
+    cursor: pointer;
+}

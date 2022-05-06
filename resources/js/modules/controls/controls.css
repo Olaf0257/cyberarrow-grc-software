@@ -1,0 +1,42 @@
+.top-control{
+    background-color: #f4f5f7;
+}
+
+.react-collapsible-theme .react-collapsible th:first-child {
+    width: 180px !important;
+}
+
+.react-collapsible-theme .react-collapsible tr.expanded-row td {
+    overflow: visible !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+}
+
+/* react select */
+/* react select */
+.react-select .react-select__option--is-selected{
+    background-color: var(--secondary-color);
+}
+.react-select .react-select__option--is-focused{
+    background-color: var(--bs-light);
+}
+.react-select .react-select__option--is-focused.react-select__option--is-selected {
+    background-color: var(--secondary-color);
+}
+.react-select .react-select__control,
+.react-select .react-select__option {
+    cursor: pointer;
+}
+
+.column-8 {
+    width: 50;
+}
+
+@media (max-width: 576px) {
+    .filter-row__wrap .all-standards,
+    .filter-row__wrap .all-controlID,
+    .filter-row__wrap .all-controlName,
+    .filter-row__wrap .all-users {
+        width: 100%;
+    }
+}

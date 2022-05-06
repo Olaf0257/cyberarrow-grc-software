@@ -1,0 +1,61 @@
+/* Multi Select */
+.filter {
+    .project-filter-container {
+        .dropdown-container {
+            width: 500px;
+        }
+    }
+    .multi-select {
+        .dropdown-container {
+            width: 200px;
+            .clear-selected-button {
+                display: none;
+            }
+            .dropdown-content {
+                .search {
+                    input {
+                        border: 1px solid #aaa;
+                        width: 100%;
+                    }
+                }
+                .select-item {
+                    &.false {
+                        padding: 0px;
+                        margin-bottom: 0px;
+                        &:hover {
+                            background-color: transparent;
+                        }
+                    }
+                }
+            }            
+            .dropdown-heading-value {
+                cursor: pointer !important;
+            }
+        }
+        .select-panel {
+            padding: 10px 10px 0px 10px;
+            div {
+                margin-bottom: 10px;
+            }
+        }
+        .search {
+            border-bottom: 1px solid #aaa;
+            padding-bottom: 10px;
+            width: 100%;
+        }
+        .select-item.selected {
+            background-color: transparent !important;
+            padding: 0px 0px;
+        }
+        .item-renderer {
+            input[type="checkbox"] {
+                width: auto;
+            }
+        }
+    }
+    .multi-select-tree-dropdown {
+        .clear-selected-button {
+            display: none !important;
+        }
+    }
+}

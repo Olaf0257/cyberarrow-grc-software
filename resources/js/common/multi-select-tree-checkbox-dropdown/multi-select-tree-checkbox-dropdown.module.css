@@ -1,0 +1,56 @@
+.dropdownHeadingContainer {
+    position: relative;
+    outline: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 38px;
+    padding: 10px;
+}
+
+.dropdownHeading {
+    position: relative;
+    display: flex;
+    cursor: default;
+    outline: 0;
+}
+
+.dropdownHeadingValue {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+
+.searchInput {
+    height: 38px;
+    padding: 0 10px;
+    width: 100%;
+    outline: 0;
+    border: 0;
+}
+
+.searchClearButton {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: none;
+    border: 0;
+    padding: 0 calc(10px / 2);
+}
+
+.dropdownWp {
+    padding: 5px;
+}
+
+.selectAllCheckboxInput {
+    margin-right: 8px;
+}

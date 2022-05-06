@@ -1,0 +1,93 @@
+#error_page{
+    background-color: darkgray;
+    height: 100vh;
+    html {
+        background-color: darkgray;
+        font-family: 'Cerebri Sans,sans-serif';
+    }
+    .center-menu {
+        background-color: darkgray;
+    }
+    .maincontainer {
+        position: relative;
+        top: -50px;
+        transform: scale(0.8);
+        background: '/assets/images/error/HauntedHouseBackground.png';
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 700px 600px;
+        width: 800px;
+        height: 600px;
+        margin: 0px auto;
+        display: grid;
+    }
+    .foregroundimg {
+        position: relative;
+        width: 100%;
+        top: -230px;
+        z-index: 5;
+    }
+    .errorcode {
+        position: relative;
+        top: -99px;
+        font-family: 'Cerebri Sans,sans-serif';
+        color: firebrick;
+        text-align: center;
+        font-size: 6em;
+        letter-spacing: 0.1em;
+    }
+    .errortext {
+        position: relative;
+        top: -92px;
+        color: #FBD130;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.8em;
+    }
+    .bat {
+        opacity: 0;
+        position: relative;
+        transform-origin: center;
+        z-index: 3;
+        &:nth-child(1) {
+            top: 380px;
+            left: 120px;
+            transform: scale(0.5);
+            animation: 13s 1s flyBat1 infinite linear;
+        }
+        &:nth-child(2) {
+            top: 280px;
+            left: 80px;
+            transform: scale(0.3);
+            animation: 8s 4s flyBat2 infinite linear;
+        }
+        &:nth-child(3) {
+            top: 200px;
+            left: 150px;
+            transform: scale(0.4);
+            animation: 12s 2s flyBat3 infinite linear;
+        }
+    }
+    .body {
+        position: relative;
+        width: 50px;
+        top: 12px;
+    }
+    .wing {
+        width: 150px;
+        position: relative;
+        transform-origin: right center;
+    }
+    .leftwing {
+        left: 30px;
+        animation: 0.8s flapLeft infinite ease-in-out;
+    }
+    .rightwing {
+        left: -180px;
+        transform: scaleX(-1);
+        animation: 0.8s flapRight infinite ease-in-out;
+    }
+    
+
+}
+

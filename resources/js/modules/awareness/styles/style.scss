@@ -1,0 +1,115 @@
+#awareness-dashboard-page{
+    // .donut-pie-chart {
+    //     min-height: 320px;
+    // }
+    // .radial-pie-chart {
+    //     min-height: 352px;
+    // }
+    // .apexcharts-menu-icon {
+    //     display: none !important;
+    // }
+    // .apexcharts-legend-marker {
+    //     display: none !important;
+    // }
+    // .apexcharts-legend-text {
+    //     display: none !important;
+    // }
+    // .apexcharts-text.apexcharts-xaxis-label {
+    //     display: none !important;
+    // }
+  position: relative;  
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .swiper-slide {
+  display: block;
+  position: relative;
+  
+  img{
+  max-width: 100%;
+  height: auto;
+  }
+  .swiper-img-detail{
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+    button{
+      padding: 10px;
+    font-size: 18px;
+    max-width: 125px;
+    font-weight: bold;
+    }
+  }
+  &:hover{
+    img{
+      opacity: 0.5;
+    }
+    .swiper-img-detail{
+      display: block;
+    }
+  }
+}
+
+  .swiper-pagination-bullet{
+    height: 10px;
+    width: 10px;
+  }
+
+  .swiper-pagination-bullets{
+    bottom: 20px;
+  }
+
+  .swiper-pagination-bullet-active{
+    background-color: rgba(black, $alpha: 0.5);
+  }
+
+  .swiper-button-prev{
+    &::after{
+      content: "<";
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top:25%;
+      left: 0px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      z-index: 2;
+      background-color: lightgrey;
+      cursor: pointer;
+    }
+  }
+
+  .swiper-button-next{
+    &::before{
+      content: ">";
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top:25%;
+      right: 0px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      z-index: 2;
+      background-color: lightgray;
+      cursor: pointer;
+    }
+  }
+  
+}

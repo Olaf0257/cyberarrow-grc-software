@@ -1,0 +1,147 @@
+.risksby-category,
+        .risksby-status {
+            background: #fff;
+            border-radius: 5px;
+            border: 1px solid var(--secondary-color);
+        }
+
+        .risk__dashboard h5 {
+            margin: 0 !important;
+            padding: 10px 0;
+            color: #555;
+            background: var(--secondary-color);
+        }
+
+
+        .bg-green {
+            background: #bce293;
+            border: 1px solid #92d050;
+        }
+
+        .low-risk svg {
+            color: #92d050;
+        }
+
+        .bg-orange {
+            background: #ff8;
+            border: 1px solid #ee0;
+        }
+
+        .mode-risk svg {
+            color: #ee0;
+        }
+
+        .bg-yellow {
+            background: #fd7;
+            border: 1px solid #ffc000;
+        }
+
+        .high-risk svg {
+            color: #ffc000;
+        }
+
+        .bg-red {
+            background: #f77;
+            border: 1px solid #FF0000;
+        }
+
+        .extreme-risk svg {
+            color: #FF0000;
+        }
+
+        .risk__num,
+        .risk__stat {
+            text-align: center;
+            top: 21%;
+            left: -3%;
+            position: relative;
+        }
+
+        .current__vulnerability {
+            border: 1px solid #ddd;
+        }
+
+
+
+        .vulnerability-box {
+            cursor: pointer;
+            padding: 5px;
+            border-radius: 8px;
+            background: #fff;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+
+        .vulnerability__icon {
+            height: 65px;
+            width: 65px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+
+
+        .vulnerability__stat-text .risk__stat {
+            color: #aaa;
+            letter-spacing: 1px;
+        }
+
+        table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child:before, table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child:before {
+            top: 12px;
+            left: 4px;
+            height: 14px;
+            width: 14px;
+            display: block;
+            position: absolute;
+            color: white;
+            border: 2px solid white;
+            border-radius: 14px;
+            box-shadow: 0 0 3px #444;
+            box-sizing: content-box;
+            text-align: center;
+            text-indent: 0 !important;
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 14px;
+            content: '+';
+            background-color: #b2dd4c !important;
+        }
+
+        .donut-pie-chart,
+        .radial-pie-chart
+        {
+            min-height: 352px;
+        }
+
+        /*******************
+            Apexchart
+         *******************/
+
+        .apexcharts-menu-icon,
+        .apexcharts-legend-marker,
+        .apexcharts-legend-text,
+        .apexcharts-text.apexcharts-xaxis-label {
+            display: none !important;
+        }
+
+
+        #risks-by-severity-chart  tspan, #risks-by-severity-chart:hover {
+            font-weight: 100;
+            font-family: 'Arial';
+            font-size: 1.8px !important;
+        }
+
+        #risks-closed-status-chart {
+            margin-top: -10px;
+        }
+
+        #alert_icon {
+            font-size: 1.5em;
+        }
+
+        .column-action{
+            width: 125px !important;
+        }

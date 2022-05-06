@@ -1,0 +1,58 @@
+.top__head-text {
+    /* border-bottom: 2px solid var(--secondary-color); */
+    margin-bottom: 20px;
+}
+
+/* .likelihood__range, .impact__range {
+    margin-top: -17px;
+} */
+span.irs-single {
+    display: none;
+}
+
+.irs-grid-pol.small {
+    display: none;
+}
+
+.irs-min, .irs-max {
+    visibility: hidden !important;
+}
+
+.irs--round .irs-grid-text {
+    color: gray;
+    font-size: 10px;
+}
+.risk-store-form .dropdown .inner{
+    overflow-y: unset!important;
+}
+.category-overflow__xaxis .dropdown-menu.show {
+    overflow:auto;
+}
+button.dropdown-toggle{
+    background-color: #fff!important;
+    border-color: #ced4da!important;
+}
+.checkbox label {
+    cursor: pointer;
+}
+@media screen and (max-width: 460px){
+    .irs--round .irs-grid-text {
+        font-size: 7px;
+        white-space: break-spaces;
+        width: 40px;
+    }
+    .risk-update-form .slider-div{
+        overflow: auto;
+    }
+}
+
+.card-body {
+    padding: 1.5rem !important;
+}
+
+.rc-slider-with-marks {
+    left: 0px !important;
+}
+.rc-slider {
+    width: 98% !important;
+}

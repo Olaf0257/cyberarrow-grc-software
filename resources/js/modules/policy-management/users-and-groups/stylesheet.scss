@@ -1,0 +1,89 @@
+#users-and-groups-tabs-section {
+	.react-collapsible-theme {
+		.react-collapsible {
+			th {
+				&:first-child {
+					width: 180px !important;
+				}
+			}
+			tbody {
+				tr{
+					td {
+						&:last-child {
+							overflow: visible !important;
+						}
+					}
+				}
+			}
+		}
+	}
+	.nav-tabs {
+		.nav-link.active {
+			border: none;
+			border-bottom: 2px solid #b2dd4c !important;
+		}
+		.nav-link {
+			border: none;
+			border-bottom: 2px solid #e1e1e1 !important;
+			color: #323a46 !important;
+		}
+	}
+}
+
+.table-container {
+	.react-collapsible-theme {
+		.react-collapsible {
+			td {
+				.checkbox {
+					.user-checkbox-input {
+						display: none !important;
+					}
+		
+					.user-checkbox-label {
+						&::before {
+							top: -13px;
+							margin: 0px;
+						}
+					}
+					input[type=checkbox] {
+						&:checked {
+							+ label {								
+								&::after {
+									content: "";
+									position: absolute;
+									top: -8px;
+									left: 25px;
+									display: table;
+									width: 4px;
+									height: 8px;
+									border: 2px solid white;
+									border-top-width: 0;
+									border-left-width: 0;
+									transform: rotate(45deg);
+								}
+							} 
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#user-datatable {
+	.react-collapsible-theme {
+		.react-collapsible {
+			td {
+				overflow: visible !important;
+			}
+		}
+	}
+}
+
+@media (max-width: 751px) {
+	#users-and-groups-tabs-section {
+		.dataTables_filter{
+			text-align: left;
+		}
+	}
+}

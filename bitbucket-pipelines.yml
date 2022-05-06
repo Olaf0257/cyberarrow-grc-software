@@ -1,0 +1,16 @@
+
+pipelines:
+
+  branches:
+    staging:
+      - step:
+          name: Deploy to staging
+          deployment: StagingOnPrem
+          script:
+            - echo "Deploying to staging environment"
+            - pipe: atlassian/ssh-run:0.2.2
+              variables:
+                SSH_USER: $SSH_USER
+                SERVER: $STAGING_SERVER
+                PORT: $PORT
+                COMMAND: "cd /var/www/html/grc-staging && git pull && yes | composer install && php artisan migrate && php artisan db:seed && php artisan optimize:clear"

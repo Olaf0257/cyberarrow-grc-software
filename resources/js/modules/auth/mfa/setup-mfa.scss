@@ -1,0 +1,25 @@
+#setupMFA {
+    .qcode-left {
+        svg {
+            height: 290px !important;
+            width: 290px !important;
+            margin-top: -15px;
+        }
+    }
+    .instruction__box {
+        background: var(--primary-color);
+        padding: 10px 10px;
+        p {
+            margin-top: 0 !important;
+            margin-bottom: 0;
+        }
+    }
+    .project-box {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .enable__btn {
+        min-width: 245px;
+    }
+}

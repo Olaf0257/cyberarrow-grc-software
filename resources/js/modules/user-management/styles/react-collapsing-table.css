@@ -1,0 +1,71 @@
+.react-collapsible {
+    table-layout: fixed;
+    font-size   : 10px;
+}
+
+.react-collapsible thead {
+    font-size     : .875rem !important;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+    color         : #555;
+    text-align    : left;
+    font-weight   : 400;
+}
+
+.react-collapsible-theme .react-collapsible tbody .id span{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+}
+
+.react-collapsible-theme .react-collapsible thead,
+.react-collapsible-theme .react-collapsible .child-label {
+    font-size     : .875rem !important;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+    color         : #555;
+    text-align    : left;
+    font-weight   : 400;
+}
+
+#users-list .react-collapsible-theme .react-collapsible th:first-child {
+    width: 80px;
+}
+
+#users-list .react-collapsible-theme .react-collapsible .column-role_names {
+    width: 150px;
+}
+
+.react-collapsible-theme .react-collapsible td {
+    padding    : .8rem .8rem .8rem 0;
+    font-size  : .875rem !important;
+    font-weight: 200;
+}
+
+.react-collapsible-theme .react-collapsible-page {
+    font-size  : .875rem !important;
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+.react-collapsible-theme .react-collapsible-search input {
+    border        : 0;
+    border-bottom : 1px #b2dd4c solid !important;
+    width         : 100%;
+    height        : 2rem;
+    font-size     : .875rem !important;
+    font-weight   : 200;
+    text-transform: capitalize !important;
+}
+
+.react-collapsible-theme .brand-primary-light {
+    color: #b2dd4c !important;
+}
+
+.react-collapsible-theme .brand-primary-light {
+    color: #b2dd4c !important;
+}
+
+.dropdown-menu.show {
+    left: 0% !important;
+}

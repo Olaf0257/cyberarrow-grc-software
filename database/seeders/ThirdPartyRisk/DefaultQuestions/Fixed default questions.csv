@@ -1,0 +1,71 @@
+Does the supplier/vendor have a dedicated information security team?
+Does the supplier/vendor have documented information security policies which are reviewed and updated periodically?
+Does the supplier/vendor obtain top management approval on the  documented information security policies?
+Does the supplier/vendor have a documented methodology for information security risk management that is approved by top management?
+Does the supplier/vendor have a defined risk appetite that has been approved by top management?
+"Does the supplier/vendor conduct regular risk assessments to identify, evaluate, and mitigate potential information security risks?"
+Does the supplier/vendor have a documented policy for the acceptable use of information assets associated with information and information processing facilities?
+Does the supplier/vendor have a process for registering assets in a centralized asset registry?
+Does the supplier/vendor have a process for returning assets after end of employer contract?
+Does the supplier/vendor have a documented and approved policy for information classification and handling including customer data?
+Does the supplier/vendor have a documented procedure for  information classification and labeling including customer data?
+Does the supplier/vendor have a documented procedure for secure handling and disposal of customer data?
+Does the supplier/vendor conduct background verification checks on all employees and subcontractors in accordance with relevant laws and regulations?
+Does the supplier/vendor have a documented and approved process for user registration and de-registration?
+"Does the supplier/vendor conduct regular awareness and training for its employees about latest information security threats, risks, and best practices?"
+Does the supplier/vendor have a documented and approved disciplinary process for information security violations?
+Does the supplier/vendor include the information security responsibilities in terms and conditions of employment?
+Have the supplier/vendor implemented logical access controls to ensure protection of customer data?
+Does the supplier/vendor have remote working related security controls in place to minimize relative information security risks?
+Does the supplier/vendor have controls in place to limit privileges of users based on the need-to-know principle?
+"Does the supplier have controls in place to ensure all logical access rights are reviewed periodically and corrective actions as a result of review
+are performed within required time frame?"
+Did the supplier/vendor implement any multi-factor authentication controls?
+Does the supplier/vendor have an information security incident response team?
+Does the supplier/vendor have a documented and approved information security incident management policies and procedures?
+Does the supplier have procedures and tools for performing digital forensics or alternatively have agreements with a trusted third party for performing digital forensic analysis?
+Have the supplier/vendor implemented physical access controls on its facilities to ensure protection of customer data?
+Have the supplier/vendor implemented environmental controls on its facilities to ensure protection of customer data against environmental threats?
+"Does the supplier have controls in place to ensure all physical access rights are reviewed periodically and corrective actions as a result of review
+are performed within required time frame?"
+"Has the supplier/vendor implemented controls to protect equipment from power failures and other disruptions caused by failures in
+supporting utilities?"
+Does the supplier/vendor have needed capabilities for logging and monitoring to manage cyber security incidents?
+Does the supplier/vendor have network segmentation to separate critical networks from external-facing and other less sensitive networks?
+"Does the supplier/vendor have network security controls such as firewalls, IDS, IPS, etc.?"
+Does the supplier/vendor have controls for protection of customer data on mobile devices?
+"Does the supplier/vendor follow Segregation of Duties (SOD) principle where applicable, to ensure preventing fraud, misuse, and
+errors?"
+Does the supplier/vendor have documented security procedures for information transfer and exchange?
+Does the supplier/vendor have a documented and approved clear desk and clear screen policy?
+Does the supplier/vendor have documented standard operating procedures?
+"Does the supplier/vendor follow approved procedures for controlling changes to the organization, business processes, information processing facilities and systems that affect information security?"
+"Does the supplier/vendor monitor the use of resources and record projections for future capacity requirements
+to ensure the required system performance?"
+"Does the supplier/vendor have a separate development, testing, and operational environments to reduce the risks of unauthorized access or changes to the operational environment?"
+"Does the supplier/vendor have controls for detection, prevention and recovery controls to protect against malware?"
+Does the supplier/vendor have procedures and controls for regular backup of data?
+Does the supplier/vendor have procedures for backup restoration and testing?
+Does the supplier/vendor have an acceptance testing procedure and related criteria for new information systems upgrades?
+Does the supplier/vendor have procedures for patch management?
+Does the supplier/vendor have controls for protection of information involved in electronic messaging?
+Does the supplier/vendor conduct regular technical assessments such as vulnerability scanning and penetration testing for identifying technical risks?
+Does the supplier/vendor have adequate DoS/DDoS protection in place?
+Does the supplier/vendor have any controls for protection against threats related to the use of removable media?
+Does the supplier/vendor have a documented and approved password security policy and secure log-on procedures?
+Does the supplier/vendor have the required controls for data encryption for data at rest and in transition?
+"Does the supplier/vendor have a documented and implemented an Application or Software Development Life Cycle (SDLC) methodology incorporating adequate security controls at all phases of the software development life cycle, while considering the defined security requirements?"
+Does the supplier/vendor follow secure coding principles?
+Does the supplier/vendor conduct required testing before deploying the information systems/ applications into production?
+Does the supplier/vendor have documented and approved business continuity plans for its critical services?
+Does the supplier/vendor have disaster recovery procedures for its IT infrastructure?
+Does the supplier/vendor test its business continuity plans or capabilities and taken corrective action when needed?
+Does the supplier/vendor have evidence of compliance with relevant laws and regulations?
+Does the supplier/vendor have a clearly documented procedures for handling customer private and personal employee data in compliance with GDPR and applicable data privacy regulations?
+"Does the supplier/vendor conduct regular audits for checking compliance with information security standards and best practices such as ISO 27001, PCI DSS, etc.?"
+"Does the supplier/vendor sign non disclosure agreements with sub contractors, partners, and auditors before providing access to customer data?"
+Does the supplier/vendor monitor the services provided by the sub contractors or partners on behalf of the supplier/vendor to ensure avoiding any service disruption?
+Does the supplier/vendor evaluate the business continuity capabilities of its sub contractors?
+Did the supplier/vendor develop and maintain a formal cloud security policy that addresses the local regulatory requirements and requirements of its customers for overall cloud management process?
+Have the supplier/vendor implemented adequate cloud security controls based on the results of a risk assessment?
+Does the supplier/vendor regularly review the security controls implemented on its cloud architecture and make changes where needed?

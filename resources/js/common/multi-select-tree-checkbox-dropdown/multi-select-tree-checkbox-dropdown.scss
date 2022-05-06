@@ -1,0 +1,58 @@
+.multi-select-tree-dropdown {
+
+    a {
+        >div {
+            height: 40px;
+            padding: 8px 10px;
+            >div {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .dropdown-menu-content {
+        > div {
+            padding: 5px;
+            input {
+                border: 1px solid #aaa;
+                margin-bottom: 5px;
+                cursor: pointer;
+            }
+            span {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .rc-tree-list-holder {
+        max-height: none !important;
+    }
+
+    .clear-selected-button {
+        cursor: pointer;
+        background: none;
+        border: 0;
+        padding: 0;
+        display: none;
+    }
+
+    .gray {
+        color: #aaa;
+    }
+}
+
+@media screen and (max-width: 753px) {
+    .multi-select-tree-dropdown {
+        width: 100%;
+        .dropdown-toggle {
+            div {
+                width: 100% !important;
+            }
+        }
+        .dropdown-menu {
+            &.show {
+                width: 100% !important;
+            }
+        }
+    }
+}

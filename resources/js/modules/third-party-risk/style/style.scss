@@ -1,0 +1,229 @@
+#third-party-risk-page { 
+    .risksby-category {
+       background: #fff;
+       border-radius: 5px;
+       border: 1px solid var(--secondary-color);
+   }
+   .risksby-status {
+       background: #fff;
+       border-radius: 5px;
+       border: 1px solid var(--secondary-color);
+   }
+   .risk__dashboard {
+       h5 {
+           margin: 0 !important;
+           padding: 10px 0;
+           color: #555;
+           background: var(--secondary-color);
+       }
+   }
+   .bg-green {
+       background: #bce293;
+       border: 1px solid #92d050;
+   }
+   .low-risk {
+       svg {
+           color: #92d050;
+       }
+   }
+   .bg-orange {
+       background: #ff8;
+       border: 1px solid #ee0;
+   }
+   .mode-risk {
+       svg {
+           color: #ee0;
+       }
+   }
+   .bg-yellow {
+       background: #fd7;
+       border: 1px solid #ffc000;
+   }
+   .high-risk {
+       svg {
+           color: #ffc000;
+       }
+   }
+   .bg-red {
+       background: #f77;
+       border: 1px solid #FF0000;
+   }
+   .extreme-risk {
+       svg {
+           color: #FF0000;
+       }
+   }
+   .risk__num {
+       text-align: center;
+       top: 21%;
+       left: -3%;
+       position: relative;
+   }
+   .risk__stat {
+       text-align: center;
+       top: 21%;
+       left: -3%;
+       position: relative;
+   }
+   .current__vulnerability {
+       border: 1px solid #ddd;
+   }
+   .vulnerability-box {
+       cursor: pointer;
+       padding: 5px;
+       border-radius: 8px;
+       background: #fff;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+   }
+   .vulnerability__icon {
+       height: 65px;
+       width: 65px;
+       border-radius: 50%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       color: #fff;
+   }
+   .vulnerability__stat-text {
+       .risk__stat {
+           color: #aaa;
+           letter-spacing: 1px;
+       }
+   }
+   table.dataTable.dtr-inline.collapsed {
+       >tbody {
+           >tr[role="row"] {
+               >td {
+                   &:first-child {
+                       &:before {
+                           top: 12px;
+                           left: 4px;
+                           height: 14px;
+                           width: 14px;
+                           display: block;
+                           position: absolute;
+                           color: white;
+                           border: 2px solid white;
+                           border-radius: 14px;
+                           box-shadow: 0 0 3px #444;
+                           box-sizing: content-box;
+                           text-align: center;
+                           text-indent: 0 !important;
+                           font-family: 'Courier New', Courier, monospace;
+                           line-height: 14px;
+                           content: '+';
+                           background-color: #b2dd4c !important;
+                       }
+                   }
+               }
+               >th {
+                   &:first-child {
+                       &:before {
+                           top: 12px;
+                           left: 4px;
+                           height: 14px;
+                           width: 14px;
+                           display: block;
+                           position: absolute;
+                           color: white;
+                           border: 2px solid white;
+                           border-radius: 14px;
+                           box-shadow: 0 0 3px #444;
+                           box-sizing: content-box;
+                           text-align: center;
+                           text-indent: 0 !important;
+                           font-family: 'Courier New', Courier, monospace;
+                           line-height: 14px;
+                           content: '+';
+                           background-color: #b2dd4c !important;
+                       }
+                   }
+               }
+           }
+       }
+   }
+   .donut-pie-chart {
+       min-height: 300px;
+   }
+   .radial-pie-chart {
+       min-height: 300px;
+   }
+//    .apexcharts-menu-icon {
+//        display: none !important;
+//    }
+//    .apexcharts-legend-marker {
+//        display: none !important;
+//    }
+//    .apexcharts-legend-text {
+//        display: none !important;
+//    }
+//    .apexcharts-text.apexcharts-xaxis-label {
+//        display: none !important;
+//    }
+.apexcharts-tooltip{
+    background-color: white;
+    color: black;
+    box-shadow: rgb(0 0 0 / 20%) 1px 2px 10px;
+}
+   #risks-by-severity-chart {
+       tspan {
+           font-weight: 100;
+           font-family: 'Cerebri Sans,sans-serif';
+           font-size: 1.8px !important;
+       }
+       &:hover {
+           font-weight: 100;
+           font-family: 'Cerebri Sans,sans-serif';
+           font-size: 1.8px !important;
+       }
+   }
+   #risks-closed-status-chart {
+       margin-top: -10px;
+   }
+   #alert_icon {
+       font-size: 1.5em;
+   }
+   .column-id {
+       width: 100px !important;
+   }
+   .column-action {
+       width: 125px !important;
+   }
+}
+
+// react select
+.react-select {
+    .react-select__option--is-selected {
+        background-color: var(--secondary-color) !important;
+    }
+    .react-select__option--is-focused {
+        background-color: var(--bs-light) !important;
+    }
+    .react-select__option--is-focused {
+		&.react-select__option--is-selected {
+			background-color: var(--secondary-color) !important;
+		}
+	}
+    .react-select__control,
+    .react-select__option {
+        cursor: pointer;
+    }
+}
+
+
+.react-collapsible-theme {
+    .react-collapsible {
+        tbody {
+            tr {
+                td {
+                    &:last-child {
+                        overflow: visible !important;
+                    }
+                }
+            }
+        }
+    }
+}

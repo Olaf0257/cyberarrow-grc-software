@@ -1,0 +1,82 @@
+.update__btn {
+    margin-top: -10px !important;
+}
+
+.bg-gray {
+    background: #f5f6f8 !important;
+    padding: 20px 10px !important;
+    min-height: 200px !important;
+}
+
+.risk__detail h5.head__text {
+    display: inline !important;
+    margin-right: 3px;
+}
+
+table tbody tr td .link {
+    color: #b2dd4c !important;
+}
+
+.control__btn {
+    margin-top: -38px !important;
+}
+
+table tbody .name__link,
+.map-icon-plus {
+    color: #b2dd4c !important;
+}
+
+.map-icon-minus {
+    color: red !important;
+}
+.overflow-right {
+    overflow: auto !important;
+}
+.overflow-x-axis {
+    overflow: auto !important;
+    padding: 0px !important;
+}
+#mapping-controls-datatable td:first-child:before {
+    top: 45% !important;
+}
+.disabled {
+    border-color: #44444444 !important;
+}
+
+.risk-register-table tr:hover {
+    background-color: transparent !important;
+}
+@media screen and (max-width: 990px) {
+    #mapped-controls-datatable_wrapper div:nth-child(2) div {
+        overflow: auto !important;
+    }
+}
+
+.top__head-text {
+    border-bottom: 0px solid var(--secondary-color);
+}
+
+.map-controls-div {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: -25px;
+}
+
+/* react select */
+.react-select .react-select__option--is-selected{
+    background-color: var(--secondary-color);
+}
+.react-select .react-select__option--is-focused{
+    background-color: var(--bs-light);
+}
+.react-select .react-select__option--is-focused.react-select__option--is-selected {
+    background-color: var(--secondary-color);
+}
+.react-select .react-select__control,
+.react-select .react-select__option {
+    cursor: pointer;
+}
+
+.checkbox label {
+    cursor: pointer;
+}

@@ -1,0 +1,98 @@
+.task-option i,
+.statuss i{
+    width: 25px;
+}
+.task-option {
+    display: flex;
+    align-items: center;
+}
+hr {
+    height: 2px;
+}
+td .statuss {
+    border: 1px solid #ddd;
+    padding: 8px 6px;
+    background: #fff;
+    text-align:center;
+}
+
+.task-option #count-btn {
+    display: inline-block;
+    width: 90px;
+    background: var(--secondary-color);
+    color: #fff;
+    vertical-align: middle;
+}
+
+.fa option {
+    font-weight: 900;
+}
+
+table tbody tr td button.non-clickable{
+    cursor: default !important;
+}
+
+table tbody tr td a.go {
+    background: var(--gray);
+    border: none;
+}
+
+table tbody tr td a.go:hover {
+    background: var(--gray);
+    border: none;
+
+}
+
+table tbody tr td a.go:active {
+    background: var(--gray) !important;
+    border: none;
+
+}
+
+#tasks-datatable .select2-container .select2-selection--single .select2-selection__arrow {
+    right: -4px;
+}
+.select2-dropdown {
+   min-width: 136px!important;
+}
+#tasks-datatable .select2 {
+    width: 99px!important;
+}
+
+.filter-row{
+    background-color: #f4f5f7;
+}
+.task-button-wrapper {
+    display:flex ;
+    justify-content: flex-end;
+}
+.task-button-wrapper>button {
+    margin: 0 6px;
+    max-height: 38px;
+}
+@media screen and (min-width: 560px){
+    .filter-row .all-tasks input, .filter-row .all-standards input{
+        width: 120px;
+        }
+    .filter-row .completion-date input,.filter-row .due-date input{
+        width: 120px;
+    }
+
+}
+@media screen and (max-width: 560px){
+    .filter-row__wrap > div,.all-projects .filter-input{
+        width: 100%!important;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .filter-row {
+        flex-direction: column !important;
+    }
+    .filter-row__wrap .ms-parent.filter-input {
+        width: 100% !important;
+    }
+}
+.filter-row__wrap>div {
+    min-width: 100px;
+}

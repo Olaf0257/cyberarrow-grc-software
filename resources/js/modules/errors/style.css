@@ -1,0 +1,40 @@
+  @keyframes flapLeft {
+    0% { transform: rotateZ(0); }
+    50% { transform: rotateZ(10deg) rotateY(40deg); }
+    100% { transform: rotateZ(0); }
+  }
+  
+  @keyframes flapRight {
+    0% { transform: scaleX(-1) rotateZ(0); }
+    50% { transform: scaleX(-1) rotateZ(10deg) rotateY(40deg); }
+    100% { transform: scaleX(-1) rotateZ(0); }
+  }
+  
+  @keyframes flyBat1 {
+    0% { opacity: 1; transform: scale(0.5)}
+    25% { opacity: 1; transform: scale(0.5) translate(-400px, -330px) }
+    50% { opacity: 1; transform: scale(0.5) translate(400px, -800px) }
+    75% { opacity: 1; transform: scale(0.5) translate(600px, 100px) }
+    100% { opacity: 1; transform: scale(0.5) translate(100px, 300px) }
+  }
+  
+  @keyframes flyBat2 {
+    0% { opacity: 1; transform: scale(0.3)}
+    25% { opacity: 1; transform: scale(0.3) translate(200px, -330px) }
+    50% { opacity: 1; transform: scale(0.3) translate(-300px, -800px) }
+    75% { opacity: 1; transform: scale(0.3) translate(-400px, 100px) }
+    100% { opacity: 1; transform: scale(0.3) translate(100px, 300px) }
+  }
+  
+  @keyframes flyBat3 {
+    0% { opacity: 1; transform: scale(0.4)}
+    25% { opacity: 1; transform: scale(0.4) translate(-350px, -330px) }
+    50% { opacity: 1; transform: scale(0.4) translate(400px, -800px) }
+    75% { opacity: 1; transform: scale(0.4) translate(-600px, 100px) }
+    100% { opacity: 1; transform: scale(0.4) translate(100px, 300px) }
+  }
+
+  .error_page_2{
+    text-align: center;
+    line-height: 100vh;
+  }

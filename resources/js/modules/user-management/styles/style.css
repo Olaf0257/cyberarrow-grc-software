@@ -1,0 +1,202 @@
+table {
+    padding-bottom: 120px !important;
+}
+
+div.dataTables_scrollBody table {
+    margin-bottom: 60px !important;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr[role=row]>td:first-child:before {
+    top       : 50%;
+    margin-top: -9px;
+}
+
+.user-disabling-page .select2-container {
+    box-sizing    : border-box;
+    display       : inline-block;
+    margin        : 0;
+    position      : relative;
+    vertical-align: middle;
+    z-index       : 9999;
+}
+
+#custom-datatable td .dropdown-menu .dropdown-item {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+
+/* EDIT FORM CSS */
+
+
+.left-box .status,
+.left-box h3 {
+    display: inline-block;
+}
+
+.bg-success {
+    top     : -3px !important;
+    position: relative;
+}
+
+.bg-primary {
+    background  : var(--primary-color);
+    padding     : 5px 10px;
+    margin-right: 3px;
+}
+
+table tbody tr td i {
+    height: 20px;
+    width : 40px;
+    color : var(--secondary-color);
+}
+
+
+.iti__selected-flag {
+    align-items: center !important;
+
+}
+
+
+span.select2-container.select2-container--default.select2-container--open {
+    z-index: 1060 !important;
+}
+
+#mfa-qrcode-wp svg {
+    width      : 290px !important;
+    height     : 290px !important;
+    margin-top : -15px;
+    margin-left: -15px;
+}
+
+.modal-dialog {
+    width    : 100%;
+    max-width: 800px;
+}
+
+.modal .instruction__box {
+    background: var(--primary-color);
+    padding   : 10px 10px;
+}
+
+.instruction__box p {
+    margin-top   : 0 !important;
+    margin-bottom: 0;
+}
+
+.enable__btn {
+    min-width: 245px;
+}
+
+.modal-header {
+    padding: 2px 20px;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+/******************
+=== RESPONSIVE ===
+******************/
+@media (max-width: 575px) {
+    .modal .instruction__box {
+        padding: 8px;
+        margin : 0 -3px 0 0;
+    }
+
+    .top-text span.token {
+        font-weight: lighter;
+        font-size  : small;
+    }
+
+    .qrcode-right input {
+        max-width: 243px;
+    }
+
+    .qcode-left svg {}
+
+    /* .enable__btn {
+        min-width: 288px;
+    } */
+}
+
+
+
+/***** 320px to 575px */
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .qrcode-right input {
+        width: 243px !important;
+
+    }
+
+}
+
+@media (max-width: 618.5px) {
+    .form-control {
+        margin-top: 10px;
+    }
+
+}
+
+/*Tabs*/
+.nav-tabs .nav-item {
+    margin-bottom: -3px;
+    margin-top   : 3px;
+}
+
+.nav-tabs button {
+    border       : 0 !important;
+    border-bottom: 2px solid rgba(152, 166, 173, 0.3) !important;
+    color        : #6c757d;
+    padding      : 10px 20px !important;
+}
+
+.nav-tabs button.active {
+    border-color: var(--secondary-color) !important;
+    border-width: 2px !important;
+}
+
+.tab-content {
+    padding: 0 !important;
+}
+
+.nav-tabs {
+    border-bottom: 2px solid rgba(152, 166, 173, .2) !important;
+}
+
+.global {
+    margin-top: 1px;
+    padding   : 20px 12px 25px 20px;
+}
+
+@media screen and (max-width: 753px) {
+    .nav-tabs {
+        border-bottom: 0 !important;
+    }
+
+    .tab-content {
+        padding-top: 1.5rem !important;
+    }
+}
+
+/* react select */
+.react-select .react-select__option--is-selected{
+    background-color: var(--secondary-color);
+}
+.react-select .react-select__option--is-focused{
+    background-color: var(--bs-light);
+}
+.react-select .react-select__option--is-focused.react-select__option--is-selected {
+    background-color: var(--secondary-color);
+}
+.react-select .react-select__control,
+.react-select .react-select__option {
+    cursor: pointer;
+}
+
+.rc-tree-select .rc-tree-select-selection-search .rc-tree-select-selection-search-input {
+    cursor: pointer;
+}

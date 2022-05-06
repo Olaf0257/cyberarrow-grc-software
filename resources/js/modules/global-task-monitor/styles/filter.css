@@ -1,0 +1,43 @@
+.project-filter-container .dropdown-container {
+    width: 500px;
+}
+
+/* Multi Select */
+.multi-select .dropdown-container {
+    width: 200px;
+}
+
+.multi-select .dropdown-container .clear-selected-button {
+    display: none;
+}
+
+.multi-select .select-panel {
+    padding: 10px 10px 0px 10px;
+}
+
+.multi-select .select-panel div {
+    margin-bottom: 10px;
+}
+
+.multi-select .search {
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.multi-select .dropdown-container .dropdown-content .search input {
+    border: 1px solid #aaa;
+}
+
+.multi-select .select-item.selected {
+    background-color: transparent !important;
+    padding: 0px 0px;
+}
+
+.multi-select .item-renderer input[type=checkbox] {
+    width: auto;
+}
+
+.multi-select-tree-dropdown .clear-selected-button {
+    display: none !important;
+}

@@ -1,0 +1,9 @@
+.taskCompletionWidgetInput {
+ width: 140px;
+}
+
+/* chart text */
+.taskCompletionWidgetInput text{
+    font-family: 'Cerebri Sans,sans-serif';
+    font-size: 45px;
+}

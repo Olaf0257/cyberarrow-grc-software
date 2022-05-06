@@ -1,0 +1,38 @@
+.contentLoadingWrapper {
+    position: relative ;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.contentLoaderEl {
+    position: absolute;
+    width: auto;
+    margin-top: -32px;
+    margin-left: -74px;
+    top: 50%;
+    left: 50%;
+    background-color: #f4f5f7;
+    opacity: 1;
+    z-index: 999;
+    box-shadow: 14px 11px 25px -9px #c5c5c5;
+    border-radius: 6px;
+}
+
+.spinner {
+    border-left: 5px solid var(--secondary-color);
+}
+
+.overlay {
+    background: rgba(555,555,555, 0.6);
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    position: absolute;
+}

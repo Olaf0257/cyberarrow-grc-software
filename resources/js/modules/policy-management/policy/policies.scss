@@ -1,0 +1,113 @@
+#create-link-policies-form {
+    table {
+        tr {
+            td {
+                position: relative;
+                padding-left: 5px;
+                padding-bottom: 0px;
+                border: none;
+                padding-right: 5px;
+                padding-top: 1.5rem;
+            }
+            &:first-child {
+                td {
+                    padding-top: 1.5rem;
+                }
+            }
+            &:hover {
+                background-color: transparent;
+            }
+        }
+    }
+    .modal-body {
+        .table-responsive {
+            overflow: auto;
+        }
+    }
+    .bg-error {
+        background: rgb(254, 183, 194);
+    }
+    input.bg-error:-webkit-autofill {
+        -webkit-text-fill-color: #6c757d !important;
+        background: rgb(254, 183, 194);
+    }
+}
+#create-link-policies-modal {
+    .absolute-error-form {
+        label.invalid-feedback {
+            bottom: -10px !important;
+            font-size: 11px;
+            width: 95%;
+        }
+    }
+}
+#policy-upload-preview-container {
+    .card {
+        background-color: #dfdfdf33;
+    }
+}
+#policy-management_policies-page {
+    .react-collapsible-theme {
+        .react-collapsible {
+            .column-display_name  {
+                width: auto !important;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .absolute-error-form {
+        label.invalid-feedback {
+            position: relative !important;
+            font-size: 10px;
+        }
+    }
+    td {
+        vertical-align: top !important;
+    }
+}
+@media (min-width: 769px) and (max-width: 991.98px) {
+    #create-link-policies-modal {
+        .absolute-error-form {
+            label.invalid-feedback {
+                margin-bottom: -25px;
+                line-height: 12px;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    #create-link-policies-modal {
+        .absolute-error-form {
+            label.invalid-feedback {
+                margin-bottom: -15px;
+            }
+        }
+    }
+}
+
+.dropzone.dz-clickable {
+    cursor: pointer;
+}
+.dropzone {
+    border: 3px dashed rgba(50, 58, 70, 0.3);
+    background: #fff;
+    border-radius: 6px;
+}
+.dropzone {
+    min-height: 150px;
+}
+.dropzone,
+.dropzone * {
+    box-sizing: border-box;
+}
+
+.dropzone.dz-clickable .dz-message,
+.dropzone.dz-clickable .dz-message * {
+    cursor: pointer;
+}
+
+.dropzone .dz-message {
+    text-align: center;
+    margin: 2em 0;
+}

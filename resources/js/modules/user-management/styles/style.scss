@@ -1,0 +1,285 @@
+/* EDIT FORM CSS */
+/******************
+=== RESPONSIVE ===
+******************/
+/* .enable__btn {
+        min-width: 288px;
+    } */
+/***** 320px to 575px */
+/*Tabs*/
+
+#user-layout {
+    table {
+        padding-bottom: 120px !important;
+        tbody {
+            tr {
+                td {
+                    i {
+                        height: 20px;
+                        // width: 40px;
+                        color: var(--secondary-color);
+                    }
+                }
+            }
+        }
+    }
+    div.dataTables_scrollBody {
+        table {
+            margin-bottom: 60px !important;
+        }
+    }
+    table.dataTable.dtr-inline.collapsed {
+        > tbody {
+            > tr[role="row"] {
+                > td {
+                    &:first-child {
+                        &:before {
+                            top: 50%;
+                            margin-top: -9px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .user-disabling-page {
+        .select2-container {
+            box-sizing: border-box;
+            display: inline-block;
+            margin: 0;
+            position: relative;
+            vertical-align: middle;
+            z-index: 9999;
+        }
+    }
+    #custom-datatable {
+        td {
+            .dropdown-menu {
+                .dropdown-item {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+    .left-box {
+        .status {
+            display: inline-block;
+        }
+        h3 {
+            display: inline-block;
+        }
+    }
+    .bg-success {
+        top: -3px !important;
+        position: relative;
+    }
+    .bg-primary {
+        background: var(--primary-color);
+        padding: 5px 10px;
+        margin-right: 3px;
+    }
+    .iti__selected-flag {
+        align-items: center !important;
+    }
+    span.select2-container.select2-container--default.select2-container--open {
+        z-index: 1060 !important;
+    }
+    #mfa-qrcode-wp {
+        svg {
+            width: 290px !important;
+            height: 290px !important;
+            margin-top: -15px;
+            margin-left: -15px;
+        }
+    }
+    .modal-dialog {
+        width: 100%;
+        max-width: 800px;
+    }
+    .modal {
+        .instruction__box {
+            background: var(--primary-color);
+            padding: 10px 10px;
+        }
+    }
+    .instruction__box {
+        p {
+            margin-top: 0 !important;
+            margin-bottom: 0;
+        }
+    }
+    .enable__btn {
+        min-width: 245px;
+    }
+    .modal-header {
+        padding: 2px 20px;
+    }
+    .nav-tabs {
+        .nav-item {
+            margin-bottom: -1px;
+            margin-top: 3px;
+        }
+        a {
+            border: 0 !important;
+            border-bottom: 2px solid rgba(152, 166, 173, 0.3) !important;
+            color: #6c757d;
+            padding: 10px 20px !important;
+        }
+        a.active {
+            border-color: var(--secondary-color) !important;
+            border-width: 2px !important;
+        }
+        border-bottom: 2px solid rgba(152, 166, 173, 0.2) !important;
+    }
+    .tab-content {
+        padding: 0 !important;
+    }
+    .global {
+        margin-top: 1px;
+        padding: 20px 12px 25px 20px;
+    }
+
+    // rc tree select dropdown
+    .rc-tree-select {
+        .rc-tree-select-selector {
+            border: none;
+        }
+        .rc-tree-select-arrow {
+            right: 10px;
+            top: 5px;
+        }
+    }
+
+    .react-select {
+        .react-select__option--is-selected {
+            background-color: var(--secondary-color);
+        }
+        .react-select__option--is-focused {
+            background-color: var(--bs-light);
+        }
+        .react-select__option--is-focused {
+            &.react-select__option--is-selected {
+                background-color: var(--secondary-color);
+            }
+        }
+        .react-select__control,
+        .react-select__option {
+            cursor: pointer;
+        }
+    }
+
+    .react-collapsible {
+		tbody {
+			tr {
+                td {
+                    &:last-child {
+                        overflow: visible !important;
+                    }
+                }
+            }
+		}
+	}
+
+    @media (max-width: 575px) {
+        .modal {
+            .instruction__box {
+                padding: 8px;
+                margin: 0 -3px 0 0;
+            }
+        }
+        .top-text {
+            span.token {
+                font-weight: lighter;
+                font-size: small;
+            }
+        }
+        .qrcode-right {
+            input {
+                max-width: 243px;
+            }
+        }
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+        .qrcode-right {
+            input {
+                width: 243px !important;
+            }
+        }
+    }
+    @media (max-width: 618.5px) {
+        .form-control {
+            margin-top: 10px;
+        }
+    }
+    @media screen and (max-width: 753px) {
+        .nav-tabs {
+            border-bottom: 0 !important;
+        }
+        .tab-content {
+            padding-top: 1.5rem !important;
+        }
+    }
+}
+
+#data-scope-dropdown {
+    margin-right: 17px;
+
+    .rc-tree-select-single {
+        line-height: 5.4;
+
+        .rc-tree-select-selector {
+            border-top: none;
+            border-bottom: none;
+            border-color: transparent;
+
+            .rc-tree-select-selection-item {
+                font-size: 0.875rem;
+                left: 10px;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+
+    .rc-tree-select-focused {
+        .rc-tree-select-selector {
+            border-color: transparent !important;
+        }
+    }
+
+    .rc-tree-select-selection-search-input {
+        cursor: pointer !important;
+    }
+
+    .rc-tree-select-show-arrow {
+        .rc-tree-select-arrow {
+            right: 13px;
+        }
+    }
+}
+
+.data-scope-dropdown-menu.rc-tree-select-dropdown {
+    border: none !important;
+    margin-top: 72px;
+}
+
+.rc-tree-select-dropdown {
+    border: none;
+    background: transparent;
+}
+
+.rc-tree-select-dropdown {
+    &.user-department-dropdown {
+        position: relative !important;
+        width: auto !important;
+        .rc-tree-select-tree {
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+            width: 250px;
+        }
+    }
+}

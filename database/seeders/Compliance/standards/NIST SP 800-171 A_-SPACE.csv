@@ -1,0 +1,409 @@
+primary_id,sub_id,Name,Description
+AA,3.3.1,Audit and Accountability: Audit,"Create and retain system audit logs and records to the extent needed to enable the monitoring, analysis, investigation, and reporting of unlawful or unauthorized system activity."
+AA,3.3.1 (a),Audit and Accountability: Audit Logs,"Audit logs needed (i.e., event types to be logged) to enable the monitoring, analysis, investigation, and reporting of unlawful or unauthorized system activity shall be specified."
+AA,3.3.1 (b),Audit and Accountability: Define Content,"The content of audit records needed to support monitoring, analysis, investigation, and reporting of unlawful or unauthorized system activity shall be defined."
+AA,3.3.1 (c),Audit and Accountability: Generate Records,Audit records shall be created (generated).
+AA,3.3.1 (d),Audit and Accountability: Determine Content Inclusion,"Audit records, once created, shall contain the defined content."
+AA,3.3.1 (e),Audit and Accountability: Define Retention,Retention requirements for audit records shall be defined.
+AA,3.3.1 (f),Audit and Accountability: Determine Retention,Audit records shall be retained as defined.
+AA,3.3.2,Audit and Accountability: Accountability,Ensure that the actions of individual information system users can be uniquely traced to those users so they can be held accountable for their actions.
+AA,3.3.2 (a),Audit and Accountability: Define Accountability Content,The content of the audit records needed to support the ability to uniquely trace users to their actions shall be defined.
+AA,3.3.2 (b),Audit and Accountability: Determine Content Inclusion,"Audit records, once created, shall contain the defined content."
+AA,3.3.3,Audit and Accountability: Logged Events,Review and update logged events.
+AA,3.3.3 (a),Audit and Accountability: Review Process,A process for determining when to review logged events shall be defined.
+AA,3.3.3 (b),Audit and Accountability: Determine Accordance,Event types being logged shall be reviewed in accordance with the defined review process.
+AA,3.3.3 (c),Audit and Accountability: Update Event Types,Event types being logged shall be updated based on the review.
+AA,3.3.4,Audit and Accountability: Alert,Alert in the event of an audit logging process failure.
+AA,3.3.4 (a),Audit and Accountability: Identify Personnel,Personnel or roles to be alerted in the event of an audit logging process failure shall be identified.
+AA,3.3.4 (b),Audit and Accountability: Define Process Failures,Types of audit logging process failures for which alert will be generated shall be defined.
+AA,3.3.4 (c),Audit and Accountability: Identify Roles Alerted,Identified personnel or roles shall be alerted in the event of an audit logging process failure.
+AA,3.3.5,Audit and Accountability: Audit Record Correlation,"Correlate audit record review, analysis, and reporting processes for investigation and response to indications of unlawful, unauthorized, suspicious, or unusual activity."
+AA,3.3.5 (a),Audit and Accountability: Define Audit Record Process,"Audit record review, analysis, and reporting processes for investigation and response to indications of unlawful, unauthorized, suspicious, or unusual activity shall be defined."
+AA,3.3.5 (b),Audit and Accountability: Determine Correlation,"Defined audit record review, analysis, and reporting processes shall be correlated."
+AA,3.3.6,Audit and Accountability: Reporting,Ensure to provide audit record reduction and report generation to support on-demand analysis and reporting.
+AA,3.3.6 (a),Audit and Accountability: Record Reduction,An audit record reduction capability that supports on-demand analysis shall be provided.
+AA,3.3.6 (b),Audit and Accountability: Report Generation,A report generation capability that supports on-demand reporting shall be provided.
+AA,3.3.7,Audit and Accountability: Timestamps,Ensure to provide an information system capability that compares and synchronizes internal system clocks with an authoritative source to generate time stamps for audit records.
+AA,3.3.7 (a),Audit and Accountability: System Clocks,Internal system clocks shall be used to generate time stamps for audit records.
+AA,3.3.7 (b),Audit and Accountability: Authoritative Source,An authoritative source with which to compare and synchronize internal system clocks shall be specified.
+AA,3.3.7 (c),Audit and Accountability: Synchronized Time Stamps,Internal system clocks used to generate timestamps for audit records shall be compared to and synchronized with the specified authoritative time source.
+AA,3.3.8,Audit and Accountability: Protect Information and Logging Tools,"Protect audit information and audit logging tools from unauthorized access, modification, and deletion."
+AA,3.3.8 (a),Audit and Accountability: Unauthorized Access,Audit information shall be protected from unauthorized access.
+AA,3.3.8 (b),Audit and Accountability: Unauthorized Modification,Audit information shall be protected from unauthorized modification.
+AA,3.3.8 (c),Audit and Accountability: Unauthorized Deletion,Audit information shall be protected from unauthorized deletion.
+AA,3.3.8 (d),Audit and Accountability: Unauthorized Access (Logging Tools),Audit logging tools shall be protected from unauthorized access.
+AA,3.3.8 (e),Audit and Accountability: Unauthorized Modification (Logging Tools),Audit logging tools shall be protected from unauthorized modification.
+AA,3.3.8 (f),Audit and Accountability: Unauthorized Deletion (Logging Tools),Audit logging tools shall be protected from unauthorized deletion.
+AA,3.3.9,Audit and Accountability: Management,Limit management of audit logging functionality to a subset of privileged users.
+AA,3.3.9 (a),Audit and Accountability: Privileged Users,A subset of privileged users granted access to manage audit logging functionality shall be defined.
+AA,3.3.9 (b),Audit and Accountability: Privileged Users Limitation,Management of audit logging functionality shall be limited to the defined subset of privileged users.
+AC,3.1.1,Access Control: Authorized Users,"Limit system access to authorized users, processes acting on behalf of authorized users, and devices (including other systems)."
+AC,3.1.1 (a),Access Control: Identify Authorized Users,Authorized users shall be identified.
+AC,3.1.1 (b),Access Control: Identify Processes,Processes acting on behalf of authorized users shall be identified.
+AC,3.1.1 (c),Access Control: Identify Devices,Devices (and other systems) authorized to connect to the system shall be identified.
+AC,3.1.1 (d),Access Control: User Access,System access shall be limited to authorized users.
+AC,3.1.1 (e),Access Control: Process Access,System access shall be limited to processes acting on behalf of authorized users.
+AC,3.1.1 (f),Access Control: Device Access,System access shall be limited to authorized devices (including other systems).
+AC,3.1.2,Access Control: User Transactions,Limit information system access to the types of transactions and functions that authorized users are permitted to execute.
+AC,3.1.2 (a),Access Control: Define Transactions and Functions,The types of transactions and functions that authorized users are permitted to execute shall be defined.
+AC,3.1.2 (b),Access Control: Transaction and Function Access,System access shall be limited to the defined types of transactions and functions for authorized users.
+AC,3.1.3,Access Control: CUI Flow,Control the flow of CUI in accordance with approved authorizations.
+AC,3.1.3 (a),Access Control: CUI Flow Policies,Information flow control policies shall be defined.
+AC,3.1.3 (b),Access Control: CUI Flow Enforcement,Methods and enforcement mechanisms for controlling the flow of CUI shall be defined.
+AC,3.1.3 (c),Access Control: CUI Sources and Destinations,"Designated sources and destinations (e.g., networks, individuals, and devices) for CUI within the system and between interconnected systems shall be identified."
+AC,3.1.3 (d),Access Control: CUI Defined Authorizations,Authorizations for controlling the flow of CUI shall be defined.
+AC,3.1.3 (e),Access Control: CUI Enforced Authorizations,Approved authorizations for controlling the flow of CUI shall be enforced.
+AC,3.1.4,Access Control: Duty Separation,Separate the duties of individuals to reduce the risk of malevolent activity without collusion.
+AC,3.1.4 (a),Access Control: Define Separation of Duties,The duties of individuals requiring separation shall be defined.
+AC,3.1.4 (b),Access Control: Separation of Duties Responsibility,Responsibilities for duties that require separation shall be assigned to separate individuals.
+AC,3.1.4 (c),Access Control: Access Privileges Separation,Access privileges that enable individuals to exercise the duties that require separation shall be granted to separate individuals.
+AC,3.1.5,Access Control: Least Privilege,"Employ the principle of least privilege, including for specific security functions and privileged accounts."
+AC,3.1.5 (a),Access Control: Privileged Accounts,Privileged accounts shall be identified.
+AC,3.1.5 (b),Access Control: Least Privilege Access,Access to privileged accounts shall be authorized in accordance with the principle of least privilege.
+AC,3.1.5 (c),Access Control: Security Functions,Security functions shall be identified.
+AC,3.1.5 (d),Access Control: Security Function Access,Access to security functions shall be authorized in accordance with the principle of least privilege.
+AC,3.1.6,Access Control: Non-Privileged Accounts,Use non-privileged accounts or roles when accessing nonsecurity functions.
+AC,3.1.6 (a),Access Control: Nonsecurity Functions,Nonsecurity functions shall be identified.
+AC,3.1.6 (b),Access Control: Nonsecurity Function Accounts,Users shall use non-privileged accounts or roles when accessing nonsecurity functions.
+AC,3.1.7,Access Control: Non-Privileged Execution,Prevent non-privileged users from executing privileged functions and capture the execution of such functions in audit logs.
+AC,3.1.7 (a),Access Control: Privileged Functions,Privileged functions shall be defined.
+AC,3.1.7 (b),Access Control: Non-Privileged Users,Non-privileged users shall be defined.
+AC,3.1.7 (c),Access Control: Non-Privileged Execution Prevention,Non-privileged users shall be prevented from executing privileged functions.
+AC,3.1.7 (d),Access Control: Non-Privileged Execution Logs,The execution of privileged functions shall be captured in audit logs.
+AC,3.1.8,Access Control: Logon Attempts,Limit unsuccessful logon attempts.
+AC,3.1.8 (a),Access Control: Unsuccessful Logon Attempts Limited,The means of limiting unsuccessful logon attempts shall be defined.
+AC,3.1.8 (b),Access Control: Unsuccesful Logon Attempts Defined,The defined means of limiting unsuccessful logon attempts shall be implemented.
+AC,3.1.9,Access Control: CUI Notices,Provide privacy and security notices consistent with applicable CUI rules.
+AC,3.1.9 (a),"Access Control: Identified, Consistent, and Associated Notifications","Privacy and security notices required by CUI-specified rules shall be identified,consistent, and associated with the specific CUI category."
+AC,3.1.9 (b),Access Control: Display Notices,Privacy and security notices shall be displayed.
+AC,3.1.10,Access Control: Inactivity Lock,Use session lock with pattern-hiding displays to prevent access and viewing of data after a period of inactivity.
+AC,3.1.10 (a),Access Control: Period of Inactivity,The period of inactivity after which the system initiates a session lock shall be defined.
+AC,3.1.10 (b),Access Control: Access Prevention,Access to the system and viewing of data shall be prevented by initiating a session lock after the defined period of inactivity.
+AC,3.1.10 (c),Access Control: Conceal Visibility,Previously visible information shall be concealed via a pattern-hiding display after the defined period of inactivity.
+AC,3.1.11,Access Control: Auto Terminate,Terminate (automatically) a user session after a defined condition.
+AC,3.1.11 (a),Access Control: Conditions,Conditions requiring a user session to terminate shall be defined.
+AC,3.1.11 (b),Access Control: Condition Implementation,A user session shall be automatically terminated after any of the defined conditions occur.
+AC,3.1.12,Access Control: Remote Access,Monitor and control remote access sessions.
+AC,3.1.12 (a),Access Control: Remote Access Permission,Remote access sessions shall be permitted.
+AC,3.1.12 (b),Access Control: Remote Access Types,The types of permitted remote access shall be identified.
+AC,3.1.12 (c),Access Control: Control Remote Access,Remote access sessions shall be controlled.
+AC,3.1.12 (d),Access Control: Monitor Remote Access,Remote access sessions shall be monitored.
+AC,3.1.13,Access Control: Remote Encryption,Employ cryptographic mechanisms to protect the confidentiality of remote access sessions.
+AC,3.1.13 (a),Access Control: Identify Cryptographic Mechanisms,Cryptographic mechanisms to protect the confidentiality of remote access sessions shall be identified.
+AC,3.1.13 (b),Access Control: Implement Cryptographic Mechanisms,Cryptographic mechanisms to protect the confidentiality of remote access sessions shall be implemented.
+AC,3.1.14,Access Control: Remote Access,Route remote access via managed access control points.
+AC,3.1.14 (a),Access Control: Control Points,Managed access control points shall be identified and implemented.
+AC,3.1.14 (b),Access Control: Remote Access Routing,Remote access shall be routed through managed network access control points.
+AC,3.1.15,Access Control: Remote Execution,Authorize remote execution of privileged commands and remote access to security-relevant information.
+AC,3.1.15 (a),Access Control: Privileged Commands,Privileged commands authorized for remote execution shall be identified.
+AC,3.1.15 (b),Access Control: Security-relevant Information Identification,Security-relevant information authorized to be accessed remotely shall be identified.
+AC,3.1.15 (c),Access Control: Privileged Commands Authorization,The execution of the identified privileged commands via remote access shall be authorized.
+AC,3.1.15 (d),Access Control: Security-relevant Information Authorization,Access to the identified security-relevant information via remote access shall be authorized.
+AC,3.1.16,Access Control: Wireless Access,Authorize wireless access prior to allowing such connections.
+AC,3.1.16 (a),Access Control: Access Points,Wireless access points shall be identified.
+AC,3.1.16 (b),Access Control: Wireless Authorization,Wireless access shall be authorized prior to allowing such connections.
+AC,3.1.17,Access Control: Wireless Protection,Protect wireless access using authentication and encryption.
+AC,3.1.17 (a),Access Control: Wireless Authentication,Wireless access to the system shall be protected using authentication.
+AC,3.1.17 (b),Access Control: Wireless Encryption,Wireless access to the system shall be protected using encryption.
+AC,3.1.18,Access Control: Mobile Connection,Control connection of mobile devices.
+AC,3.1.18 (a),Access Control: Identify Mobile Devices,"Mobile devices that process, store, or transmit CUI shall be identified."
+AC,3.1.18 (b),Access Control: Authorize Mobile Connections,Mobile device connections shall be authorized.
+AC,3.1.18 (c),Access Control: Monitor/Log Mobile Connections,Mobile device connections shall be monitored and logged.
+AC,3.1.19,Access Control: CUI on Mobile,Encrypt CUI on mobile devices and mobile computing platforms.
+AC,3.1.19 (a),Access Control: Identify CUI on Mobile Devices,"Mobile devices and mobile computing platforms that process, store, or transmit CUI shall be identified."
+AC,3.1.19 (b),Access Control: Encrypt CUI on Mobile Devices,Encryption shall be employed to protect CUI on identified mobile devices and mobile computing platforms.
+AC,3.1.20,Access Control: External Systems,Verify and control/limit connections to and use of external information systems.
+AC,3.1.20 (a),Access Control: Identify External Connections,Connections to external systems shall be identified.
+AC,3.1.20 (b),Access Control: Identify External Systems,The use of external systems shall be identified.
+AC,3.1.20 (c),Access Control: Verify External Connections,Connections to external systems shall be verified.
+AC,3.1.20 (d),Access Control: Verify External Systems,The use of external systems shall be verified.
+AC,3.1.20 (e),Access Control: Control External Connections,Connections to external systems shall be controlled/limited.
+AC,3.1.20 (f),Access Control: Control External Systems,The use of external systems shall be controlled/limited.
+AC,3.1.21,Access Control: Portable Storage,Limit use of portable storage devices on external information systems.
+AC,3.1.21 (a),Access Control: Document Portable Storage,The use of portable storage devices containing CUI on external systems shall be identified and documented.
+AC,3.1.21 (b),Access Control: Portable Storage Limits,Limits on the use of portable storage devices containing CUI on external systems shall be defined.
+AC,3.1.21 (c),Access Control: Portable Storage Limitations,The use of portable storage devices containing CUI on external systems shall be limited as defined.
+AC,3.1.22,Access Control: CUI on Public Systems,Control CUI shall be posted or processed on publicly accessible information systems.
+AC,3.1.22 (a),Access Control: Identify Authorized Individuals,Individuals authorized to post or process information on publicly accessible systems shall be identified.
+AC,3.1.22 (b),Access Control: Identify Procedures,Procedures to ensure CUI is not posted or processed on publicly accessible systems shall be identified.
+AC,3.1.22 (c),Access Control: Content Posting Review,A review process shall be in place prior to posting of any content to publicly accessible systems.
+AC,3.1.22 (d),Access Control: Public Content Review,Content on publicly accessible systems shall be reviewed to ensure that it does not include CUI.
+AC,3.1.22 (e),Access Control: Improper Posting Mechanisms,Mechanisms shall be in place to remove and address improper posting of CUI.
+AT,3.2.1,Awareness and Training: Security Risks,"Ensure that managers, systems administrators, and users of organizational information systems are made aware of the security risks associated with their activities and of the applicable policies, standards, and procedures related to the security of organizational information systems."
+AT,3.2.1 (a),Awareness and Training: Identify Security Risks,Security risks associated with organizational activities involving CUI shall be identified.
+AT,3.2.1 (b),"Awareness and Training: Identify Policies, Standards, and Procedures","Policies, standards, and procedures related to the security of the system shall be identified."
+AT,3.2.1 (c),Awareness and Training: Security Risk Awareness,"Managers, systems administrators, and users of the system shall be made aware of the security risks associated with their activities."
+AT,3.2.1 (d),Awareness and Training: Security Risk Policy Awareness,"Managers, systems administrators, and users of the system shall be made aware of the applicable policies, standards, and procedures related to the security of the system."
+AT,3.2.2,Awareness and Training: Security Duties,Ensure that personnel are trained to carry out their assigned information security-related duties and responsibilities.
+AT,3.2.2 (a),Awareness and Training: Define Security Duties,"Information security-related duties, roles, and responsibilities shall be defined."
+AT,3.2.2 (b),Awareness and Training: Assign Security Duties,"Information security-related duties, roles, and responsibilities shall be assigned to designated personnel."
+AT,3.2.2 (c),Awareness and Training: Security Duty Training,"Personnel shall be adequately trained to carry out their assigned informationsecurity-related duties, roles, and responsibilities."
+AT,3.2.3,Awareness and Training: Insider Threat Training,Provide security awareness training on recognizing and reporting potential indicators of insider threat.
+AT,3.2.3 (a),Awareness and Training: Identify Security Indicators,Potential indicators associated with insider threats shall be identified.
+AT,3.2.3 (b),Awareness and Training: Provide Training,Security awareness training on recognizing and reporting potential indicators of insider threat shall be provided to managers and employees.
+CM,3.4.1,Configuration Management: Baseline,"Establish and maintain baseline configurations and inventories of organizational information systems (including hardware, software, firmware, and documentation) throughout the respective system development life cycles."
+CM,3.4.1 (a),Configuration Management: Baseline Established,A baseline configuration shall be established.
+CM,3.4.1 (b),Configuration Management: Baseline Components,"The baseline configuration shall include hardware, software, firmware, and documentation."
+CM,3.4.1 (c),Configuration Management: Maintain Baseline,The baseline configuration shall be maintained (reviewed and updated) throughout the system development life cycle.
+CM,3.4.1 (d),Configuration Management: System Inventory,A system inventory shall be established.
+CM,3.4.1 (e),Configuration Management: System Inventory Components,"The system inventory shall include hardware, software, firmware, and documentation."
+CM,3.4.1 (f),Configuration Management: Maintain System Inventory,The system inventory shall be maintained (reviewed and updated) throughout the system development life cycle.
+CM,3.4.2,Configuration Management: Secure Configuration,Establish and enforce security configuration settings for information technology products employed in organizational information systems.
+CM,3.4.2 (a),Configuration Management: Establish Settings,Security configuration settings for information technology products employed in the system shall be established and included in the baseline configuration.
+CM,3.4.2 (b),Configuration Management: Enforce Settings,Security configuration settings for information technology products employed in the system shall be enforced.
+CM,3.4.3,Configuration Management: Change Management,"Track, review, approve or disapprove, and log changes to organizational systems."
+CM,3.4.3 (a),Configuration Management: Track Changes,Changes to the system shall be tracked.
+CM,3.4.3 (b),Configuration Management: Review Changes,Changes to the system shall be reviewed.
+CM,3.4.3 (c),Configuration Management: Approve Changes,Changes to the system shall be approved or disapproved.
+CM,3.4.3 (d),Configuration Management: Log Changes,Changes to the system shall be logged.
+CM,3.4.4,Configuration Management: Testing,Analyze the security impact of changes prior to implementation.
+CM,3.4.5,Configuration Management: Access Restrictions,"Define, document, approve, and enforce physical and logical access restrictions associated with changes to the information system."
+CM,3.4.5 (a),Configuration Management: Define Physical Restrictions,Physical access restrictions associated with changes to the system shall be defined.
+CM,3.4.5 (b),Configuration Management: Document Physical Restrictions,Physical access restrictions associated with changes to the system shall be documented.
+CM,3.4.5 (c),Configuration Management: Physical Restriction Approval,Physical access restrictions associated with changes to the system shall be approved.
+CM,3.4.5 (d),Configuration Management: Enforce Physical Restrictions,Physical access restrictions associated with changes to the system shall be enforced.
+CM,3.4.5 (e),Configuration Management: Define Logical Restrictions,Logical access restrictions associated with changes to the system shall be defined.
+CM,3.4.5 (f),Configuration Management: Document Logical Restrictions,Logical access restrictions associated with changes to the system shall be documented.
+CM,3.4.5 (g),Configuration Management: Logical Access Approval,Logical access restrictions associated with changes to the system shall be approved.
+CM,3.4.5 (h),Configuration Management: Enforce Logical Restrictions,Logical access restrictions associated with changes to the system shall be enforced.
+CM,3.4.6,Configuration Management: Least Functionality,Employ the principle of least functionality by configuring the information system to provide only essential capabilities.
+CM,3.4.6 (a),Configuration Management: Define System Capabilities,Essential system capabilities shall be defined based on the principle of least functionality.
+CM,3.4.6 (b),Configuration Management: System Configuration,The system shall be configured to provide only the defined essential capabilities.
+CM,3.4.7,Configuration Management: Restrict Functionality,"Restrict, disable, or prevent the use of nonessential programs, functions, ports, protocols, and services."
+CM,3.4.7 (a),Configuration Management: Define Essential Programs,Essential programs shall be defined.
+CM,3.4.7 (b),Configuration Management: Define Nonessential Programs,The use of nonessential programs shall be defined.
+CM,3.4.7 (c),Configuration Management: Define Nonessential Restrictions,"The use of nonessential programs shall be restricted, disabled, or prevented as defined."
+CM,3.4.7 (d),Configuration Management: Define Essential Functions,Essential functions shall be defined.
+CM,3.4.7 (e),Configuration Management: Define Nonessential Use,The use of nonessential functions shall be defined.
+CM,3.4.7 (f),Configuration Management: Restrict Nonessential Programs,"The use of nonessential functions shall be restricted, disabled, or prevented as defined."
+CM,3.4.7 (g),Configuration Management: Define Essential Ports,Essential ports shall be defined.
+CM,3.4.7 (h),Configuration Management: Define Nonessential Ports,The use of nonessential ports shall be defined.
+CM,3.4.7 (i),Configuration Management: Restrict Nonessential Ports,"The use of nonessential ports shall be restricted, disabled, or prevented as defined."
+CM,3.4.7 (j),Configuration Management: Define Essential Protocols,Essential protocols shall be defined.
+CM,3.4.7 (k),Configuration Management: Define Nonessential Protocols,The use of nonessential protocols shall be defined.
+CM,3.4.7 (l),Configuration Management: Restrict Nonessential Protocols,"The use of nonessential protocols shall be restricted, disabled, or prevented as defined."
+CM,3.4.7 (m),Configuration Management: Define Essential Services,Essential services shall be defined.
+CM,3.4.7 (n),Configuration Management: Define Nonessential Services,The use of nonessential services shall be defined.
+CM,3.4.7 (o),Configuration Management: Restrict Nonessential Services,"The use of nonessential services shall be restricted, disabled, or prevented as defined."
+CM,3.4.8,Configuration Management: Whitelist/Blacklist,"Apply deny-by-exception (blacklisting) policy to prevent the use of unauthorized software or deny-all, permit-by-exception (whitelisting) policy to allow the execution of authorized software."
+CM,3.4.8 (a),Configuration Management: Whitelist/Blacklist Policy,A policy specifying whether whitelisting or blacklisting is to be implemented shall be specified.
+CM,3.4.8 (b),Configuration Management: Specify Software Restrictions,The software allowed to execute under whitelisting or denied use under blacklisting shall be specified.
+CM,3.4.8 (c),Configuration Management: Implement Software Restrictions,Whitelisting to allow the execution of authorized software or blacklisting to prevent the use of unauthorized software shall be implemented as specified.
+CM,3.4.9,Configuration Management: User Software,Control and monitor user-installed software.
+CM,3.4.9 (a),Configuration Management: Installation Policy,A policy for controlling the installation of software by users shall be established.
+CM,3.4.9 (b),Configuration Management: Control Installation,Installation of software by users shall be controlled based on the established policy.
+CM,3.4.9 (c),Configuration Management: Monitor Installation,Installation of software by users shall be monitored.
+IA,3.5.1,Identification and Authentication: System Users,"Identify system users, processes acting on behalf of users, and devices."
+IA,3.5.1 (a),Identification and Authentication: Identify Users,System users shall be identified.
+IA,3.5.1 (b),Identification and Authentication: Identify Processess,Processes acting on behalf of users shall be identified.
+IA,3.5.1 (c),Identification and Authentication: Identify Devices,Devices accessing the system shall be identified.
+IA,3.5.2,Identification and Authentication: Authenticate,"Authenticate (or verify) the identities of users, processes, or devices, as a prerequisite to allowing access to organizational systems."
+IA,3.5.2 (a),Identification and Authentication: User Identity Authentication,The identity of each user shall be authenticated or verified as a prerequisite to system access.
+IA,3.5.2 (b),Identification and Authentication: Process Identity Authentication,The identity of each process acting on behalf of a user shall be authenticated or verified as a prerequisite to system access.
+IA,3.5.2 (c),Identification and Authentication: Device Identity Authentication,The identity of each device accessing or connecting to the system shall be authenticated or verified as a prerequisite to system access.
+IA,3.5.3,Identification and Authentication: MFA,Use multifactor authentication for local and network access to privileged accounts and for network access to non-privileged accounts.
+IA,3.5.3 (a),Identification and Authentication: Identify Privileged Accounts,Privileged accounts shall be identified.
+IA,3.5.3 (b),Identification and Authentication: MFA Local Access,Multifactor authentication shall be implemented for local access to privileged accounts.
+IA,3.5.3 (c),Identification and Authentication: MFA Privileged Accounts Network Access,Multifactor authentication shall be implemented for network access to privileged accounts.
+IA,3.5.3 (d),Identification and Authentication: MFA Non-Privileged Accounts Network Access,Multifactor authentication shall be implemented for network access to non-privileged accounts.
+IA,3.5.4,Identification and Authentication: Resist Replay,Employ replay-resistant authentication mechanisms for network access to privileged and non-privileged accounts.
+IA,3.5.5,Identification and Authentication: Prevent Reuse,Prevent reuse of identifiers for a defined period.
+IA,3.5.5 (a),Identification and Authentication: Define Reuse,A period within which identifiers cannot be reused shall be defined.
+IA,3.5.5 (b),Identification and Authentication: Prevent Identifier Reuse,Reuse of identifiers shall be prevented within the defined period.
+IA,3.5.6,Identification and Authentication: Inactivity,Disable identifiers after a defined period of inactivity.
+IA,3.5.6 (a),Identification and Authentication: Define Inactivity,A period of inactivity after which an identifier is disabled shall be defined.
+IA,3.5.6 (b),Identification and Authentication: Enforce Inactivity,Identifiers shall be disabled after the defined period of inactivity.
+IA,3.5.7,Identification and Authentication: Password,Enforce a minimum password complexity and change of characters when new passwords are created.
+IA,3.5.7 (a),Identification and Authentication: Define Complexity,Password complexity requirements shall be defined.
+IA,3.5.7 (b),Identification and Authentication: Define Change of Character,Password change of character requirements shall be defined.
+IA,3.5.7 (c),Identification and Authentication: Enforce Password Complexity,Minimum password complexity requirements as defined shall be enforced whennew passwords are created.
+IA,3.5.7 (d),Identification and Authentication: Enforce Change of Character,Minimum password change of character requirements as defined shall be enforced when new passwords are created.
+IA,3.5.8,Identification and Authentication: Password Reuse,Prohibit password reuse for a specified number of generations.
+IA,3.5.8 (a),Identification and Authentication: Define Password Reuse,The number of generations during which a password cannot be reused shall be specified.
+IA,3.5.8 (b),Identification and Authentication: Prohibit Reuse,Reuse of passwords shall be prohibited during the specified number of generations.
+IA,3.5.9,Identification and Authentication: Temporary Password,Allow temporary password use for system logons with an immediate change to a permanent password.
+IA,3.5.10,Identification and Authentication: Password Encryption,Store and transmit only cryptographically-protected passwords.
+IA,3.5.10 (a),Identification and Authentication: Encrypted Storage,Passwords shall be cryptographically protected in storage.
+IA,3.5.10 (b),Identification and Authentication: Encrypted Transport,Passwords shall be cryptographically protected in transit.
+IA,3.5.11,Identification and Authentication: Obscure,Obscure feedback of authentication information.
+IR,3.6.1,Incident Response: Capability,"Establish an operational incident-handling capability for organizational systems that includes preparation, detection, analysis, containment, recovery, and user response activities."
+IR,3.6.1 (a),Incident Response: Establish Capability,An operational incident-handling capability shall be established.
+IR,3.6.1 (b),Incident Response: Capability Preparation,The operational incident-handling capability shall include preparation.
+IR,3.6.1 (c),Incident Response: Capability Detection,The operational incident-handling capability shall include detection.
+IR,3.6.1 (d),Incident Response: Capability Analysis,The operational incident-handling capability shall include analysis.
+IR,3.6.1 (e),Incident Response: Capability Containment,The operational incident-handling capability shall include containment.
+IR,3.6.1 (f),Incident Response: Capability Recovery,The operational incident-handling capability shall include recovery.
+IR,3.6.1 (g),Incident Response: Capability Response Activities,The operational incident-handling capability shall include user response activities.
+IR,3.6.2,Incident Response: Incident Reporting,"Track, document, and report incidents to designated officials and/or authorities both internal and external to the organization."
+IR,3.6.2 (a),Incident Response: Track,Incidents shall be tracked.
+IR,3.6.2 (b),Incident Response: Document,Incidents shall be documented.
+IR,3.6.2 (c),Incident Response: Identify Authorities,Authorities to whom incidents are to be reported shall be identified.
+IR,3.6.2 (d),Incident Response: Identify Organizational Officials,Organizational officials to whom incidents are to be reported shall be identified.
+IR,3.6.2 (e),Incident Response: Notify Authorities,Identified authorities shall be notified of incidents.
+IR,3.6.2 (f),Incident Response: Notify Organizational Officials,Identified organizational officials shall be notified of incidents.
+IR,3.6.3,Incident Response: Testing,Test the organizational incident response capability.
+MP,3.8.1,Media Protection: CUI Control,"Protect (i.e., physically control and securely store) information system media containing CUI, both paper and digital."
+MP,3.8.1 (a),Media Protection: Control Paper Media,Paper media containing CUI shall be physically controlled.
+MP,3.8.1 (b),Media Protection: Control Digital Media,Digital media containing CUI shall be physically controlled.
+MP,3.8.1 (c),Media Protection: Store Paper Media,Paper media containing CUI shall be securely stored.
+MP,3.8.1 (d),Media Protection: Store Digital Media,Digital media containing CUI shall be securely stored.
+MP,3.8.2,Media Protection: CUI Access,Limit access to CUI on information system media to authorized users.
+MP,3.8.3,Media Protection: CUI Media,Sanitize or destroy information system media containing CUI before disposal or release for reuse.
+MP,3.8.3 (a),Media Protection: Disposal,System media containing CUI shall be sanitized or destroyed before disposal.
+MP,3.8.3 (b),Media Protection: Reuse,System media containing CUI shall be sanitized before it is released for reuse.
+MP,3.8.4,Media Protection: CUI Marking,Mark media with necessary CUI markings and distribution limitations.
+MP,3.8.4 (a),Media Protection: CUI Markings,Media containing CUI shall be marked with applicable CUI markings.
+MP,3.8.4 (b),Media Protection: Distribution Markings,Media containing CUI shall be marked with distribution limitations.
+MP,3.8.5,Media Protection: CUI Transport,Control access to media containing CUI and maintain accountability for media during transport outside of controlled areas.
+MP,3.8.5 (a),Media Protection: Access Control,Access to media containing CUI shall be controlled.
+MP,3.8.5 (b),Media Protection: Accountability,Accountability for media containing CUI shall be maintained during transportoutside of controlled areas.
+MP,3.8.6,Media Protection: Cryptography,Implement cryptographic mechanisms to protect the confidentiality of CUI stored on digital media during transport unless otherwise protected by alternative physical safeguards.
+MP,3.8.7,Media Protection: Removable Media,Control the use of removable media on information system components.
+MP,3.8.8,Media Protection: Portable Storage,Prohibit the use of portable storage devices when such devices have no identifiable owner.
+MP,3.8.9,Media Protection: CUI Backup,Protect the confidentiality of backup CUI at storage locations.
+MT,3.7.1,Maintenance: Perform,Perform maintenance on organizational information systems.
+MT,3.7.2,Maintenance: Controls,"Provide controls on the tools, techniques, mechanisms, and personnel used to conduct system maintenance."
+MT,3.7.2 (a),Maintenance: Control Tools,Tools used to conduct system maintenance shall be controlled.
+MT,3.7.2 (b),Maintenance: Control Techniques,Techniques used to conduct system maintenance shall be controlled
+MT,3.7.2 (c),Maintenance: Control Mechanisms,Mechanisms used to conduct system maintenance shall be controlled.
+MT,3.7.2 (d),Maintenance: Control Personnel,Personnel used to conduct system maintenance shall be controlled.
+MT,3.7.3,Maintenance: Sanitization,Ensure equipment removed for off-site maintenance shall be sanitized of any CUI.
+MT,3.7.4,Maintenance: Media Scanning,Check media containing diagnostic and test programs for malicious code before the media are used in the information system.
+MT,3.7.5,Maintenance: MFA,Require multifactor authentication to establish nonlocal maintenance sessions via external network connections and terminate such connections when nonlocal maintenance is complete.
+MT,3.7.5 (a),Maintenance: External Session MFA,Multifactor authentication shall be used to establish nonlocal maintenance sessions via external network connections.
+MT,3.7.5 (b),Maintenance: External Session Termination,Nonlocal maintenance sessions established via external network connections shall be terminated when nonlocal maintenance is complete.
+MT,3.7.6,Maintenance: Supervision,Supervise the maintenance activities of maintenance personnel without required access authorization.
+PP,3.10.1,Physical Protection: Access Control,"Limit physical access to organizational information systems, equipment, and the respective operating environments to authorized individuals."
+PP,3.10.1 (a),Physical Protection: Identify Individuals,Authorized individuals allowed physical access shall be identified.
+PP,3.10.1 (b),Physical Protection: Organizational Systems,Physical access to organizational systems shall be limited to authorized individuals.
+PP,3.10.1 (c),Physical Protection: Equipment,Physical access to equipment shall be limited to authorized individuals.
+PP,3.10.1 (d),Physical Protection: Operating Environments,Physical access to operating environments shall be limited to authorized individuals.
+PP,3.10.2,Physical Protection: Facility,Protect and monitor the physical facility and support infrastructure for those information systems.
+PP,3.10.2 (a),Physical Protection: Protection,The physical facility where organizational systems reside shall be protected.
+PP,3.10.2 (b),Physical Protection: Support Infrastructure Protection,The support infrastructure for organizational systems shall be protected.
+PP,3.10.2 (c),Physical Protection: Monitor Facility,The physical facility where organizational systems reside shall be monitored.
+PP,3.10.2 (d),Physical Protection: Monitor Support Infrastructure,The support infrastructure for organizational systems shall be monitored.
+PP,3.10.3,Physical Protection: Escort,Escort visitors and monitor visitor activity.
+PP,3.10.3 (a),Physical Protection: Escort Visitors,Visitors shall be escorted.
+PP,3.10.3 (b),Physical Protection: Monitor Visitors,Visitor activity shall be monitored.
+PP,3.10.4,Physical Protection: Logs,Maintain audit logs of physical access.
+PP,3.10.5,Physical Protection: Access,Control and manage physical access devices.
+PP,3.10.5 (a),Physical Protection: Identify Devices,Physical access devices shall be identified.
+PP,3.10.5 (b),Physical Protection: Control Devices,Physical access devices shall be controlled.
+PP,3.10.5 (c),Physical Protection: Manage Devices,Physical access devices shall be managed.
+PP,3.10.6,Physical Protection: CUI Off-Corporate,Enforce safeguarding measures for CUI at alternate work sites.
+PP,3.10.6 (a),Physical Protection: Define Safeguarding,Safeguarding measures for CUI shall be defined for alternate work sites.
+PP,3.10.6 (b),Physical Protection: Enforce Safeguarding,Safeguarding measures for CUI shall be enforced for alternate work sites.
+PS,3.9.1,Personnel Security: Screen,Screen individuals prior to authorizing access to information systems containing CUI.
+PS,3.9.2,Personnel Security: Actions,Ensure that organizational systems containing CUI are protected during and after personnel actions such as terminations and transfers.
+PS,3.9.2 (a),Personnel Security: Establish Policy,A policy and/or process for terminating system access and any credentials coincident with personnel actions shall be established.
+PS,3.9.2 (b),Personnel Security: Terminate Access,System access and credentials shall be terminated consistent with personnel actions such as termination or transfer.
+PS,3.9.2 (c),Personnel Security: System Protection,The system shall be protected during and after personnel transfer actions.
+RA,3.11.1,Risk Assessment: Periodic,"Periodically assess the risk to organizational operations (including mission, functions, image, or reputation), organizational assets, and individuals, resulting from the operation of organizational information systems and the associated processing, storage, or transmission of CUI."
+RA,3.11.1 (a),Risk Assessment: Define Frequency,"The frequency to assess risk to organizational operations, organizational assets, and individuals shall be defined."
+RA,3.11.1 (b),Risk Assessment: Determine Risk,"Risk to organizational operations, organizational assets, and individuals resulting from the operation of an organizational system that processes, stores, or transmits CUI shall be assessed with the defined frequency."
+RA,3.11.2,Risk Assessment: Vulnerability Scan,Scan for vulnerabilities in the information system and applications periodically and when new vulnerabilities affecting the system shall be identified.
+RA,3.11.2 (a),Risk Assessment: Define Frequency,The frequency to scan for vulnerabilities in organizational systems and applications shall be defined.
+RA,3.11.2 (b),Risk Assessment: Define Organizational Systems Scans,Vulnerability scans shall be performed on organizational systems with the defined frequency.
+RA,3.11.2 (c),Risk Assessment: Define Application Scans,Vulnerability scans shall be performed on applications with the defined frequency.
+RA,3.11.2 (d),Risk Assessment: Organizational System Scans,Vulnerability scans shall be performed on organizational systems when new vulnerabilities are identified.
+RA,3.11.2 (e),Risk Assessment: Application Scans,Vulnerability scans shall be performed on applications when new vulnerabilities are identified.
+RA,3.11.3,Risk Assessment: Vulnerability Remediation,Remediate vulnerabilities in accordance with risk assessments.
+RA,3.11.3 (a),Risk Assessment: Vulnerability Identification,Vulnerabilities shall be identified.
+RA,3.11.3 (b),Risk Assessment: Remediation,Vulnerabilities shall be remediated in accordance with risk assessments
+SA,3.12.1,Security Assessment: Controls,Periodically assess the security controls in organizational information systems to determine if the controls are effective in their application.
+SA,3.12.1 (a),Security Assessment: Define Assessment Frequency,The frequency of security control assessments shall be defined.
+SA,3.12.1 (b),Security Assessment: Assess Controls,Security controls shall be assessed with the defined frequency to determine if the controls are effective in their application.
+SA,3.12.2,Security Assessment: POA&M,Develop and implement plans of action designed to correct deficiencies and reduce or eliminate vulnerabilities in organizational information systems.
+SA,3.12.2 (a),Security Assessment: Identify Deficiencies and Vulnerabilities,Deficiencies and vulnerabilities to be addressed by the plan of action shall be identified.
+SA,3.12.2 (b),Security Assessment: Develop Plan of Action,A plan of action shall be developed to correct identified deficiencies and reduce or eliminate identified vulnerabilities.
+SA,3.12.2 (c),Security Assessment: Implement Plan of Action,The plan of action shall be implemented to correct identified deficiencies and reduce or eliminate identified vulnerabilities.
+SA,3.12.3,Security Assessment: Monitor,Monitor information system security controls on an ongoing basis to ensure the continued effectiveness of the controls.
+SA,3.12.4,Security Assessment: System Security Plans,"Develop, document, and periodically update system security plans that describe system boundaries, system environments of operation, how security requirements are implemented, and the relationships with or connections to other systems.
+Note: There is no prescribed format or specified level of detail for system security plans. However, organizations ensurethat the required information in 3.12.4 is conveyed in those plans."
+SA,3.12.4 (a),Security Assessment: Develop Plan,A system security plan shall be developed.
+SA,3.12.4 (b),Security Assessment: Define System Boundary,The system boundary shall be described and documented in the system security plan.
+SA,3.12.4 (c),Security Assessment: Document System Security Plan,The system environment of operation shall be described and documented in the system security plan.
+SA,3.12.4 (d),Security Assessment: Identify Security Requirements,The security requirements identified and approved by the designated authority as non-applicable shall be identified.
+SA,3.12.4 (e),Security Assessment: Document Method of Implementation,The method of security requirement implementation shall be described and documented in the system security plan.
+SA,3.12.4 (f),Security Assessment: Document System Relationships,The relationship with or connection to other systems shall be described and documented in the system security plan.
+SA,3.12.4 (g),Security Assessment: Define Update Frequency,The frequency to update the system security plan shall be defined.
+SA,3.12.4 (h),Security Assessment: Update System Security Plan,System security plan shall be updated with the defined frequency.
+SC,3.13.1,System and Communications Protection: Boundaries,"Monitor, control, and protect organizational communications (i.e., information transmitted or received by organizational information systems) at the external boundaries and key internal boundaries of the information systems."
+SC,3.13.1 (a),System and Communications Protection: Define External Boundary,The external system boundary shall be defined.
+SC,3.13.1 (b),System and Communications Protection: Define Key Internal Boundaries,Key internal system boundaries shall be defined.
+SC,3.13.1 (c),System and Communications Protection: Monitor External Boundary,Communications shall be monitored at the external system boundary.
+SC,3.13.1 (d),System and Communications Protection: Monitor Internal Boundaries,Communications shall be monitored at key internal boundaries.
+SC,3.13.1 (e),System and Communications Protection: Control External Boundary,Communications shall be controlled at the external system boundary.
+SC,3.13.1 (f),System and Communications Protection: Control Internal Boundaries,Communications shall be controlled at key internal boundaries.
+SC,3.13.1 (g),System and Communications Protection: Protect External Boundary,Communications shall be protected at the external system boundary.
+SC,3.13.1 (h),System and Communications Protection: Protect Internal Boundaries,Communications shall be protected at key internal boundaries.
+SC,3.13.2,System and Communications Protection: Security,"Employ architectural designs, software development techniques, and systems engineering principles that promote effective information security within organizational information systems."
+SC,3.13.2 (a),System and Communications Protection: Identify Architectural Designs,Architectural designs that promote effective information security shall be identified.
+SC,3.13.2 (b),System and Communications Protection: Identify Software Development Techniques,Software development techniques that promote effective information security shall be identified.
+SC,3.13.2 (c),System and Communications Protection: Identify Systems Engineering Principles,Systems engineering principles that promote effective information security shall be identified.
+SC,3.13.2 (d),System and Communications Protection: Employ Architectural Designs,Identified architectural designs that promote effective information security shall be employed.
+SC,3.13.2 (e),System and Communications Protection: Employ Software Development Techniques,Identified software development techniques that promote effectiveinformation security shall be employed.
+SC,3.13.2 (f),System and Communications Protection: Employ Systems Engineering Principles,Identified systems engineering principles that promote effective information security shall be employed.
+SC,3.13.3,System and Communications Protection: Function Separation,Separate user functionality from information system management functionality.
+SC,3.13.3 (a),System and Communications Protection: Identify User Functionality,User functionality shall be identified.
+SC,3.13.3 (b),System and Communications Protection: Identify System Management,System management functionality shall be identified.
+SC,3.13.3 (c),System and Communications Protection: Employ Separation,User functionality shall be separated from system management functionality.
+SC,3.13.4,System and Communications Protection: Transfer,Prevent unauthorized and unintended information transfer via shared system resources.
+SC,3.13.5,System and Communications Protection: Public Subnet,Implement subnetworks for publicly accessible system components that are physically or logically separated from internal networks.
+SC,3.13.5 (a),System and Communications Protection: Identify Public Subnet,Publicly accessible system components shall be identified.
+SC,3.13.5 (b),System and Communications Protection: Logical or Physical Separation,Subnetworks for publicly accessible system components shall be physically or logically separated from internal networks.
+SC,3.13.6,System and Communications Protection: Deny Traffic,"Deny network communications traffic by default and allow network communications traffic by exception (i.e., deny all, permit by exception)."
+SC,3.13.6 (a),System and Communications Protection: Default Deny,Network communications traffic shall be denied by default.
+SC,3.13.6 (b),System and Communications Protection: Allow by Exception,Network communications traffic shall be allowed by exception.
+SC,3.13.7,System and Communications Protection: One Network,Prevent remote devices from simultaneously establishing non-remote connections with the information system and communicating via some other connection to resources in external networks.
+SC,3.13.8,System and Communications Protection: CUI Encrypted,Implement cryptographic mechanisms to prevent unauthorized disclosure of CUI during transmission unless otherwise protected by alternative physical safeguards.
+SC,3.13.8 (a),System and Communications Protection: Identify Encryption,Cryptographic mechanisms intended to prevent unauthorized disclosure of CUI shall be identified.
+SC,3.13.8 (b),System and Communications Protection: Identify Alternative Safeguards,Alternative physical safeguards intended to prevent unauthorized disclosure of CUI shall be identified.
+SC,3.13.8 (c),System and Communications Protection: Implementation,Either cryptographic mechanisms or alternative physical safeguards shall be implemented to prevent unauthorized disclosure of CUI during transmission.
+SC,3.13.9,System and Communications Protection: Terminate Connections,Terminate network connections associated with communications sessions at the end of the sessions or after a defined period of inactivity.
+SC,3.13.9 (a),System and Communications Protection: Define Inactivity Period,A period of inactivity to terminate network connections associated with communications sessions shall be defined.
+SC,3.13.9 (b),System and Communications Protection: Connection Termination,Network connections associated with communications sessions shall be terminated at the end of the sessions.
+SC,3.13.9 (c),System and Communications Protection: Inactivity Termination,Network connections associated with communications sessions shall be terminated after the defined period of inactivity.
+SC,3.13.10,System and Communications Protection: Cryptographic Keys,Establish and manage cryptographic keys for cryptography employed in the information system.
+SC,3.13.10 (a),System and Communications Protection: Establish Cryptographic Keys,Cryptographic keys shall be established whenever cryptography is employed.
+SC,3.13.10 (b),System and Communications Protection: Manage Cryptographic Keys,Cryptographic keys shall be managed whenever cryptography is employed
+SC,3.13.11,System and Communications Protection: CUI FIPS,Employ FIPS-validated cryptography when used to protect the confidentiality of CUI.
+SC,3.13.12,System and Communications Protection: Collaborative Devices,Prohibit remote activation of collaborative computing devices and provide indication of devices in use to users present at the device.
+SC,3.13.12 (a),System and Communications Protection: Identify Devices,Collaborative computing devices shall be identified.
+SC,3.13.12 (b),System and Communications Protection: Devices in Use,Collaborative computing devices shall provide indication to users of devices in use.
+SC,3.13.12 (c),System and Communications Protection: Prohibit Remote Activation,Remote activation of collaborative computing devices shall be prohibited.
+SC,3.13.13,System and Communications Protection: Mobile Code,Control and monitor the use of mobile code.
+SC,3.13.13 (a),System and Communications Protection: Control,Use of mobile code shall be controlled.
+SC,3.13.13 (b),System and Communications Protection: Monitor,Use of mobile code shall be monitored.
+SC,3.13.14,System and Communications Protection: VoIP,Control and monitor the use of Voice over Internet Protocol (VoIP) technologies.
+SC,3.13.14 (a),System and Communications Protection: Control VoIP,Use of Voice over Internet Protocol (VoIP) technologies shall be controlled.
+SC,3.13.14 (b),System and Communications Protection: Monitor VoIP,Use of Voice over Internet Protocol (VoIP) technologies shall be monitored.
+SC,3.13.15,System and Communications Protection: Authenticity,Protect the authenticity of communications sessions.
+SC,3.13.16,System and Communications Protection: CUI at Rest,Protect the confidentiality of CUI at rest.
+SI,3.14.1,System and Information Integrity: Flaw Reporting,"Identify, report, and correct system flaws in a timely manner."
+SI,3.14.1 (a),System and Information Integrity: Specify Time Parameters,The time within which to identify system flaws shall be specified.
+SI,3.14.1 (b),System and Information Integrity: Identify System Flaw,System flaws shall be identified within the specified time frame.
+SI,3.14.1 (c),System and Information Integrity: Specify Report Time,The time within which to report system flaws shall be specified.
+SI,3.14.1 (d),System and Information Integrity: Report System Flaw,System flaws shall be reported within the specified time frame.
+SI,3.14.1 (e),System and Information Integrity: Specify Correction Time,The time within which to correct system flaws shall be specified.
+SI,3.14.1 (f),System and Information Integrity: Correct System Flaw,System flaws shall be corrected within the specified time frame.
+SI,3.14.2,System and Information Integrity: Malicious Code,Provide protection from malicious code at designated locations within organizational systems.
+SI,3.14.2 (a),System and Information Integrity: Identify Protection Locations,Designated locations for malicious code protection shall be identified.
+SI,3.14.2 (b),System and Information Integrity: Malicious Code Protection,Protection from malicious code at designated locations shall be provided.
+SI,3.14.3,System and Information Integrity: Monitor Alerts,Monitor system security alerts and advisories and take action in response.
+SI,3.14.3 (a),System and Information Integrity: Identify Response Actions,Response actions to system security alerts and advisories shall be identified.
+SI,3.14.3 (b),System and Information Integrity: Monitor Alerts,System security alerts and advisories shall be monitored.
+SI,3.14.3 (c),System and Information Integrity: Actions Taken,Actions in response to system security alerts and advisories shall be taken.
+SI,3.14.4,System and Information Integrity: Update,Update malicious code protection mechanisms when new releases are available.
+SI,3.14.5,System and Information Integrity: Scans,"Perform periodic scans of the information system and real-time scans of files from external sources as files are downloaded, opened, or executed."
+SI,3.14.5 (a),System and Information Integrity: Define Scan Frequency,The frequency for malicious code scans shall be defined.
+SI,3.14.5 (b),System and Information Integrity: Perform Malicious Code Scans,Malicious code scans shall be performed with the defined frequency.
+SI,3.14.5 (c),System and Information Integrity: Real-Time Scans,"Real-time malicious code scans of files from external sources as files are downloaded, opened, or executed shall be performed."
+SI,3.14.6,System and Information Integrity: Monitor Traffic,"Monitor the information system including inbound and outbound communications traffic, to detect attacks and indicators of potential attacks."
+SI,3.14.6 (a),System and Information Integrity: System Indicators,The system shall be monitored to detect attacks and indicators of potential attacks.
+SI,3.14.6 (b),System and Information Integrity: Inbound Traffic Indicators,Inbound communications traffic shall be monitored to detect attacks and indicatorsof potential attacks.
+SI,3.14.6 (c),System and Information Integrity: Outbound Traffic Indicators,Outbound communications traffic shall be monitored to detect attacks and indicators of potential attacks.
+SI,3.14.7,System and Information Integrity: Unauthorized Use,Identify unauthorized use of the information system.
+SI,3.14.7 (a),System and Information Integrity: Define Authorized Use,Authorized use of the system shall be defined.
+SI,3.14.7 (b),System and Information Integrity: Identify Unauthorized Use,Unauthorized use of the system shall be identified.

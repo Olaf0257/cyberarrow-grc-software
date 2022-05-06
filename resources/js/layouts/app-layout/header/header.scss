@@ -1,0 +1,105 @@
+#topnav {
+
+
+    .profile-dropdown {
+        background-color: #fff;
+    }
+
+    /********************
+        RESPONSIVE CSS
+    *********************/
+    @media (min-width: 768px) {
+        .logo-box {
+            span.logo {
+                img {
+                    padding: 6px;
+                }
+            }
+        }
+    }
+    @media (max-width: 767px) and (min-width: 574px) {
+        .logo {
+            .logo-lg-text-light {
+                color: #fff;
+                font-weight: 700;
+                font-size: 18px;
+                text-transform: uppercase;
+            }
+        }
+        .card-body {
+            h5.head-text {
+                display: none;
+            }
+            ul.rect-div {
+                display: flex;
+                justify-content: center;
+                margin-top: 0;
+            }
+        }
+    }
+    @media (min-width: 320px) and (max-width: 573px) {
+        .logo {
+            .logo-lg-text-light {
+                color: #fff;
+                font-weight: 500;
+                font-size: 12px;
+                text-transform: uppercase;
+                // display: none;
+            }
+        }
+    }
+    @media (max-width: 470px) {
+        .logo {
+            .logo-lg-text-light {
+                display: none;
+            }
+        }
+    }
+    @media (max-width: 767.9px) {
+        .navbar-custom {
+            padding: 0px;
+        }
+        .user-logout-dropdown-wp {
+            padding-top: 20px;
+        }
+    }
+}
+
+.rc-tree-select-dropdown {
+    // min-width: 500px !important;
+    .rc-tree-select-tree {
+        // width: fit-content;
+        padding: 0.3rem;
+        box-shadow: 0 0 35px 0 rgb(154 161 171 / 15%);
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: white;
+        width: 250px;
+        .rc-tree-select-tree-list {
+            .rc-tree-select-tree-treenode {
+                padding: 5px 10px;
+                .rc-tree-select-tree-switcher {
+                    margin-right: 8px;
+                }
+                .rc-tree-select-tree-node-content-wrapper {
+                    .rc-tree-select-tree-icon__customize {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    &.data-scope-dropdown-menu {
+        top: -1px !important;
+    }
+}
+
+
+@media (max-width: 426px) {
+    .rc-tree-select-dropdown {
+        .rc-tree-select-tree {
+            width: 200px;
+        }
+    }
+}

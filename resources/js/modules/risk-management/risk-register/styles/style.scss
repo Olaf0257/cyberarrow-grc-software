@@ -1,0 +1,431 @@
+/*** search */
+/** search ends */
+/*** range slider custom css */
+/** color code for risks */
+/*******************
+    RESPONSIVE
+********************/
+/******* 320px to 425px */
+/******* 426px to 575px */
+/******* 576px to 767px */
+/****This is for Risk Register Table */
+/******* 769px to 961px */
+/* select2 style */
+#risk-register-page,
+#risk-register-create-div {
+    .risk-score {
+        h4 {
+            line-height: 1.5;
+        }
+        .riskscore-value {
+            margin-left: 25px;
+        }
+    }
+    .risk-score-container {
+        display: flex;
+        .risk-score {
+            margin: auto;
+        }
+    }
+    .top__search {
+        margin-left: -10px;
+        input[type="text"] {
+            &::placeholder {
+                text-align: center;
+            }
+        }
+    }
+    .middle__box {
+        background: #f5f6f8;
+    }
+    .riskbox {
+        padding: 5px 15px;
+        background: #f5f6f8;
+        border-radius: 5px;
+        border-left: 2px solid var(--secondary-color);
+        margin-bottom: 3px;
+    }
+    .risk__title {
+        display: flex;
+        align-items: center;
+    }
+    .risk__one-descrip {
+        border-radius: 5px;
+    }
+    .searchbox {
+        position: relative;
+        display: inline-block;
+        margin-left: -4px;
+        input {
+            &:focus {
+                outline: none;
+                border: 3px solid var(--secondary-color);
+            }
+            z-index: 0;
+            width: 300px;
+            height: 40px;
+            border-radius: 25px;
+            border: 2px solid #f1f3f4;
+            font-size: 0.9375rem;
+            font-weight: 600;
+            text-align: center;
+            transition: all 0.3s linear;
+        }
+        input[type="text"] {
+            &::placeholder {
+                position: relative;
+                left: -25px;
+            }
+        }
+    }
+    .fa-search {
+        position: absolute;
+        top: 35%;
+        left: 5%;
+        color: #8e99a4;
+    }
+    .search {
+        color: #8e99a4;
+        font-weight: 400;
+        padding-left: 50px;
+        font-size: 18px;
+        z-index: 3;
+    }
+    .checkbox-sec {
+        display: inline-block;
+        position: relative;
+        top: -16px;
+    }
+    .checkbox-success {
+        input[type="checkbox"] {
+            &:checked + label {
+                &::before {
+                    background-color: var(--secondary-color) !important;
+                    border-color: var(--secondary-color) !important;
+                }
+            }
+        }
+    }
+    .mid__checkbox {
+        position: relative;
+        top: -4px;
+        left: 7px;
+    }
+    .middle-box {
+        margin-bottom: 10px;
+        background: #f5f6f8;
+        padding: 10px 8px;
+    }
+    .br-dark {
+        border: 5px solid #f5f6f8;
+    }
+    .alert-pill {
+        min-width: 20px;
+        position: relative;
+        top: -5px;
+    }
+    .irs--round {
+        .irs-line {
+            margin-top: -15px;
+        }
+        .irs-grid-text {
+            color: gray;
+            color: gray;
+            font-size: 10px;
+        }
+    }
+    span.irs-single {
+        display: none;
+    }
+    .irs-grid-pol.small {
+        display: none;
+    }
+    .irs-min {
+        visibility: hidden !important;
+    }
+    .irs-max {
+        visibility: hidden !important;
+    }
+    .font-xs {
+        font-size: smaller;
+    }
+    .low {
+        color: #92d050;
+    }
+    .high {
+        color: #ffc000;
+    }
+    .extreme {
+        color: #ff0000;
+    }
+    .top__box-btn {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .risk-register-title {
+        display: inline-block;
+    }
+    table.risk-register-table {
+        margin-bottom: 0;
+        .accordion-collapse {
+            &:hover {
+                background-color: #fff;
+            }
+        }
+    }
+    .display-info {
+        .display-info__allign {
+            margin-top: 7px;
+        }
+    }
+    .rc-slider-handle {
+        border: 4px solid var(--secondary-color) !important;
+        -webkit-box-shadow: 0 1px 3px rgba(102, 88, 221, 0.3) !important;
+        box-shadow: 0 1px 3px rgba(102, 88, 221, 0.3) !important;
+        margin-top: -11px;
+        width: 24px;
+        height: 24px;
+        background-color: white;
+        border-radius: 24px;
+    }
+    .rc-slider-track {
+        background-color: var(--secondary-color) !important;
+    }
+    .rc-slider-dot-active {
+        border-color: var(--secondary-color) !important;
+    }
+    .rc-slider-mark-text {
+        font-size: 10px;
+        margin-left: 4.5px;
+        top: 6px;
+    }
+    .rc-slider-with-marks {
+        left: 16px;
+        top: 8px;
+        margin-bottom: 22px;
+    }
+    .css-1pahdxg-control {
+        border-color: var(--secondary-color) !important;
+        box-shadow: 0 0 0 1px var(--secondary-color) !important;
+    }
+    .select__search {
+        select {
+            z-index: 0;
+            width: 300px;
+            height: 40px;
+            border-radius: 25px;
+            border: 2px solid #f1f3f4;
+            font-size: 0.9375rem;
+            font-weight: 600;
+            text-align: center;
+            transition: all 0.3s linear;
+        }
+    }
+    .dropdown-menu.show {
+        left: -300% !important;
+    }
+
+    .react-select {
+        .react-select__option--is-selected {
+            background-color: var(--secondary-color);
+        }
+        .react-select__option--is-focused {
+            background-color: var(--bs-light);
+        }
+        .react-select__option--is-focused {
+            &.react-select__option--is-selected {
+                background-color: var(--secondary-color);
+            }
+        }
+        .react-select__control,
+        .react-select__option {
+            cursor: pointer;
+        }
+    }
+
+    @media screen and (max-width: 460px) {
+        .irs--round {
+            .irs-grid-text {
+                font-size: 7px;
+                white-space: break-spaces;
+                width: 40px;
+            }
+        }
+        .risk-update-form {
+            .slider-div {
+                overflow: auto;
+            }
+        }
+    }
+    @media (min-width: 320px) and (max-width: 425px) {
+        .top__box-btn {
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+        }
+        .export__risk-btn {
+            margin-bottom: 5px;
+            min-width: 150px;
+        }
+        .add__risk-btn {
+            min-width: 150px;
+        }
+        .searchbox {
+            input {
+                max-width: 100%;
+            }
+        }
+        .animated {
+            input {
+                max-width: 222px;
+            }
+        }
+        .fa-search {
+            position: absolute;
+            top: 35%;
+            left: 7%;
+        }
+        .middle-box {
+            flex-direction: column;
+        }
+        .text__box {
+            h5 {
+                font-weight: normal;
+            }
+        }
+        .mid__checkbox {
+            position: relative;
+            top: -18px;
+            left: 7px;
+        }
+        .checkbox {
+            label {
+                cursor: pointer;
+            }
+        }
+        .risk__one-descrip {
+            .top__text {
+                h5 {
+                    display: none;
+                }
+            }
+        }
+        .risk__id-width {
+            width: 81px;
+        }
+        .hide-on-xs {
+            display: none;
+        }
+        .items__num {
+            display: none;
+        }
+        .riskbox {
+            h5.risk-register-title {
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                width: 167px;
+            }
+            .icon-box {
+                .icon {
+                    position: relative;
+                    top: 50%;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 426px) and (max-width: 575px) {
+        .top__box-btn {
+            justify-content: center;
+            display: flex;
+        }
+        .export__risk-btn {
+            margin-right: 5px;
+        }
+        .middle-box {
+            flex-direction: column;
+        }
+        .risk__id-width {
+            width: 81px;
+        }
+        .hide-on-xs {
+            display: none;
+        }
+        .risk-register-title {
+            max-width: 243px;
+        }
+    }
+    @media (min-width: 500px) and (max-width: 543px) {
+        .middle-box {
+            .searchbox {
+                input {
+                    width: 235px;
+                    margin-left: 85px;
+                }
+            }
+        }
+        .top__text {
+            .searchbox {
+                input {
+                    width: 210px;
+                }
+            }
+            h5 {
+                white-space: nowrap;
+            }
+        }
+        .search-icon {
+            position: absolute;
+            top: 35%;
+            left: 25%;
+        }
+        .text__box {
+            h5 {
+                padding-left: 20px;
+            }
+        }
+        .mid__checkbox {
+            position: relative;
+            top: -11px;
+            left: 10px;
+        }
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+        .export__risk-btn {
+            margin-right: 5px;
+        }
+        .fa-search {
+            position: absolute;
+            top: 30%;
+            left: 5%;
+        }
+        .searchbox {
+            input {
+                max-width: 255px;
+                margin-right: 5px;
+            }
+        }
+        .mid__checkbox {
+            position: relative;
+            top: -15px;
+            left: 7px;
+        }
+        .hide-on-sm {
+            display: none !important;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 992px) {
+        .risk__id-width {
+            width: 90px;
+        }
+    }
+    @media (max-width: 768px) {
+        .risk-score-container {
+            .risk-score {
+                margin-bottom: 15px;
+                margin-left: 0;
+            }
+        }
+    }
+}

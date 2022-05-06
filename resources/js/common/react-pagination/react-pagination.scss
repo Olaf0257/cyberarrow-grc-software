@@ -1,0 +1,13 @@
+.pagination.react-pagination {
+    .page-item {
+        cursor: pointer;
+    }
+    .page-item.disabled {
+        cursor: default;
+        background-color: transparent !important;
+
+        .page-link {
+            background-color: transparent;
+        }
+    }
+}

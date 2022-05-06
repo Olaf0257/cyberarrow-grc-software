@@ -1,0 +1,85 @@
+#mfa-qrcode-wp svg {
+    width      : 290px !important;
+    height     : 290px !important;
+    margin-top : -15px;
+    margin-left: -15px;
+}
+
+.modal-dialog {
+    width    : 100%;
+    max-width: 800px;
+}
+
+.modal .instruction__box {
+    background: var(--primary-color);
+    padding   : 10px 10px;
+}
+
+.instruction__box p {
+    margin-top   : 0 !important;
+    margin-bottom: 0;
+}
+
+.enable__btn {
+    min-width: 245px;
+}
+
+.modal-header {
+    padding: 2px 20px;
+}
+
+.card-box {
+    padding: 1.5rem;
+}
+
+.nav-tabs .nav-link.active {
+    border: none;
+    border-bottom: 2px solid #b2dd4c !important;
+}
+.nav-tabs .nav-link {
+    border: none;
+    border-bottom: 2px solid #e1e1e1 !important;
+    color: #323a46 !important;
+}
+
+/******************
+=== RESPONSIVE ===
+******************/
+@media (max-width: 575px) {
+    .modal .instruction__box {
+        padding: 8px;
+        margin : 0 -3px 0 0;
+    }
+
+    .top-text span.token {
+        font-weight: lighter;
+        font-size  : small;
+    }
+
+    .qrcode-right input {
+        max-width: 243px;
+    }
+
+    .qcode-left svg {}
+
+    /* .enable__btn {
+        min-width: 288px;
+    } */
+}
+
+/***** 320px to 575px */
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .qrcode-right input {
+        width: 243px !important;
+
+    }
+
+}
+
+@media (max-width: 618.5px) {
+    .form-control {
+        margin-top: 10px;
+    }
+
+}

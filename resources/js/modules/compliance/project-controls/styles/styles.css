@@ -1,0 +1,193 @@
+.datetime-responsive-div {
+    width: calc(100% - 44px);
+}
+
+.comment-box {
+    overflow-y: auto;
+    max-height: 273px;
+}
+
+.comment-sec {
+    background: #f7f7f7;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 0 3px;
+}
+
+.comment {
+    background: #f8f9fb;
+    padding: 8px;
+    border-radius: 15px;
+    margin-bottom: 28px;
+}
+
+.comment-body {
+    margin-left: 53px;
+    overflow: hidden;
+}
+
+.post-comment {
+    margin-top: 20px;
+}
+
+.time {
+    color: #aaa;
+}
+
+a {
+    color: #6c757d;
+}
+
+.toast {
+    max-width: 100%;
+    margin-top: 19px;
+    /* padding: 0; */
+}
+
+.submit-btn {
+    margin-top: 14px;
+}
+
+.dataTables_scrollHeadInner {
+    width: 100% !important;
+    /* padding-right: 0 !important;
+    box-sizing: content-box; */
+}
+
+.status-pill {
+    position: absolute;
+    top: 36px;
+    right: 26px;
+}
+
+input[type="text"]:disabled,
+td .input-group input[type="text"]:disabled > div,
+input:disabled + div > span.bg-none {
+    background: #eee !important;
+}
+
+input.task-status-red {
+    color: #40484e;
+}
+
+.map-controls-div {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: -25px;
+}
+
+.name-table__overflow tr td:first-child {
+    max-width: 65px;
+    overflow: hidden;
+    resize: horizontal;
+    text-overflow: ellipsis;
+}
+
+.name-table__overflow tr td:first-child:hover {
+    height: auto;
+    overflow: visible;
+    white-space: normal;
+    word-break: break-word;
+}
+
+textarea {
+    resize: none;
+}
+
+#evidence-form-section {
+    padding: 20px;
+    border-radius: 6px;
+    background: #f7f7f7;
+}
+
+#control-comments-wp,
+.uploaded-evidence-main {
+    border: 2px solid #f7f7f7;
+    border-radius: 6px;
+}
+
+.uploaded-evidence-main {
+    max-height: 250px;
+    overflow-y: scroll;
+}
+
+textarea#comment {
+    overflow: hidden !important;
+}
+
+.link-primary {
+    color: #0d6efd;
+}
+
+.readmore {
+    overflow: hidden;
+}
+
+.readmore-link {
+    margin-left: 53px;
+}
+
+.tab-padding {
+    margin-top: 1px;
+    padding: 20px 0px 60px 0px;
+}
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: 1px !important;
+}
+
+#control-detail-form .input-group {
+    width: 75% !important;
+}
+
+/* react select */
+.react-select .react-select__option--is-selected{
+    background-color: var(--secondary-color);
+}
+.react-select .react-select__option--is-focused{
+    background-color: var(--bs-light);
+}
+.react-select .react-select__option--is-focused.react-select__option--is-selected {
+    background-color: var(--secondary-color);
+}
+.react-select .react-select__control,
+.react-select .react-select__option {
+    cursor: pointer;
+}
+/* RDT Datepicker */
+
+.rdtPicker .rdtDays .rdtPrev span,
+.rdtPicker .rdtDays .rdtNext span {
+    font-size: 25px;
+}
+
+.rdtPicker .rdtDays .rdtDay {
+    height: 40px;
+    width: 40px;
+}
+
+.rdtPicker .rdtDays tr:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.rdtPicker .rdtDays .rdtDay {
+    border-radius: 50%;
+}
+
+.rdtPicker .rdtDays .rdtDay.rdtActive.rdtToday {
+    border-radius: 50%;
+}
+.rdtPicker .rdtDays .rdtToday::before {
+    display: none !important;
+    border-bottom: 0;
+}
+
+@media (max-width: 476px) {
+    .status-pill {
+        top: 75px;
+    }
+}

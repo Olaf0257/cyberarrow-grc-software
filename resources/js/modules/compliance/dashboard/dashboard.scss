@@ -1,0 +1,294 @@
+
+#compliance-dashboard-page {
+    .disabled_click {
+        // pointer-events: none;
+        cursor: not-allowed;
+     }
+    .title {
+        padding: 12px 10px;
+        background: var(--primary-color);
+        h4 {
+            text-align: center;
+            color: #fff;
+        }
+    }
+    .go-btn {
+        &:hover {
+            background-color: darken(#f3f7f9, 3);
+        }
+        &:active {
+            transform: scale(0.85);
+            opacity: 0.7;
+        }
+    }
+    .second {
+        .title {
+            background: var(--primary-color);
+        }
+        i {
+            color: var(--secondary-color);
+            display: flex;
+            justify-content: center;
+        }
+        h5 {
+            display: flex;
+            justify-content: center;
+        }
+        .box {
+            .justify-content-between {
+                justify-content: space-evenly !important;
+            }
+        }
+    }
+    .third {
+        .title {
+            background: var(--primary-color);
+        }
+        i {
+            color: var(--secondary-color);
+            display: flex;
+            justify-content: center;
+        }
+        h5 {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .task {
+        padding: 10px 8px;
+    }
+    .approval {
+        padding: 10px 8px;
+    }
+    hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid #ccc;
+        margin: 1em 2em;
+        padding: 0;
+    }
+    .dial {
+        color: var(--secondary-color) !important;
+        border: none;
+        font: bold 24px Arial;
+        text-align: center;
+    }
+    .card-body {
+        ul.rect-div {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: -42px;
+        }
+        ul {
+            li.rect {
+                border: none;
+                .badge {
+                    padding: 1px 6px;
+                    height: 9px;
+                    width: 5px;
+                    border-radius: 0;
+                }
+            }
+        }
+        padding: 1.1rem;
+    }
+    
+    // Task Completion Percentage
+    .widget-chart text {
+        font: bold 2.5rem Arial;
+    }
+    
+    // Task Calendar
+    .fc {
+        .fc-toolbar {
+            .fc-button-group {
+                .fc-button {
+                    background: #f1f5f7;
+                    border: 0;
+                    color: #6c757d;
+                    text-transform: capitalize;
+                    box-shadow: none;
+                    border-radius: 3px;
+                    margin: 0 3px;
+                    padding: 6px 12px;
+                    height: auto;
+                }
+                .fc-button-primary {                    
+                    &:hover {
+                        color: #fff;
+                        background-color: #1e2b37;
+                        border-color: #1a252f;
+                    }
+
+                    &:not(:disabled).fc-button-active {
+                        color: #fff;
+                        background-color: #1e2b37;
+                        border-color: #1a252f;
+                    }
+                }
+                >.fc-button {
+                    &:not(:first-child) {
+                        margin-left: -1px;
+                    }
+                }
+            }
+            .fc-button {
+                padding: 6px 12px;
+            }
+            h2 {
+                font-size: 1.25rem;
+                line-height: 1.875rem;
+                text-transform: uppercase;
+            }
+            >* {
+                > {
+                    :not(:first-child) {
+                        margin-left: 0.75em;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (min-width: 320px) and (max-width: 460px) {
+        .card-body {
+            ul.rect-div {
+                display: flex;
+                justify-content: center;
+                margin-top: 0;
+            }
+            ul {
+                li {
+                    span.status-color {
+                        display: flex;
+                        justify-content: center;
+                        width: 5px;
+                        border-radius: 0;
+                    }
+                    span.status-text {
+                        font-size: 10px;
+                        font-weight: 600;
+                        display: block;
+                        white-space: normal;
+                    }
+                }
+            }
+            h5.head-text {
+                display: none;
+            }
+        }
+        ul {
+            li.rect {
+                padding: 2px 8px;
+            }
+        }
+        .fc-toolbar.fc-header-toolbar {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    @media (min-width: 320px) and (max-width: 375px) {
+        .second {
+            h5 {
+                font-size: 13px;
+            }
+        }
+        .third {
+            h5 {
+                font-size: 13px;
+            }
+        }
+        .boxx {
+            .go-btn {
+                min-width: 80px;
+            }
+        }
+    }
+    @media (min-width: 461px) and (max-width: 608px) {
+        .card {
+            ul {
+                li {
+                    span.status-text {
+                        display: block;
+                    }
+                }
+            }
+            h5.head-text {
+                display: none;
+            }
+        }
+        .card-body {
+            ul.rect-div {
+                display: flex;
+                justify-content: center;
+                margin-top: 0;
+            }
+        }
+    }
+    @media  (max-width: 280px) {
+        .second {
+            .box {
+                .justify-content-between {
+                    .third-box {
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+        .box {
+            .task {
+                >div {
+                    margin: 0 12px;
+                }
+            }
+        }
+    }
+    @media (max-width:390px) {
+        .second {
+            .box {
+                .justify-content-between {
+                    flex-wrap: wrap;
+                }
+            }
+        }
+        .third {
+            .box {
+                .justify-content-around {
+                    flex-direction: column;
+                    text-align: center;
+                    .second-box {
+                        margin-top: 40px;
+                        .ms-3 {
+                            margin-left: 0px !important;
+                        }
+                    }
+                }
+            }
+        }
+        .card-body {
+            ul.rect-div {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                margin: 10px 0px 10px 42px;
+            }
+            .head-text {
+                text-align: center;
+            }
+            .fc-unthemed {
+                .fc-header-toolbar {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+    @media (max-width: 753px) {
+        // Task Calendar
+        .fc-today-button {
+            display: none;
+        }
+    }
+}
+

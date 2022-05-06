@@ -1,0 +1,104 @@
+@-webkit-keyframes "stripes" {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 60px 30px;
+	}
+}
+@keyframes "stripes" {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 60px 30px;
+	}
+}
+#manual-risk-setup {
+	.searchbox {
+		input {
+			z-index: 0;
+			width: 300px;
+			height: 40px;
+			border-radius: 25px;
+			border: 2px solid #f1f3f4;
+			font-size: 0.9375rem;
+			font-weight: 600;
+			text-align: center;
+			transition: all 0.3s linear;
+		}
+	}
+	.select__search {
+		select {
+			z-index: 0;
+			width: 300px;
+			height: 40px;
+			border-radius: 25px;
+			border: 2px solid #f1f3f4;
+			font-size: 0.9375rem;
+			font-weight: 600;
+			text-align: center;
+			transition: all 0.3s linear;
+			&:focus {
+				border: 2px solid var(--secondary-color);
+				background: #fff;
+			}
+		}
+	}
+	input {
+		&:focus {
+			border: 2px solid var(--secondary-color);
+			background: #fff;
+		}
+	}
+	.upload-csv-btn {
+		display: none;
+	}
+	.icon-custom-size {
+		&:before {
+			font-size: 50px;
+		}
+	}
+	.csv__contents-box {
+		background: #38414A;
+		color: #f7f7f7;
+		padding: 10px 15px;
+	}
+	.errorMsg {
+		background-color: #ffdfb6;
+		padding: 4px;
+		border-radius: 4px;
+		font-weight: bold;
+		margin-top: 4px;
+		-webkit-animation-name: shakeX;
+		animation-name: shakeX;
+	}
+	.upload_csv_section {
+		display: block;
+		position: relative;
+		cursor: pointer;
+		overflow: hidden;
+		width: 100%;
+		max-width: 100%;
+		padding: 80px 20px;
+		min-height: 200px;
+		font-family: 'Cerebri Sans,sans-serif';
+		font-size: 14px;
+		line-height: 22px;
+		color: #777;
+		background-color: #FFF;
+		background-image: none;
+		text-align: center;
+		border: 2px dashed #E5E5E5;
+		border-radius: 10px;
+		-webkit-transition: border-color 0.15s linear;
+		transition: border-color 0.15s linear;
+		&:hover {
+			background-size: 30px 30px;
+			background-image: -webkit-linear-gradient(135deg, #F6F6F6 25%, transparent 25%, transparent 50%, #F6F6F6 50%, #F6F6F6 75%, transparent 75%, transparent);
+			background-image: linear-gradient(-45deg, #F6F6F6 25%, transparent 25%, transparent 50%, #F6F6F6 50%, #F6F6F6 75%, transparent 75%, transparent);
+			-webkit-animation: stripes 2s linear infinite;
+			animation: stripes 2s linear infinite;
+		}
+	}
+}

@@ -1,0 +1,150 @@
+@-webkit-keyframes stripes {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 60px 30px;
+    }
+}
+@keyframes stripes {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 60px 30px;
+    }
+}
+
+// react select
+.react-select {
+    .react-select__option--is-selected {
+        background-color: var(--secondary-color);
+    }
+    .react-select__option--is-focused {
+        background-color: var(--bs-light);
+    }
+    .react-select__option--is-focused {
+		&.react-select__option--is-selected {
+			background-color: var(--secondary-color);
+		}
+	}
+    .react-select__control,
+    .react-select__option {
+        cursor: pointer;
+    }
+}
+
+.react-collapsible-theme {
+    .react-collapsible {
+        tr {
+            .column-controlId {
+                width: 10% !important;
+            }
+            &.expanded-row {
+                td {
+                    overflow: visible !important;
+                    white-space: normal !important;
+                    overflow-wrap: break-word !important;
+                }
+            }
+        }
+    }
+}
+
+/* control List */
+#control-list {
+	.react-collapsible-theme {
+		.react-collapsible {
+			thead {
+				tr {
+					th.column-controlId {
+						width: 10% !important;
+					}
+					th.column-name {
+						width: 20% !important;
+					}
+					th.column-description {
+						width: 50% !important;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/*******************
+    RESPONSIVE
+********************/
+.manual__import-left {
+    span {
+        color: red;
+    }
+}
+.csv {
+    margin-top: -35px;
+}
+.edit-control-btn {
+    a {
+        &:nth-child(2) {
+            margin-left: 4px;
+        }
+    }
+}
+.upload_csv_section {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    padding: 80px 20px;
+    min-height: 200px;
+    // font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial";
+    font-size: 14px;
+    line-height: 22px;
+    color: #777;
+    background-color: #fff;
+    background-image: none;
+    text-align: center;
+    border: 2px dashed #e5e5e5;
+    border-radius: 10px;
+    -webkit-transition: border-color 0.15s linear;
+    transition: border-color 0.15s linear;
+    &:hover {
+        background-size: 30px 30px;
+        background-image: -webkit-linear-gradient(
+            135deg,
+            #f6f6f6 25%,
+            transparent 25%,
+            transparent 50%,
+            #f6f6f6 50%,
+            #f6f6f6 75%,
+            transparent 75%,
+            transparent
+        );
+        background-image: linear-gradient(
+            -45deg,
+            #f6f6f6 25%,
+            transparent 25%,
+            transparent 50%,
+            #f6f6f6 50%,
+            #f6f6f6 75%,
+            transparent 75%,
+            transparent
+        );
+        -webkit-animation: stripes 2s linear infinite;
+        animation: stripes 2s linear infinite;
+    }
+}
+@media (max-width: 575px) {
+    .table-right {
+        h4 {
+            padding-top: 10px;
+        }
+    }
+    .upload__btn {
+        margin-bottom: 5px;
+        min-width: 145px;
+    }
+}

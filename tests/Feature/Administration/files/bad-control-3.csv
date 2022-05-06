@@ -1,0 +1,16 @@
+primary_id,sub_id,Name,Description
+1,1,Security Program  Does the vendor have written information security policies?,"Vendor Questionaire, responses to be provided by vendor."
+1,2,Risk Assessments \ Right to Audits  Does the organization allow clients the right to audit their systems and information security controls?,"Vendor Questionaire, responses to be provided by vendor."
+1,3,"System Certification  An assessment / Certification of the security controls in place for existing systems and those planned for new systems is conducted at least once each year.  E.g. ISO27001, PCI -DSS , Data center Tier certification , SSAE16. Please provide the valid certification copy.","Vendor Questionaire, responses to be provided by vendor."
+1,4,Did you sign a Non-disclosure agreement (NDA)?,"Contract & Vendor Management, please align with Legal team."
+1,5,Is the communication/escalation process for cyber security incidents defined in the contract?,"Contract & Vendor Management, please align with Legal team."
+1,6,"Is the cyber security requirements are defined for exiting, terminating or renewing the contract (including escrow agreements) and are included in the contract?","Contract & Vendor Management, please align with Legal team."
+1,7,Does the contract include provisions that prohibit subcontracting without the prior approval of Bupa Arabia?,"Contract & Vendor Management, please align with Legal team."
+1,8,Does the right to audit of the system and information security controls mentioned in the contract?,"Contract & Vendor Management, please align with Legal team."
+1,9,"Is the periodic reporting, reviewing and evaluating the agreed cyber security requirements covered within the SLA management?","Contract & Vendor Management, please align with Legal team."
+1,10,Are the related information assets included in the unified asset register?,Asset Management.
+1,11,Is the ownership and custodianship of the information assets identified?,Asset Management.
+1,12,Are the information assets appropriately classified and labeled?,Asset Management.
+1,13,"Specify the assets (Servers, Network and Security. devices, Applications. Databases, Information, People etc.) involved in the project / service",Asset Management.
+1,14,Specify what are the ports and protocols involved in this system / service?,Asset Management.
+1,15,Provide Asset Register and the IP addresses for Vulnerability assessment.,Asset Management.

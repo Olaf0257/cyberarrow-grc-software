@@ -1,0 +1,3 @@
+name,risk_description,affected_properties,affected_functions_or_assets,treatment,category,treatment_options,likelihood,impact
+Risk Name,Risk Description,Change Management,test affected functions,test treatment,1,Mitigate,3,3
+Risk Name 1,Risk Description, Change Management ,test affected functions,test treatment,1,Mitigate,3,3

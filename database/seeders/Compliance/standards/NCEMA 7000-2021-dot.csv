@@ -1,0 +1,235 @@
+primary_id,sub_id,Name,Description
+3,1,Top Management Commitment,"Top management shall commit to the management system and ensure that management system processes integrate with other business processes. Commitment shall be demonstrated by top management through establishing an effective governance framework and ensuring the timely completion of the following:
+- Identifying and addressing the context of the organization.
+- Setting policy, scope and objectives for the management system.
+- Providing the necessary management system support.
+- Creating and maintaining documented information.
+- Implementing business continuity management operations.
+- Reviewing and evaluating the management system.
+- Continual improvement of the management system."
+3,1.a,Top Management - Compliance, Top management is responsible for setting the organization's policy for business continuity and accountable for ensuring that the management system complies to the requirements of this document and achieves the purpose of the Standard.
+3,1.b,Top Management - Governance, Top management is responsible for setting the organization's policy for business continuity and accountable for ensuring that a governance framework and reporting structure for the management system is put in place.
+3,1.c,Top Management - Responsibilities and Authorities, Top management is responsible for setting the organization's policy for business continuity and accountable for ensuring that responsibilities and authorities for roles are assigned and communicated appropriately.
+3,2,Management System Roles and Responsibilities,"The organization shall ensure that responsibilities and authorities for relevant roles are assigned and communicated within the organization.
+The organization shall assign roles and responsibilities for:
+- Establishing the management system.
+- Implementing business continuity management operations.
+- Reporting on the performance of the management system.
+- Reviewing and continual improvement."
+3,3,Management System Planning,The organization shall implement and maintain a management system consisting of processes that integrate with other business processes to achieve business continuity objectives and meet the requirements of this document. All processes required by this document shall be documented.
+3,3.a,Management System Planning - Work,The organization shall plan how to implement and maintain the management system by determining the work to be performed.
+3,3.b,Management System Planning - Resources,The organization shall plan how to implement and maintain the management system by determining the people and other resources required to undertake the work.
+3,3.c,Management System Planning - Target Dates,The organization shall plan how to implement and maintain the management system by determining target dates for work completion.
+3,4,Approval,Top management shall determine the requirements for approving documented information.
+4,1,Issues,"The organization shall identify issues relevant to its purpose and strategic direction, and business continuity objectives.
+Organizations face challenges, both positive and negative, every day. Understanding the issues and knowing how best to address them is key to an organization's success. External economic and political pressures can influence how the organization sets up the management system and internally, the style of management can have a major bearing. For example, if strong management dictates that certain activities carried out by the organization are essential, then this must be accommodated alongside the requirements of this document."
+4,2,Interested Parties,"The organization shall identify interested parties and determine their needs and expectations, including legal and regulatory requirements relevant to the organization's business operations.
+Interested parties, commonly referred to as stakeholders, are people or organizations who may be significantly affected by your organization's situation. Understanding what they need and expect from your organization is an important first step in making sure that the management system achieves its purpose. Organizations that manage their relationships with interested parties to minimize the impact of disruptions are undoubtedly more successful than those who do not."
+4,3,Attitude to Risk,Top management shall determine the level and type of risk that the organization will take and ensure that risk criteria is developed and communicated to the organization and its interested parties.
+5,1,Business Continuity Policy,"The organization shall create and maintain as documented information, a statement that sets out the organization's business continuity policy, scope of the management system and business continuity objectives. The statement shall be communicated to all people under the organization's control and made available to other interested parties, as approved by top management."
+5,"1.a, 1.b, 1.c",Business Continuity Policy,"The organization shall establish a business continuity policy that is appropriate to the context of the organization and includes commitment to: a. Achieving the purpose of the Standard.
+b. Satisfying the needs and expectations of interested parties.
+c. Meeting in full, the requirements of this document.
+"
+5,2.a,Scope of the Management System - Scope Identification,The organization shall have a process for defining the scope of the management system in-terms of the products and services to be included.
+5,2.b,Scope of the Management System - Boundaries ,The scope shall be appropriate to the context of the organization and identify the boundaries and applicability of the management system.
+5,2.c,Scope of the Management System - Exclusions ,"If there are exclusions from scope, these shall be identified, explained and justified. Such exclusions shall not adversely affect the organization's ability to meet the business continuity requirements of its in-scope products and services."
+5,3.a,Business Continuity Objectives - Identification,The organization shall have a process for setting business continuity objectives that explain to interested parties the purpose of the management system.
+5,3.b,Business Continuity Objectives - Measurable,"The process shall ensure that these objectives align with business continuity policy, are measurable and are communicated throughout the organization."
+6,1,People ,The organization shall determine and provide people with the necessary competence.
+6,1.1,Competence,The organization shall have a process for managing the competence of people working under its control.
+6,1.1.a,Competence - Requirements,The competency process shall include determining the competences required for each role.
+6,1.1.b,Competence - Demonstration,The competency process shall include identifying how competence will be demonstrated.
+6,1.1.c,Competence - Actions,The competency process shall include determining actions required to acquire the necessary competence.
+6,1.1.d,Competence - Evaluate Effectiveness,The competency process shall include evaluating the effectiveness of actions taken.
+6,1.2,Awareness,"The organization shall have a process for ensuring that all people under its control have sufficient business continuity awareness to understand:
+a. The business continuity policy and objectives.
+b. The meaning of business continuity and its value to the organization.
+c. The organization's expectations of them regarding business continuity.
+d. Their management system responsibilities, including those for BCMS operations.
+e. Threats and risks of disruptions of relevance to them.
+f. What to do in the event of a major disruption."
+6,2,Other Resources,"The organization shall provide other resources needed to operate the management system effectively, including and not limited to adequate provision of:
+- Budget allocation.
+- Information and data.
+- Buildings, facilities and associated utilities.
+- Technology equipment and systems.
+- Supplies and consumables.
+- Logistics, including transportation.
+- Other specific requirements."
+6,3,External Providers ,"The organizations shall consider the capabilities and constraints of its internal resources and determine its requirements, if any, for assistance from external providers."
+6,3.1,Control of External Providers,"The organization shall control the work of external providers and ensure that externally provided processes, products and services comply to its requirements."
+6,3.1.a,Control of External Providers - Selection Criteria,The control of the work of external providers shall include determining and applying criteria for selecting external providers.
+6,3.1.b,Control of External Providers - Controls ,"The control of the work of external providers shall include treating externally provided processes as being within the management system, including defining the controls to be applied to providers and their output."
+6,4,Communication Relating to the Management System,The organization shall have a process for communicating with interested parties on matters relating to the management system.
+6,4.a,Communication Relating to the Management System - Internal,The communication process shall include identifying the internal parties with whom to communicate.
+6,4.b,Communication Relating to the Management System - External,The communication process shall include identifying the external parties with whom to communicate.
+6,4.c,Communication Relating to the Management System - How,"The communication process shall include determining for each party the information, timing, methods and person to be responsible for communication."
+6,5,Control Over Management System Changes,The organization shall have a process for ensuring that changes affecting the performance of the management system are identified and result in appropriate action being taken.
+6,5.a,Control Over Management System Changes - Identification,The change process shall include identifying changes.
+6,5.b,Control Over Management System Changes - Evaluation,The change process shall include evaluating the effect of the changes on the overall performance of the management system.
+6,5.c,Control Over Management System Changes - Actions,The change process shall include determining the actions to be taken.
+7,1,Creation of Documented Information,"The organization shall have a process for creating documented information that provides evidence of processes and compliance of the management system to the requirements of this document, including identification of inputs and intended results."
+7,1.a,Creation of Documented Information - Identification,The documentation process shall include forms of document identification and a description of its purpose.
+7,1.b,Creation of Documented Information - Format,"The documentation process shall include documentation formats (e.g. language, software version, graphics)."
+7,1.c,Creation of Documented Information - Media,"The documentation process shall include appropriate media (e.g. paper, electronic)."
+7,1.d,Creation of Documented Information - Review & Approval,The documentation process shall include requirements for review and approval of suitability.
+7,2,Control of Documented Information,The organization shall have a process for controlling and updating documented information to preserve its integrity and ensure that it is identifiable and available at the point of use.
+7,2.a,Control of Documented Information - Distribution,"The document control process shall include controls over distribution, access, retrieval and use."
+7,2.b,Control of Documented Information - Access,The document control process shall include controls over access rights and permissions.
+7,2.c,Control of Documented Information - Storage ,The document control process shall include controls over Storage and preservation to ensure readability.
+7,2.d,Control of Documented Information - Revision,The document control process shall include controls over updates and versions.
+7,2.e,Control of Documented Information - Retention & Disposal,The document control process shall include controls over retention and disposal.
+7,2.f,Control of Documented Information - Labeling,The document control process shall include controls over determination and labelling of origin.
+7,3,Required Documented Information,The organization shall create and maintain additional documented information that the organization deems necessary for the management system to be effective.
+8,1,Planning and Control,"The organization shall plan and implement in a controlled manner, the processes needed for BCMS operations and the resources to support them."
+8,2,Business Impact Analysis (BIA),"The organization shall have a process for analyzing the business impact of disrupting activities that support delivery of products and services. Where resumption of a prioritized activity depends on a single external provider, the organization shall evaluate the provider's business continuity arrangements in relation to the dependency and determine the action needed to address any vulnerability. The output from the BIA shall be in a form suitable for decision-making by top management."
+8,2.a,Business Impact Analysis (BIA) - Impact Categories,The business impact analysis process shall include using impact categories and timeframes relevant to the organization's context to analyze impacts resulting from disruption of activities.
+8,2.b,Business Impact Analysis (BIA) - RTO,The business impact analysis process shall include determining the time within which the impacts of not resuming activities would become unacceptable and setting Recovery Time Objectives (RTOs) within that time for their resumption.
+8,2.c,Business Impact Analysis (BIA) - Resumption,The business impact analysis process shall include determining the capacity at which activities may need to be resumed.
+8,2.d,Business Impact Analysis (BIA) - Prioritized Activities,"The business impact analysis process shall include using this analysis results in identifying the organization's 'prioritized activities', which will require business continuity strategies to be in place to ensure their resumption within the predefined RTO."
+8,2.e,Business Impact Analysis (BIA) - Dependencies,"The business impact analysis process shall include identifying dependencies of prioritized activities, including people, other resources, external providers and other activities relied on for delivery of products and services."
+8,3,Risk Assessment (RA),"The organization shall have a risk assessment process that identifies, analyses and evaluates the risk of the organization's prioritized activities being disrupted."
+8,3.a,Risk Assessment (RA) - Risk Identification,The risk assessment process shall include identification of risks from threats and vulnerabilities that are relevant to the organization's context.
+8,3.b,Risk Assessment (RA) - Risk Analysis ,The risk assessment process shall include analysis of risks based on consideration of potential causes and sources of risk and their likelihood and anticipated consequences.
+8,3.c,Risk Assessment (RA) - Risk Evaluation,The risk assessment process shall include evaluation of risks to determine their significance to the organization.
+8,4,Business Continuity Strategies,"The organization shall have a process for identifying, evaluating, selecting and implementing business continuity strategies. Strategies shall be approved by top management in accordance with requirements applicable (by regulatory or other obligations) and resources needed."
+8,4.1,Strategies Identification,"The organization shall use the outcomes of business impact analysis and risk assessment to identify strategies to achieve:
+a. Protecting prioritized activities and reducing the likelihood of disruption.
+b. Responding to and shortening the period of disruption.
+c. Stabilizing, resuming and recovering prioritized activities.
+d. Limiting the impacts of disruption."
+8,4.2,Evaluation and Selection of Strategies and Resource Requirements ,"The organization shall evaluate and select strategies based on the extent to which they:
+a. Enable prioritized activities to resume at agreed capacity within RTO.
+b. Align with the amount and type of risk that the organization may or may not take.
+c. Deliver benefits at manageable and reasonable cost."
+8,4.2.a,Evaluation and Selection of Strategies and Resource Requirements - Selection of Evaluators,"The organization shall determine competent people to evaluate and select strategies, people ,other resources and external providers needed to implement selected strategies"
+8,4.2.b,Evaluation and Selection of Strategies and Resource Requirements - Resources,"The organization shall specify the resources required to implement the selected strategy, and specify the timing and capacity at which they need to be made available."
+8,4.3,Implementation of Selected Strategies,The organization shall implement and maintain strategies approved by top management.
+8,5,Planned Response ,The organization shall have a process for responding to disruptions.
+8,5.1,Response Teams,The organization shall identify teams to be responsible for responding to incidents. The interactions between these response teams shall be clearly stated and for each team.
+8,5.1.a,Response Teams - Selection,"The organization shall identify people with the necessary responsibility, authority and competence to perform the team's designated role."
+8,5.1.b,Response Teams - Structure,The organization shall document response structure to guide the team's actions.
+8,5.2,Response Structure ,The organization shall create and maintain response structure that enable teams to perform their roles.
+8,5.2.a,Response Structure - Command & Control,The response structure shall address command and control.
+8,5.2.b,Response Structure - Detection & Response ,The response structure shall address incident detection and immediate response.
+8,5.2.c,Response Structure - Communication,The response structure shall address communication during disruptions.
+8,5.2.d,Response Structure - Recovery,The response structure shall address recovery of technology systems.
+8,5.3.e,Response Structure - Resumption,The response structure shall address resumption of prioritized activities.
+8,5.3.f,Response Structure - Business as Normal,The response structure shall address return to business as normal.
+8,5.2.1.a,Response Structure Design - Steps,Response structure shall identify immediate steps to be taken and assist with timely decision-making.
+8,5.2.1.b,Response Structure Design - Flexible,Response structure shall be sufficiently flexible to accommodate unanticipated threats and changeable situations.
+8,5.2.1.c,Response Structure Design - Anticipated Impacts,Response structure shall focus on anticipated impacts of disruptions.
+8,5.2.1.d,Response Structure Design - Support Strategies ,Response structure shall support strategies that are in place.
+8,5.2.1.e,Response Structure Design - Identify Tasks,"Response structure shall identify roles, tasks and responsibilities."
+8,5.2.2.a,Response Structure Content - Purpose and Scope ,Response Structure shall contain purpose and scope of the procedure and team objectives.
+8,5.2.2.b,Response Structure Content - Roles and Responsibilities,"Response Structure shall contain roles, responsibilities and authorities."
+8,5.2.2.c,Response Structure Content - Instructions ,Response Structure shall contain instructions for team members.
+8,5.2.2.d,Response Structure Content - Resources ,Response Structure shall contain resources needed by the team.
+8,5.2.2.e,Response Structure Content - Reference,Response Structure shall contain relevant and required reference information.
+8,5.2.2.f,Response Structure Content - Business as Normal,Response Structure shall contain actions for returning to business as usual.
+8,5.2.2.g,Response Structure Content- Recording Actions,Response Structure shall contain how actions taken and decisions made will be recorded.
+8,5.3.1,Command and Control,"The organization shall define requirements for commanding, controlling and coordinating the organization's response to disruption."
+8,5.3.1.a,Command and Control - Team,"The requirements for commanding, controlling and coordinating the organization's response to disruption shall include establishing a central team with the capability and authority to make prompt and appropriate decisions and communicate them effectively."
+8,5.3.1.b,Command and Control - Timely Communication,"The requirements for commanding, controlling and coordinating the organization's response to disruption shall include ensuring that information relevant to the disruption is conveyed to the central team in a timely and secure manner."
+8,5.3.1.c,Command and Control - Security,"The requirements for commanding, controlling and coordinating the organization's response to disruption shall include ensuring timely and secure dissemination of the central team's instructions."
+8,5.3.2,Incident Detection and Immediate Response,"The organization shall define requirements for detecting potential incidents and responding to disruptions in order to shorten their duration, limit their impact and safeguard those affected."
+8,5.3.2.a,Incident Detection and Immediate Response - Timely,The incident detection and immediate response requirements shall include timely detection and assessment of incidents to determine their nature and potential consequences.
+8,5.3.2.b,Incident Detection and Immediate Response - Threat to Human Life,The incident detection and immediate response requirements shall include assessing threats to human life and damage to infrastructure and services.
+8,5.3.2.c,Incident Detection and Immediate Response - Criteria,The incident detection and immediate response requirements shall include using predefined criteria to declare a disruption and initiate an appropriate response.
+8,5.3.2.d,Incident Detection and Immediate Response - Priorities,The incident detection and immediate response requirements shall include establishing priorities (giving immediate priority to life safety).
+8,5.3.2.e,Incident Detection and Immediate Response - Actions,The incident detection and immediate response requirements shall include determining actions to be taken to shorten the period and limit the impacts of disruption.
+8,5.3.2.f,Incident Detection and Immediate Response - Monitoring,The incident detection and immediate response requirements shall include monitoring the consequences of the disruption and the organization's response.
+8,5.3.2.g,Incident Detection and Immediate Response - Communication,"The incident detection and immediate response requirements shall include communicating with relevant interested parties, authorities and the media."
+8,5.3.2.h,Incident Detection and Immediate Response - Evacuation Procedures,The incident detection and immediate response requirements shall include creating evacuation procedures and identifying assembly points.
+8,5.3.2.i,Incident Detection and Immediate Response - First Aid,The incident detection and immediate response requirements shall include providing first aid and essential supplies.
+8,5.3.2.j,Incident Detection and Immediate Response - Locating People ,"The incident detection and immediate response requirements shall include locating people under the organization's control, including visitors."
+8,5.3.2.k,Incident Detection and Immediate Response - Restoration,"The incident detection and immediate response requirements shall include assessing potential opportunities for restoration of damaged facilities, equipment and documented information."
+8,5.3.3.a,Communication During Disruptions - Between Teams,The organization shall define requirements for ensuring that there is effective communication during a disruption between teams and others responding to disruptions.
+8,5.3.3.b,Communication During Disruptions - Internal,The organization shall define requirements for ensuring that there is effective communication during a disruption with interested parties.
+8,5.3.3.c,Communication During Disruptions - External,The organization shall define requirements for ensuring that there is effective communication during a disruption with external providers.
+8,5.3.3.d,Communication During Disruptions - Communication Needs,"The communication requirements shall include identifying what, when and with whom to communicate."
+8,5.3.3.e,Communication During Disruptions - Authority,The communication requirements shall include setting authority levels for communication.
+8,5.3.3.f,Communication During Disruptions - Response,The communication requirements shall include determining how to respond to communications from interested parties.
+8,5.3.3.g,Communication During Disruptions - Emergency,The communication requirements shall include facilitating structured communication with emergency responders.
+8,5.3.3.h,Communication During Disruptions - Update,The communication requirements shall include ensuring that contact details for all people and organizations identified in response procedures are kept up to date.
+8,5.3.3.i,Communication During Disruptions - Means of Communication,The communication requirements shall include identifying predefined means of communication.
+8,5.3.3.j,Communication During Disruptions - Availability,The communication requirements shall include ensuring availability of the means of communication during a disruption.
+8,5.3.3.k,Communication During Disruptions - Response to Interested Parties,The communication requirements shall include responding to communications from interested parties.
+8,5.3.3.l,Communication During Disruptions - Procedures,The communication requirements shall include preparing procedures for communicating with the media.
+8,5.3.3.m,Communication During Disruptions - Communication Channels,The communication with media shall include identification of potential channels of communication.
+8,5.3.3.n,Communication During Disruptions - Selection of Representatives,The communication with media shall include identification of appropriate people to represent the organization.
+8,5.3.3.o,Communication During Disruptions - Media Inquiries,"The communication with media shall include creation of processes for receiving, acknowledging and responding to media enquiries."
+8,5.3.3.p,Communication During Disruptions - Integration,"The communication with media shall include integration of the organization's communications procedures and systems with national, regional and global communication systems (if applicable)."
+8,5.3.3.q,Communication During Disruptions - Templates,The communication with media shall include preparation and approval of templates for communicating via the media.
+8,5.3.4,Recovery of Technology Systems,The organization shall clearly define requirements for recovering technology systems during a disruption.
+8,5.3.4.a,Recovery of Technology Systems - Invoke Response ,The requirements for recovering technology systems shall include invoking the required technology response and deployment of people.
+8,5.3.4.b,Recovery of Technology Systems - Access Backup,The requirements for recovering technology systems shall include accessing back-up data and acquiring alternative service provision.
+8,5.3.4.c,Recovery of Technology Systems - Restoration,"The requirements for recovering technology systems shall include restoring data, information services, communications and support."
+8,5.3.4.d,Recovery of Technology Systems - Identification,The requirements for recovering technology systems shall include identifying when and at what capacity technology requirements will be made available.
+8,5.3.4.e,Recovery of Technology Systems - Guidance ,"The requirements for recovering technology systems shall include providing guidance, if appropriate, on priorities for restoration of damaged equipment."
+8,5.3.5,Resumption of Prioritized Activities,The organization shall clearly define requirements for ensuring that prioritized activities can be resumed within their RTOs following the onset of a disruption.
+8,5.3.5.a,Resumption of Prioritized Activities - Strategies,the requirements for ensuring that prioritized activities shall identify strategies and resource requirements for resuming activities and their dependencies.
+8,5.3.5.b,Resumption of Prioritized Activities - Actions,the requirements for ensuring that prioritized activities shall identify actions to be taken to resume prioritized activities and prevent further disruption.
+8,5.3.6,Return to Business as Normal,The organization shall clearly define requirements for returning to business as normal following a disruption.
+8,5.3.6.a,Return to Business as Normal - Basis,The requirements for returning to business as normal shall identify the basis on which a decision for returning to normal will be made.
+8,5.3.6.b,Return to Business as Normal - Tasks,The requirements for returning to business as normal shall identify tasks and responsibilities.
+8,5.3.6.c,Return to Business as Normal - Resumption,The requirements for returning to business as normal shall identify how activities not identified as prioritized will be resumed and recovered.
+8,5.3.6.d,Return to Business as Normal - Report,The requirements for returning to business as normal shall identify document the incident by a post report.
+8,6.1,Design of Exercises and Tests,"The organization shall have a process for exercising and testing that validates over time the effectiveness of chosen strategies, promotes confidence in response structure and develops teamwork, competence and knowledge of team members."
+8,6.1.a,Design of Exercises and Tests - Realistic Scenarios ,The process for exercising and testing shall include use of appropriate and realistic scenarios.
+8,6.1.b,Design of Exercises and Tests - Objectives,The process for exercising and testing shall include setting clearly defined objectives and assessing the extent to which they have been achieved.
+8,6.1.c,Design of Exercises and Tests - External Involvement,The process for exercising and testing shall include determining the involvement required from external providers.
+8,6.1.d,Design of Exercises and Tests - Outcomes ,"The process for exercising and testing shall include identifying outcomes, including post-exercise reports, and making recommendations for improvement"
+8,6.1.e,Design of Exercises and Tests - Success Measurement,The process for exercising and testing shall include identifying criteria for measuring the success of tests and exercises and the adequacy of strategies.
+8,6.2,Performing Exercises and Tests,Exercises and tests shall be performed at planned intervals and when there are significant changes within the organization or the context in which it operates. The organization shall ensure that the exercising and testing does not adversely impact normal business operations.
+9,1.1,Performance Evaluation,"The organization shall have a process for evaluating the performance and effectiveness of the management system, including BCMS operations."
+9,1.1.a,Performance Evaluation - What to Monitor ,The process for evaluating the performance and effectiveness of the management system shall include identifying what needs to be monitored and measured.
+9,1.1.b,Performance Evaluation - Measurement Method,The process for evaluating the performance and effectiveness of the management system shall include identifying ways to monitor and measure.
+9,1.1.c,Performance Evaluation - Timing and Frequency,The process for evaluating the performance and effectiveness of the management system shall include specifying timing and frequency requirements with justification.
+9,1.1.d,Performance Evaluation - Analyze and Report ,"The process for evaluating the performance and effectiveness of the management system shall include analyzing, evaluating and reporting the results of monitoring and measurement."
+9,1.1.e,Performance Evaluation - Analyze the Outcomes,The process for evaluating the performance and effectiveness of the management system shall include analyzing the outcomes of disruptions.
+9,1.2.a,Performance Indicators - Roles,"The organization shall at minimum identify and use performance indicators (e.g. percentage or number completed) to measure the degree of compliance to roles defined, and responsibilities currently assigned to people."
+9,1.2.b,Performance Indicators - Context,"The organization shall at minimum identify and use performance indicators (e.g. percentage or number completed) to measure the degree of compliance to context of the organization (issues, interested parties and attitude to risk) identified, documented and signed off."
+9,1.2.c,Performance Indicators - Approval and Publishing,"The organization shall at minimum identify and use performance indicators (e.g. percentage or number completed) to measure the degree of compliance to statement of policy, scope and objectives created, approved and published."
+9,1.2.d,Performance Indicators - Competency,"The organization shall at minimum identify and use performance indicators (e.g. percentage or number completed) to measure the degree of compliance to competencies defined, documented and approved."
+9,1.2.e,Performance Indicators - Training and Awareness,The organization shall at minimum identify and use performance indicators (e.g. percentage or number completed) to measure the degree of compliance to participation of team members in training and workforce awareness.
+9,1.2.f,Performance Indicators - BIA,"The organization shall at minimum identify and use performance indicators (e.g. percentage or number completed) to measure the degree of compliance to business impact analyses completed, documented and approved."
+9,1.2.g,Performance Indicators - RA,"The organization shall at minimum identify and use performance indicators (e.g. percentage or number completed) to measure the degree of compliance to risk assessments completed, documented and approved."
+9,1.2.h,Performance Indicators - BC Strategies ,"The organization shall at minimum identify and use performance indicators (e.g. percentage or number completed) to measure the degree of compliance to business continuity strategies documented, selected, approved and in place."
+9,1.2.i,Performance Indicators - Team Structure ,The organization shall at minimum identify and use performance indicators (e.g. percentage or number completed) to measure the degree of compliance to team structure defined and positions filled.
+9,1.2.j,Performance Indicators - Response Structure ,The organization shall at minimum identify and use performance indicators (e.g. percentage or number completed) to measure the degree of compliance to response structure created and approved.
+9,1.2.k,Performance Indicators - Exercise and Tests Plan,The organization shall at minimum identify and use performance indicators (e.g. percentage or number completed) to measure the degree of compliance to exercises and tests designed and planned.
+9,1.2.l,Performance Indicators - Exercise and Tests Conducted,"The organization shall at minimum identify and use performance indicators (e.g. percentage or number completed) to measure the degree of compliance to exercises conducted, post-exercise reports produced and approved."
+9,1.2.m,Performance Indicators - Internal Audit,The organization shall at minimum identify and use performance indicators (e.g. percentage or number completed) to measure the degree of compliance to internal audit coverage of the management system.
+9,1.2.n,Performance Indicators - Management Review,The organization shall at minimum identify and use performance indicators (e.g. percentage or number completed) to measure the degree of compliance to management review completed within past year.
+9,1.2.o,Performance Indicators - Nonconformities,The organization shall at minimum identify and use performance indicators (e.g. percentage or number completed) to measure the degree of compliance to nonconformities with no approved corrective actions.
+9,1.2.p,Performance Indicators - Corrective Actions,"The organization shall at minimum identify and use performance indicators (e.g. percentage or number completed) to measure the degree of compliance to corrective actions documented, approved and completed."
+9,2,Compliance and Internal audit,The organization shall have a process for conducting internal audits of the management system at planned intervals to obtain evidence that the management system complies to the requirements of this document and enables the organization to meet its business continuity objectives.
+9,2.a,Compliance and Internal audit - Planned and Performed,"The internal audit process shall include ensuring that audits are planned, performed and relevant to the requirements of interested parties."
+9,2.b,Compliance and Internal audit - Intervals,The internal audit process shall include determining the intervals between audits based on the context of the organization.
+9,2.c,Compliance and Internal audit - Criteria,The internal audit process shall include defining the audit criteria and specifying the scope of each audit.
+9,2.d,Compliance and Internal audit - Competency of Auditor ,"The internal audit process shall include ensuring the auditor's competence, objectivity and impartiality."
+9,2.e,Compliance and Internal audit - Nonconformities,The internal audit process shall include identification of nonconformities and recommendations for improvement based on audit evidence.
+9,2.f,Compliance and Internal audit - Reporting,The internal audit process shall include effective reporting of audit findings and conclusions to top management and those responsible for the management system processes examined.
+9,3.1,Management Review ,"The organization shall have a process for top management to review the management system at planned intervals to ensure its continuing suitability, adequacy and effectiveness including the effectiveness of its strategies and response structure."
+9,3.1.a,Management Review - Period,The management review process shall include conducting reviews at least annually and when significant changes occur.
+9,3.1.b,Management Review - Status of Previous Action Items,The management review process shall include identifying the status of actions agreed at previous management reviews.
+9,3.1.c,Management Review - Management Commitment ,The management review process shall include reviewing top management's accountabilities and commitments.
+9,3.1.d,Management Review - Context Change ,The management review process shall include assessing the impact of context changes on the management system.
+9,3.1.e,Management Review - Feedback from Interested Parties,The management review process shall include reviewing feedback from interested parties.
+9,3.1.f,Management Review - Need for Change ,"The management review process shall include assessing the need for changing policy, scope or objectives."
+9,3.1.g,Management Review - Performance Evaluation,The management review process shall include reviewing evaluations of the performance and effectiveness of the management system.
+9,3.1.h,Management Review - Trends ,"The management review process shall include examining trends relating to:
+? Analysis and evaluation of the results of monitoring and measurement.
+? Audit results.
+? Nonconformities and corrective actions."
+9,3.2,Outcome of Management Review,"The organization shall retain documented information of the outcome of the management review which defines appropriate actions to improve the suitability, adequacy and effectiveness of the management system. Based on the outcome of the management review, top management shall agree on actions necessary to improve the suitability, adequacy and effectiveness of the management system."
+10,1,Nonconformity,The organization shall have a process for identifying nonconformities and taking action to control and correct them.
+10,1.a,Nonconformity - Review,The process for identifying nonconformities and taking action shall include reviewing the nonconformity to determine its cause.
+10,1.b,Nonconformity - Similar Nonconformities,The process for identifying nonconformities and taking action shall include determining if similar nonconformity exists or could occur.
+10,1.c,Nonconformity - Corrective Actions ,The process for identifying nonconformities and taking action shall include taking appropriate corrective actions.
+10,1.d,Nonconformity - Change Management System,The process for identifying nonconformities and taking action shall include changing the management system as necessary.
+10,1.e,Nonconformity - Effectiveness,The process for identifying nonconformities and taking action shall include recording the results and reviewing the effectiveness of corrective action taken.
+10,2,Corrective Actions ,"The organization shall have a process for taking corrective action in a timely manner to eliminate the causes of nonconformity and to prevent its recurrence.
+Corrective action shall be appropriate to the effects and consequences of the nonconformity encountered."

@@ -1,0 +1,234 @@
+primary_id,sub_id,Name,Description
+1,1.1,Cybersecurity Strategy - Critical Systems,"In addition to the controls in ECC subdomain 1-1, the organizations cybersecurity strategy must prioritize the support of protecting its critical systems."
+1,2.1,Cybersecurity Risk Management - Methodology,"In addition to the controls in ECC subdomain 1-5, cybersecurity risk management methodology must include at least the following:
+
+- Conducting a cybersecurity risk assessment on critical systems at least once annually.
+
+- Creating a cybersecurity risk register for critical systems, and reviewing it at least once every month."
+1,3.1.1,Cybersecurity in Information and Technology Project Management - Stress test,"In addition to the subcontrols in ECC control 1-6-2, cybersecurity requirements of project management and asset (information technology) change management of the organizations critical systems must include at least the following:
+
+- Conducting a stress test to ensure the capacity of the various components."
+1,3.1.2,Cybersecurity in Information and Technology Project Management - Business Continuity,"In addition to the subcontrols in ECC control 1-6-2, cybersecurity requirements of project management and asset (information technology) change management of the organizations critical systems must include at least the following:
+
+- Ensuring the implementation of business continuity requirements."
+1,3.2.1,Cybersecurity in Information and Technology Project Management - Source code review,"In addition to the subcontrols in ECC control 1-6-3, cybersecurity requirements related to software and application development projects of the organizations critical systems must include at least the following:
+
+- Conducting a security source code review before the critical system release."
+1,3.2.3,Cybersecurity in Information and Technology Project Management - Source code access,"In addition to the subcontrols in ECC control 1-6-3, cybersecurity requirements related to software and application development projects of the organizations critical systems must include at least the following:
+
+- Securing the access, storage, documentation and releases of source code."
+1,3.2.3,Cybersecurity in Information and Technology Project Management - API,"In addition to the subcontrols in ECC control 1-6-3, cybersecurity requirements related to software and application development projects of the organizations critical systems must include at least the following:
+
+- Securing the authenticated Application Programming Interface (API)."
+1,3.2.4,Cybersecurity in Information and Technology Project Management - Environments,"In addition to the subcontrols in ECC control 1-6-3, cybersecurity requirements related to software and application development projects of the organizations critical systems must include at least the following:
+
+- Secure and trusted migration of applications from testing environments to production environments, along with deletion of any data, IDs or passwords related to the testing environment before the migration."
+1,4.1,Periodical Cybersecurity Review and Audit - Execution,"With reference to ECC control 1-8-1, the organizations cybersecurity function must review the implementation of CSCC at least once annually. "
+1,4.2,Periodical Cybersecurity Review and Audit - Non-conflict,"With reference to ECC control 1-8-2, the implementation of CSCC must be reviewed by independent parties within the organization, outside the cybersecurity function at least once every three years."
+1,5.1.1,Cybersecurity in Human Resources - Screening,"In addition to the subcontrols in ECC control 1-9-3, personnel cybersecurity requirements prior to employment must include at least the following:
+
+- Screening or vetting candidates for working on critical systems."
+1,5.1.2,Cybersecurity in Human Resources - Saudi nationals,"In addition to the subcontrols in ECC control 1-9-3, personnel cybersecurity requirements prior to employment must include at least the following:
+
+- The technical support and development positions for critical systems, must be filled with experienced Saudi professionals."
+2,1.1.1,Asset Management - Inventory,"In addition to the controls in ECC subdomain 2-1, cybersecurity requirements for managing information technology assets must include at least the following:
+
+- Maintaining an annually-updated inventory of critical systems assets."
+2,1.1.2,Asset Management - Asset owners,"In addition to the controls in ECC subdomain 2-1, cybersecurity requirements for managing information technology assets must include at least the following:
+
+- Identifying assets owners and involving them in the asset management lifecycle for critical systems."
+2,2.1.1,Identity and Access Management - Remote access,"In addition to the subcontrols in ECC control 2-2-3, cybersecurity requirements for identity and access management of critical systems must include at least the following:
+
+- Prohibiting remote access from outside the Kingdom of Saudi Arabia."
+2,2.1.2,Identity and Access Management - Access attempts,"In addition to the subcontrols in ECC control 2-2-3, cybersecurity requirements for identity and access management of critical systems must include at least the following:
+
+-  Restricting remote access from inside the Kingdom of Saudi Arabia and verifying each access attempt by the organizations security operations center, and continuously monitoring activities related to remote access."
+2,2.1.3,Identity and Access Management - MFA,"In addition to the subcontrols in ECC control 2-2-3, cybersecurity requirements for identity and access management of critical systems must include at least the following:
+
+- Using multi-factor authentication for all users."
+2,2.1.4,Identity and Access Management - MFA for privileged users,"In addition to the subcontrols in ECC control 2-2-3, cybersecurity requirements for identity and access management of critical systems must include at least the following:
+
+- Using multi-factor authentication for privileged users, and on systems utilized for managing critical systems stated in control 2-3-1-4."
+2,2.1.5,Identity and Access Management - Password policy,"In addition to the subcontrols in ECC control 2-2-3, cybersecurity requirements for identity and access management of critical systems must include at least the following:
+
+- Developing and implementing a high-standard and secure password policy."
+2,2.1.6,Identity and Access Management - Secure methods,"In addition to the subcontrols in ECC control 2-2-3, cybersecurity requirements for identity and access management of critical systems must include at least the following:
+
+- Utilizing secure methods and algorithms for storing and processing passwords, such as: Hashing functions."
+2,2.1.7,Identity and Access Management - Service accounts,"In addition to the subcontrols in ECC control 2-2-3, cybersecurity requirements for identity and access management of critical systems must include at least the following:
+
+- Securely managing service accounts for applications and systems, and disabling interactive login from these accounts."
+2,2.1.8,Identity and Access Management - Database access,"In addition to the subcontrols in ECC control 2-2-3, cybersecurity requirements for identity and access management of critical systems must include at least the following:
+
+- Prohibiting direct access and interaction with databases for all users except for database administrators. Users' access and interaction with databases must be through applications only, with consideration given to applying security solutions that limit or prohibit visibility of classified data to database administrators."
+2,2.2,Identity and Access Management - Access rights review,"With reference to ECC subcontrol 2-2-3-5, user identities and access rights to critical systems must be reviewed at least once every three months."
+2,3.1.1,Information Systems and Information Processing Facilities Protection - Whitelisting,"In addition to the subcontrols in ECC control 2-3-3, cybersecurity requirements for protecting critical systems and information processing facilities must include at least the following:
+
+- Whitelisting of application and software operation files that are allowed to execute on servers hosting critical systems."
+2,3.1.2,Information Systems and Information Processing Facilities Protection - End-point protection,"In addition to the subcontrols in ECC control 2-3-3, cybersecurity requirements for protecting critical systems and information processing facilities must include at least the following:
+
+- Protecting servers hosting critical systems using end-point protection solutions that are approved by the organization.
+"
+2,3.1.3,Information Systems and Information Processing Facilities Protection - Patching,"In addition to the subcontrols in ECC control 2-3-3, cybersecurity requirements for protecting critical systems and information processing facilities must include at least the following:
+
+- Applying security patches and updates at least once every month for external and internet-connected critical systems and at least once every three months for internal critical systems, in line with the organizations approved change management mechanisms.
+"
+2,3.1.4,Information Systems and Information Processing Facilities Protection - Network segmentation,"In addition to the subcontrols in ECC control 2-3-3, cybersecurity requirements for protecting critical systems and information processing facilities must include at least the following:
+
+- Allocating specific workstations in an isolated network (Management Network), that is isolated from other networks or services (e.g., email service or internet), to be used by highly privileged accounts."
+2,3.1.5,Information Systems and Information Processing Facilities Protection - Encrypted traffic,"In addition to the subcontrols in ECC control 2-3-3, cybersecurity requirements for protecting critical systems and information processing facilities must include at least the following:
+
+- Encrypting the network traffic of non-console administrative access for all technical components of critical systems using secure encryption algorithms and protocols."
+2,3.1.6,Information Systems and Information Processing Facilities Protection - Configuration,"In addition to the subcontrols in ECC control 2-3-3, cybersecurity requirements for protecting critical systems and information processing facilities must include at least the following:
+
+- Reviewing critical systems configurations and hardening at least once every six months."
+2,3.1.7,Information Systems and Information Processing Facilities Protection - Default credentials,"In addition to the subcontrols in ECC control 2-3-3, cybersecurity requirements for protecting critical systems and information processing facilities must include at least the following:
+
+- Reviewing and changing default configurations, and ensuring the removal of hard-coded, backdoor and/or default passwords, where applicable."
+2,3.1.8,Information Systems and Information Processing Facilities Protection - Unauthorized access,"In addition to the subcontrols in ECC control 2-3-3, cybersecurity requirements for protecting critical systems and information processing facilities must include at least the following:
+
+- Protecting systems logs and critical files from unauthorized access, tampering, illegitimate modification and/or deletion.
+"
+2,4.1.1,Network Security Management - Segregation,"The cybersecurity requirements for network security management must be implemented. In addition to the subcontrols in ECC control 2-5-3, cybersecurity requirements of critical systems network security management must include at least the following:
+
+- Logically and/or physically segregating and isolating critical systems' networks."
+2,4.1.2,Network Security Management - Firewall rules,"The cybersecurity requirements for network security management must be implemented. In addition to the subcontrols in ECC control 2-5-3, cybersecurity requirements of critical systems network security management must include at least the following:
+
+- Reviewing firewall rules and access lists, at least once every six months."
+2,4.1.3,Network Security Management - Direct connection,"The cybersecurity requirements for network security management must be implemented. In addition to the subcontrols in ECC control 2-5-3, cybersecurity requirements of critical systems network security management must include at least the following:
+
+- Prohibiting direct connection between local network devices and critical systems, unless those devices are scanned to ensure they have security controls that meet the acceptable security levels for critical systems."
+2,4.1.4,Network Security Management - Wireless access,"The cybersecurity requirements for network security management must be implemented. In addition to the subcontrols in ECC control 2-5-3, cybersecurity requirements of critical systems network security management must include at least the following:
+
+- Prohibiting critical systems from connecting to a wireless network."
+2,4.1.5,Network Security Management - Advanced Persistent Threats,"The cybersecurity requirements for network security management must be implemented. In addition to the subcontrols in ECC control 2-5-3, cybersecurity requirements of critical systems network security management must include at least the following:
+
+- Protecting against Advanced Persistent Threats (APT) at the network layer."
+2,4.1.6,Network Security Management - Internet access,"The cybersecurity requirements for network security management must be implemented. In addition to the subcontrols in ECC control 2-5-3, cybersecurity requirements of critical systems network security management must include at least the following:
+
+- Prohibiting connection to the internet for critical systems that provide internal services to the organization and have no strong need to be accessed from outside the organization."
+2,4.1.7,Network Security Management - Network restriction,"The cybersecurity requirements for network security management must be implemented. In addition to the subcontrols in ECC control 2-5-3, cybersecurity requirements of critical systems network security management must include at least the following:
+
+- Critical systems that provide services to a limited number of organizations (not individuals), shall use networks isolated from the Internet."
+2,4.1.8,Network Security Management - DDoS prevention,"The cybersecurity requirements for network security management must be implemented. In addition to the subcontrols in ECC control 2-5-3, cybersecurity requirements of critical systems network security management must include at least the following:
+
+- Protecting against Distributed Denial of Service (DDoS) attacks to limit risks arising from these attacks."
+2,4.1.9,Network Security Management - Firewall whitelisting,"The cybersecurity requirements for network security management must be implemented. In addition to the subcontrols in ECC control 2-5-3, cybersecurity requirements of critical systems network security management must include at least the following:
+
+- Allowing only whitelisting for critical systems firewall access lists. "
+2,5.1.1,Mobile Devices Security - Mobile access,"In addition to the subcontrols in ECC control 2-6-3, cybersecurity requirements for mobile devices security and BYOD in the organization must include at least the following:
+
+- Prohibiting access to critical systems from mobile devices except for a temporary period only, after assessing the risks and obtaining the necessary approvals from the cybersecurity function in the organization."
+2,5.1.2,Mobile Devices Security - Encryption,"In addition to the subcontrols in ECC control 2-6-3, cybersecurity requirements for mobile devices security and BYOD in the organization must include at least the following:
+
+- Implementing full disk encryption for mobile devices with access to critical systems."
+2,6.1.1,Data and Information Protection - Restriction,"In addition to the subcontrols in ECC control 2-7-3, cybersecurity requirements for protecting and handling data and information must include at least the following: 
+
+- Prohibiting the use of critical systems data in any environment other than production environment, except after applying strict controls for protecting that data, such as: data masking or data scrambling techniques."
+2,6.1.2,Data and Information Protection - Classification,"In addition to the subcontrols in ECC control 2-7-3, cybersecurity requirements for protecting and handling data and information must include at least the following: 
+
+- Classifying all data within critical systems."
+2,6.1.3,Data and Information Protection - Data Leakage Prevention,"In addition to the subcontrols in ECC control 2-7-3, cybersecurity requirements for protecting and handling data and information must include at least the following: 
+
+- Protecting classified data of critical systems using data leakage prevention techniques."
+2,6.1.4,Data and Information Protection - Retention period,"In addition to the subcontrols in ECC control 2-7-3, cybersecurity requirements for protecting and handling data and information must include at least the following: 
+
+- Identifying retention period for critical systems-associated data, in accordance with relevant legislations. Only required data must be retained in critical systems production environments."
+2,6.1.5,Data and Information Protection - Environment isolation,"In addition to the subcontrols in ECC control 2-7-3, cybersecurity requirements for protecting and handling data and information must include at least the following: 
+
+- Prohibiting the transfer of any critical systems data from production environment to any other environment.
+"
+2,7.1.1,Cryptography - Data-in-transit,"In addition to the subcontrols in ECC control 2-8-3, cybersecurity requirements for cryptography must include at least the following:
+
+- Encrypting all critical systems data-in-transit."
+2,7.1.2,Cryptography - Data-at-rest,"In addition to the subcontrols in ECC control 2-8-3, cybersecurity requirements for cryptography must include at least the following:
+
+- Encrypting all critical systems data-at-rest at the level of files, database or certain columns within database."
+2,7.1.3,Cryptography - Secure algorithms,"In addition to the subcontrols in ECC control 2-8-3, cybersecurity requirements for cryptography must include at least the following:
+
+- Using secure and up-to-date methods, algorithms, keys and devices in accordance with what NCA issues in this regard."
+2,8.1.1,Backup and Recovery Management - Backup scope,"In addition to the subcontrols in ECC control 2-9-3, cybersecurity requirements for backup and recovery management must include at least the following:
+
+- Scope and coverage of online and offline backups shall cover all critical systems."
+2,8.1.2,Backup and Recovery Management - Backup execution,"In addition to the subcontrols in ECC control 2-9-3, cybersecurity requirements for backup and recovery management must include at least the following:
+
+- Performing backup within planned intervals, according to the organizations risk assessment. NCA recommends performing backup for critical systems on a daily basis."
+2,8.1.3,Backup and Recovery Management - Access,"In addition to the subcontrols in ECC control 2-9-3, cybersecurity requirements for backup and recovery management must include at least the following:
+
+- Securing access, storage and transfer of critical systems backups and storage media, and protecting it from destruction, unauthorized access or modification."
+2,8.2,Backup and Recovery Management - Backup testing,"With reference to ECC subcontrol 2-9-3-3, a periodical test must be conducted at least once every three months in order to determine the efficiency of recovering critical systems backups."
+2,9.1.1,Vulnerability Management - Assessments,"In addition to the subcontrols in ECC control 2-10-3, cybersecurity requirements for technical vulnerabilities management of critical systems must include at least the following:
+
+- Utilizing trusted methods and tools for vulnerabilities assessments."
+2,9.1.2,Vulnerability Management - Patching,"In addition to the subcontrols in ECC control 2-10-3, cybersecurity requirements for technical vulnerabilities management of critical systems must include at least the following:
+
+- Assessing and remediating vulnerabilities (by installing security updates and patches) on technical components of critical systems at least once every month for external and internet-connected critical systems, and at least once every three months for internal critical systems."
+2,9.1.3,Vulnerability Management - Remediation,"In addition to the subcontrols in ECC control 2-10-3, cybersecurity requirements for technical vulnerabilities management of critical systems must include at least the following:
+
+- Immediately remediating for critical vulnerabilities, in line with change management processes approved by the organization."
+2,9.2,Vulnerability Management - Planned execution,"With reference to ECC subcontrol 2-10-3-1, vulnerabilities assessments must be conducted on critical systems technical components at least once every month."
+2,10.1.1,Penetration Testing - Testing scope,"In addition to the subcontrols in ECC control 2-11-3, cybersecurity requirements for penetration testing on critical systems must include at least the following:
+
+- Scope of penetration tests must cover all of the critical systems technical components and all its internal and external services."
+2,10.1.2,Penetration Testing - Execution,"In addition to the subcontrols in ECC control 2-11-3, cybersecurity requirements for penetration testing on critical systems must include at least the following:
+
+- Conducting penetration tests by a qualified team."
+2,10.2,Penetration Testing - Planned intervals,"With reference to ECC subcontrol 2-11-3-2, penetration tests must be conducted on critical systems at least once every six months. "
+2,11.1.1,Cybersecurity Event Logs and Monitoring Management - Logging,"In addition to the subcontrols in ECC control 2-12-3, cybersecurity requirements for event logs and monitoring management for critical systems must include at least the following:
+
+- Activating cybersecurity event logs on all technical components of critical systems."
+2,11.1.2,Cybersecurity Event Logs and Monitoring Management - File integrity,"In addition to the subcontrols in ECC control 2-12-3, cybersecurity requirements for event logs and monitoring management for critical systems must include at least the following:
+
+- Activating and monitoring of alerts and event logs related to file integrity management."
+2,11.1.3,Cybersecurity Event Logs and Monitoring Management - User behavior,"In addition to the subcontrols in ECC control 2-12-3, cybersecurity requirements for event logs and monitoring management for critical systems must include at least the following:
+
+- Monitoring and analyzing user behavior."
+2,11.1.4,Cybersecurity Event Logs and Monitoring Management - Security events,"In addition to the subcontrols in ECC control 2-12-3, cybersecurity requirements for event logs and monitoring management for critical systems must include at least the following:
+
+- Monitoring critical systems security events around the clock."
+2,11.1.5,Cybersecurity Event Logs and Monitoring Management - Event logs,"In addition to the subcontrols in ECC control 2-12-3, cybersecurity requirements for event logs and monitoring management for critical systems must include at least the following:
+
+- Maintaining and protecting critical systems security events logs. The log shall include all details (e.g., time, date, ID and affected system)."
+2,11.2,Cybersecurity Event Logs and Monitoring Management - Log retention,"With reference to ECC subcontrol 2-12-3-5, retention period of cybersecuritys critical systems event logs must be 18 months minimum, in accordance with relevant legislative and regulatory requirements."
+2,12.1.1,Web Application Security - Session management,"In addition to the subcontrols in ECC control 2-15-3, cybersecurity requirements for external web applications for the organizations critical systems must include at least the following:
+
+- Secure session management, including session authenticity, session lockout and session timeout."
+2,12.1.2,Web Application Security - OWASP Standard,"In addition to the subcontrols in ECC control 2-15-3, cybersecurity requirements for external web applications for the organizations critical systems must include at least the following:
+
+- Applying the minimum standards of Open Web Application Security Project (OWASP) Top Ten."
+2,12.2,Web Application Security - Architecture,"With reference to ECC subcontrol 2-15-3-2, multi-tier architecture principle, with minimum 3 tiers, must be used."
+2,13.1,Application Security - Security requirements,"Cybersecurity requirements for critical systems internal applications must be defined, documented, and approved."
+2,13.2,Application Security - Implementation,The cybersecurity requirements for critical systems internal applications must be implemented.
+2,13.3.1,Application Security - Multi-tier architecture,"The cybersecurity requirements for critical systems internal applications must include at least the following:
+
+- Adopting multi-tier architecture principle, provided that number of tiers is not less than three.
+"
+2,13.3.2,Application Security - Secure protocols,"The cybersecurity requirements for critical systems internal applications must include at least the following:
+
+- Using secure protocols (e.g., HTTPS)."
+2,13.3.3,Application Security - Acceptable usage,"The cybersecurity requirements for critical systems internal applications must include at least the following:
+
+- Outlining the acceptable use policy for users."
+2,13.3.4,Application Security - Session management,"The cybersecurity requirements for critical systems internal applications must include at least the following:
+
+- Secure session management, including session authenticity, session lockout and session timeout."
+2,13.4,Application Security - Review,The cybersecurity requirements for critical systems internal applications must be reviewed periodically. 
+3,1.1.1,Cybersecurity Resilience Aspects of Business Continuity Management (BCM) - Disaster Recovery,"In addition to the subcontrols in ECC control 3-1-3, cybersecurity requirements for business continuity management must include at least the following:
+
+- Establishing a disaster recovery center for critical systems.
+
+- Incorporating critical systems within disaster recovery plans."
+3,1.1.2,Cybersecurity Resilience Aspects of Business Continuity Management (BCM) - Testing,"In addition to the subcontrols in ECC control 3-1-3, cybersecurity requirements for business continuity management must include at least the following:
+
+- Conducting periodical tests to ensure the efficiency of disaster recovery plans for critical systems, at least once annually.
+
+- NCA recommends conducting periodical live Disaster Recovery (DR) test for critical systems."
+4,1.1.1,Third-Party Cybersecurity - Screening,"In addition to the controls in ECC subdomain 4-1, cybersecurity requirements for contracts and agreements with third-parties must include at least the following:
+
+- Screening or vetting of outsourcing and managed services companies and personnel who work on critical systems."
+4,1.1.2,Third-Party Cybersecurity - Saudi companies,"In addition to the controls in ECC subdomain 4-1, cybersecurity requirements for contracts and agreements with third-parties must include at least the following:
+
+- Outsourcing and managed services of critical systems must rely on Saudi companies and organizations, in accordance with the relevant legislative and regulatory requirements."
+4,2.1,Cloud Computing and Hosting Cybersecurity - Hosting,"In addition to the subcontrols in ECC control 4-2-3, cybersecurity requirements related to the use of hosting and cloud computing services must include at least the following:
+
+- Hosting of critical systems and any part of their technical components must be inside the organization or within cloud computing services provided by government organizations or Saudi companies that are in compliance with NCAs Cloud Cybersecurity Controls (CCC), taking into account the classification of the hosted data."

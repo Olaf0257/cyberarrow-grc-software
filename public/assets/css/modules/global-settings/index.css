@@ -1,0 +1,210 @@
+
+    .saml-upload .saml-upload-inner{
+        margin-top: auto;
+    }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .table {
+            background: #fff;
+            margin-top: -20px;
+        }
+
+        .dropzone.dz-clickable {
+            width: 100%;
+        }
+
+        .global {
+            margin-top: -19px;
+            padding: 20px 12px 25px 20px;
+
+        }
+
+         .nav-tabs>li>a {
+            font-weight: 400;
+            border:none;
+        }
+
+        .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+            border-color: transparent;
+        }
+
+        .nav-tabs li a {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        /* #ldap-settings .ldap-setting-text {
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        } */
+
+        #ldap-settings .ldap-setting-text p.ldap-head-text,
+        #ldap-settings .data-mapping-text p.datamap-head-text {
+            margin-top: -10px;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        #ldap-settings .line {
+            width: 100%;
+            background: #EAEDEF;
+            height: 3px;
+            padding: 10px auto;
+            margin-bottom: 20px;
+            margin-top: -5px;
+        }
+
+        /***************************
+            ////////////////////
+            Global settings form
+            ///////////////////
+        ****************************/
+
+        #linkfile {
+            display: none;
+        }
+
+    /* Saml settings */
+    #saml-settings  fieldset:disabled input{
+        background: #eee;
+        border: 1px solid #ced4da;
+    }
+
+    .copy-input-option {
+        cursor: pointer;
+    }
+
+    .copy-input-option .input-group-text {
+        border-left: 0;
+    }
+
+@media (max-width: 1080px) {
+ #saml-settings .saml-upload-inner{
+         flex: 0 0 100%;
+        max-width: none;
+    }
+
+ #saml-settings #upload-saml-metadata-btn{
+    display: block;
+    width: 100%;
+ }
+
+
+ #saml-settings .import_col{
+    flex: 0 0 33.33333%;
+    max-width: none;
+
+ }
+
+
+ #saml-settings .waves-effect{
+    width: 100%;
+ }
+
+}
+
+@media (max-width: 345px) {
+#saml-settings .metadate_col{
+
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 1rem;
+
+}
+#saml-settings .import_col {
+    flex: 100%;
+    max-width: none;
+}
+}
+.select2-container {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    vertical-align: middle;
+    z-index: 9999;
+}
+.swal2-modal .swal2-title {
+    font-size: 20px !important;
+}
+
+
+
+
+/* Organization management css*/
+.dd.nestable_list-wp {
+    max-width: 100%;
+}
+
+.organization-card-header {
+    padding: 0rem 1rem;
+}
+.organization-collapse-el{
+    display: inline-flex;
+    align-items: center;
+}
+
+.organization-collapse-el i {
+    font-size: xxx-large;
+}
+
+.organization-actions {
+    position: absolute;
+    top: 16px;
+    right: 0;
+}
+
+/*
+*
+* Risk Settings css
+*
+*/
+    .risk-scores-picker {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+
+
+
+   /* Add tooltips to slider handles */
+    #risk-matrix-levels .ui-slider-handle:after {
+        content : attr(data-value);
+        position: absolute;
+        bottom: 30px;
+        left: -24px;
+        min-width: 60px;
+        height: 12px;
+        background-color: #eee;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        border: #ddd 1px solid;
+        color: #333;
+        font: .7em/1em Arial, Sans-Serif;
+        padding: 1px;
+        text-align: center;
+    }
+    #risk-matrix-levels .ui-slider-handle:before {
+        content:"";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 8px solid #eee;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -8px;
+        left: 50%;
+        margin-left: -8px;
+        margin-top: -1px;
+    }
+
+.dd-handle-actions {
+    position: absolute;
+    right: 14px;
+    top: 5px;
+}

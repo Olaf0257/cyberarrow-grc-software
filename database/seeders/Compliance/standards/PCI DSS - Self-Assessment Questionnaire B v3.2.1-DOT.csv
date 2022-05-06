@@ -1,0 +1,105 @@
+primary_id,sub_id,Name,Description
+3,2(c),Authentication Data Deleted,Sensitive authentication data shall be deleted or rendered unrecoverable upon completion of the authorization process. 
+3,2.1,Full Contents Not Stored,"Ensure that all systems adhere to the following requirements regarding non-storage of sensitive authentication data after authorization (even if encrypted): 
+The full contents of any track (from the magnetic stripe located on the back of a card, equivalent data contained on a chip, or elsewhere) shall not be stored after authorization. 
+ 
+ This data is alternatively called full track, track, track 1, track 2, and magnetic-stripe data. 
+ 
+ Note: In the normal course of business, the following data elements from the magnetic stripe may need to be retained: 
+  The cardholders name, 
+  Primary account number (PAN), 
+  Expiration date, and 
+  Service code 
+ 
+ To minimize risk, store only these data elements as needed for business."
+3,2.2,Code or Value Not Stored,"All systems shall adhere to the following requirements regarding non-storage of sensitive authentication data after authorization (even if encrypted): 
+The card verification code or value (three-digit or fourdigit number printed on the front or back of a payment card) shall not be stored after authorization."
+3,2.3,PIN Not Stored,"All systems shall adhere to the following requirements regarding non-storage of sensitive authentication data after authorization (even if encrypted): 
+The personal identification number (PIN) or the encrypted PIN block shall not be stored after authorization."
+3,3,PAN Masked When Displayed,"The PAN shall be masked when displayed (the first six and last four digits are the maximum number of digits to be displayed) such that only personnel with a legitimate business need can see more than the first six/last four digits of the PAN. 
+ 
+ Note: This requirement does not supersede stricter requirements in place for displays of cardholder datafor example, legal or payment card brand requirements for point-of-sale (POS) receipts."
+4,2(b),Unprotected PANs Not to be Sent,Policies in place that state that unprotected PANs shall not be sent via end-user messaging technologies.
+7,1.2,Access Limited to Least Privileges,"Access to system components and cardholder data shall be limited to only those individuals whose jobs require such access, as follows: 
+Access to privileged user IDs shall be restricted as follows: 
+ 
+ - To least privileges necessary to perform job responsibilities
+ - Assigned only to roles that specifically require that privileged access"
+7,1.3,Access Assigned Based on Job Classification,"Access to system components and cardholder data shall be limited to only those individuals whose jobs require such access, as follows: 
+Access assigned shall be based on individual personnels job classification and function."
+9,5,Media Physically Secured,"All media shall be physically secured (including but not limited to computers, removable electronic media, paper receipts, paper reports, and faxes).
+ 
+ For purposes of Requirement 9, media refers to all paper and electronic media containing cardholder data."
+9,6(a),Control Over Media Distribution,Strict control shall be maintained over the internal or external distribution of any kind of media.
+9,6.1,Media Classification,"Controls shall include the following: 
+Media shall be classified so the sensitivity of the data can be determined."
+9,6.2,Media Transport,"Controls shall include the following: 
+Media shall be sent by secured courier or other delivery method that can be accurately tracked."
+9,6.3,Management Approval for Transportation,"Controls shall include the following: 
+Management approval shall be obtained prior to moving the media (especially when media is distributed to individuals)."
+9,7,Media Storage and Accessibility,Strict control shall be maintained over the storage and accessibility of media.
+9,8(a),Media Destruction,All media shall be destroyed when it is no longer needed for business or legal reasons.
+9,8.1(a),Media Destruction - Hardcopy Materials,"Media destruction shall be performed as follows: 
+Hardcopy materials shall be cross-cut shredded, incinerated, or pulped so that cardholder data cannot be reconstructed."
+9,8.1(b),Media Destruction - Storage Containers,"Media destruction shall be performed as follows: 
+Storage containers shall be used for materials that contain information to be destroyed secured to prevent access to the contents."
+9,9(a),List of Devices,"Devices that capture payment card data via direct physical interaction with the card protected against tampering and substitution as follows: 
+Policies and procedures shall require that a list of such devices be maintained. 
+ 
+ Note: This requirement applies to card-reading devices used in card-present transactions (that is, card swipe or dip) at the point of sale. This requirement is not intended to apply to manual key-entry components such as computer keyboards and POS keypads."
+9,9(b),Periodically Inspected,"Devices that capture payment card data via direct physical interaction with the card protected against tampering and substitution as follows: 
+Policies and procedures shall require that devices are periodically inspected to look for tampering or substitution.
+ 
+ Note: This requirement applies to card-reading devices used in card-present transactions (that is, card swipe or dip) at the point of sale. This requirement is not intended to apply to manual key-entry components such as computer keyboards and POS keypads."
+9,9(c),Personnel Trained,"Devices that capture payment card data via direct physical interaction with the card protected against tampering and substitution as follows: 
+Policies and procedures shall require that personnel are trained to be aware of suspicious behavior and to report tampering or substitution of devices. 
+ 
+ Note: This requirement applies to card-reading devices used in card-present transactions (that is, card swipe or dip) at the point of sale. This requirement is not intended to apply to manual key-entry components such as computer keyboards and POS keypads."
+9,9.1(a),Inventory,"The list of devices shall include the following:
+- Make, model of device 
+- Location of device (for example, the address of the site or facility where the device is located) 
+- Device serial number or other method of unique identification"
+9,9.1(b),Accurate and Up-to-Date,The list of devices shall be accurate and up to date.
+9,9.1(c),"Updated when Added, Relocated, or Decommissioned","The list of devices shall be updated when devices are added, relocated, decommissioned, etc."
+9,9.2(a),Device Surfaces Inspected,"Device surfaces shall be periodically inspected to detect tampering (for example, addition of card skimmers to devices), or substitution (for example, by checking the serial number or other device characteristics to verify it has not been swapped with a fraudulent device) as follows? 
+ 
+ Note: Examples of signs that a device might have been tampered with or substituted include unexpected attachments or cables plugged into the device, missing or changed security labels, broken or differently colored casing, or changes to the serial number or other external markings."
+9,9.2(b),Personnel Aware of Procedures for Inspections,Personnel shall be aware of procedures for inspecting devices.
+9,9.3(a),Training Topics,"Personnel shall be trained to be aware of attempted tampering or replacement of devices, to include the following: Do training materials for personnel at point-of-sale locations include the following: 
+ 
+ - Verify the identity of any third-party persons claiming to be repair or maintenance personnel, prior to granting them access to modify or troubleshoot devices. 
+ - Do not install, replace, or return devices without verification. 
+ - Be aware of suspicious behavior around devices (for example, attempts by unknown persons to unplug or open devices). 
+ - Report suspicious behavior and indications of device tampering or substitution to appropriate personnel (for example, to a manager or security officer)."
+9,9.3(b),Point-of-Sale Location Trainings on Detecting and Reporting Attempted Tampering,"Personnel shall be trained to be aware of attempted tampering or replacement of devices, to include the following: 
+Personnel at point-of-sale locations shall receive training, and shall be aware of procedures to detect and report attempted tampering or replacement of devices."
+12,1,Security Policies,"A security policy shall be established, published, maintained, and disseminated to all relevant personnel."
+12,1.1,Security Policies Reviewed,The security policy shall be reviewed at least annually and updated when the environment changes.
+12,3.1,Explicit Approval by Authorized Parties,"Usage policies for critical technologies shall be developed to define proper use of these technologies and require the following: 
+Explicit approval by authorized parties to use the technologies. 
+Note: Examples of critical technologies include, but are not limited to, remote access and wireless technologies, laptops, tablets, removable electronic media, e-mail usage and Internet usage."
+12,3.3,List of All Devices,"Usage policies for critical technologies shall be developed to define proper use of these technologies and require the following: 
+A list of all such devices and personnel with access.
+ 
+ Note: Examples of critical technologies include, but are not limited to, remote access and wireless technologies, laptops, tablets, removable electronic media, e-mail usage and Internet usage."
+12,3.5,Acceptable Uses,"Usage policies for critical technologies shall be developed to define proper use of these technologies and require the following: 
+Acceptable uses of the technologies.
+ 
+ Note: Examples of critical technologies include, but are not limited to, remote access and wireless technologies, laptops, tablets, removable electronic media, e-mail usage and Internet usage."
+12,4,Security Responsibilities,Security policy and procedures shall clearly define information security responsibilities for all personnel.
+12,5.3,Incident Response and Escalation Procedures,"The following information security management responsibilities shall be formally assigned to an individual or team: 
+Establishing, documenting, and distributing security incident response and escalation procedures to ensure timely and effective handling of all situations."
+12,6(a),Security Awareness Program,A formal security awareness program shall be in place to make all personnel aware of the cardholder data security policy and procedures.
+12,8.1,List of Service Providers,"Policies and procedures shall be maintained and implemented to manage service providers with whom cardholder data is shared, or that could affect the security of cardholder data, as follows: 
+A list of service providers shall be maintained, including a description of the service(s) provided."
+12,8.2,Written Agreements Maintained,"Policies and procedures shall be maintained and implemented to manage service providers with whom cardholder data is shared, or that could affect the security of cardholder data, as follows: 
+A written agreement shall be maintained that includes an acknowledgement that the service providers are responsible for the security of cardholder data the service providers possess or otherwise store, process, or transmit on behalf of the customer, or to the extent that they could impact the security of the customers cardholder data environment. 
+ 
+ Note: The exact wording of an acknowledgement will depend on the agreement between the two parties, the details of the service being provided, and the responsibilities assigned to each party. The acknowledgement does not have to include the exact wording provided in this requirement."
+12,8.3,Established Process for Engaging Service Providers,"Policies and procedures shall be maintained and implemented to manage service providers with whom cardholder data is shared, or that could affect the security of cardholder data, as follows: 
+There shall be an established process for engaging service providers, including proper due diligence prior to engagement."
+12,8.4,Monitor Service Providers,"Policies and procedures shall be maintained and implemented to manage service providers with whom cardholder data is shared, or that could affect the security of cardholder data, as follows: 
+A program shall be maintained to monitor service providers PCI DSS compliance status at least annually."
+12,8.5,PCI DSS Requirements Managed by Service Providers,"The policies and procedures shall be maintained and implemented to manage service providers with whom cardholder data is shared, or that could affect the security of cardholder data, as follows: 
+Information shall be maintained about which PCI DSS requirements are managed by each service provider, and which are managed by the entity."
+12,10.1,Incident Response Plan,An incident response plan shall be created to be implemented in the event of system breach. 

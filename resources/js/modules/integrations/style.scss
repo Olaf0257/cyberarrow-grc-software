@@ -1,0 +1,49 @@
+#integration-page{
+    .nav-item{
+        .nav-link{
+            margin-bottom: 0;
+            padding: 0.5rem;
+        padding-left: 0;
+            color: var(--gray);
+            &.active{
+            background-color: transparent;
+            color: black;
+            margin-bottom: 0;
+        }
+    }
+    }
+    .coming-soon{
+        position: relative;
+        background-color: var(--gray);
+        clear: both;
+        padding: 5px 12px;
+        margin-bottom: 15px;
+        box-shadow: 2px 5px 10px rgba(var(--gray), 0.3);
+        color: white;
+        // font-size: $font-size-sm;
+        // font-weight: $font-weight-semibold;
+        &::before {
+            content: " ";
+            border-style: solid;
+            border-width: 10px;
+            display: block;
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            margin-bottom: -10px;
+            z-index: -1;
+        }
+    }
+
+    a.btn.disabled, fieldset:disabled a.btn {
+        border-color: #eee !important;
+    }
+
+    .badge.bg-soft-info.coming-soon-badge {
+        cursor: default !important;
+    }
+
+    .nav-link {
+        cursor: pointer;
+    }
+}

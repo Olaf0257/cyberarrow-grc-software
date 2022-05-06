@@ -1,0 +1,29 @@
+#mainContainerRiskSetupWizard {
+	a.risk-btn {
+		min-width: 100px;
+	}
+	.project-box {
+		background-color: white;
+	}
+}
+@media (min-width: 773px) and (max-width: 824px) {
+	.wizard-content-box {
+		p.wizard-subtext {
+			padding-bottom: 21px;
+		}
+	}
+}
+@media (min-width: 1085px) and (max-width: 1121px) {
+	.wizard-content-box {
+		p.wizard-subtext {
+			padding-bottom: 21px;
+		}
+	}
+}
+@media (min-width: 1203px) and (max-width: 1243px) {
+	.wizard-content-box {
+		p.wizard-subtext {
+			padding-bottom: 21px;
+		}
+	}
+}

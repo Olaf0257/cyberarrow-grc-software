@@ -1,0 +1,110 @@
+primary_id,sub_id,Name,Description
+A1,1,Entity Process Segregation,Ensure that each entity only runs processes that have access to that entity's cardholder data environment.
+A1,2,Entity Access Segregation,Restrict each entity's access and privileges to its own cardholder data environment only.
+A1,3,Entity Log and Audit Trail Segregation,Ensure logging and audit trails are enabled and unique to each entity's cardholder data environment and consistent with PCI DSS Requirement 10.
+A1,4,Processes for Forensic Examination of Compromise,Enable processes to provide for timely forensic investigation in the event of a compromise to any hosted merchant or service provider.
+A2,1,POS POI Terminal SSL Mitigation,"Where POS POI terminals (at the merchant or payment acceptance location) use SSL and/or early TLS, the entity shall confirm the devices are not susceptible to any known exploits for those protocols."
+A2,2,SSL and Early TLS Risk Mitigation and Migration Plan,Requirement for Service Providers Only: All service providers with existing connection points to POS POI terminals referred to in A2.1 that use SSL and/or early TLS must have a formal Risk Mitigation and Migration Plan in place.
+A2,3,Secure Service Offering - Service Providers,Requirement for Service Providers Only: All service providers shall provide a secure service offering.
+A3,1.1,Establish Responsibility for Protection of Cardholder Data,"Executive management shall establish responsibility for the protection of cardholder data and a PCI DSS compliance program to include: 
+ -Overall accountability for maintaining PCI DSS compliance 
+ -Defining a charter for a PCI DSS compliance program 
+ -Providing updates to executive management and board of directors on PCI DSS compliance initiatives and issues, including remediation activities, at least annually. 
+ PCI DSS Reference: Requirement 12"
+A3,1.2,Formal PCI DSS Compliance Program,"A formal PCI DSS Compliance Program shall be in place to include: 
+ -Definition of activities for maintaining and monitoring overall PCI DSS compliance, including business-as-usual activities. 
+ -Annual PCI DSS assessment processes 
+ -Processes for the continuous validation of PCI DSS requirements (for example: daily, weekly, quarterly, etc. as applicable per requirement) 
+ -A process for performing business-impact analysis to determine potential PCI DSS impacts for strategic business decisions. 
+ PCI DSS Reference: Requirements 1-12"
+A3,1.3,Compliance Roles Formally Defined,"PCI DSS compliance roles and responsibilities shall be specifically defined and formally assigned to one or more personnel, including at least the following: 
+ -Managing PCI DSS business-as-usual activities 
+ -Managing annual PCI DSS assessments 
+ -Managing continuous validation of PCI DSS requirements (for example: daily, weekly, quarterly, etc. as applicable per requirement) 
+ -Managing business-impact analysis to determine potential PCI DSS impacts for strategic business decisions. 
+ PCI DSS Reference: Requirement 12"
+A3,1.4,Annual Information Security or PCI DSS Training,"Provide up-to-date PCI DSS and/or information security training at least annually to personnel with PCI DSS compliance responsibilities (as identified in A3.1.3). 
+ PCI DSS Reference: Requirement 12"
+A3,2.1,Quarterly PCI DSS Scope Determination,"Document and confirm the accuracy of PCI DSS scope at least quarterly and upon significant changes to the in-scope environment. At a minimum, the quarterly scoping validation should include: 
+ -Identifying all in-scope networks and system components 
+ -Identifying all out-of-scope networks and justification for networks being out of scope, including descriptions of all segmentation controls implemented 
+ -Identifying all connected entities - e.g., third-party entities with access to the cardholder data environment (CDE) 
+ PCI DSS Reference: Scope of PCI DSS Requirements"
+A3,2.2,Determine PCI DSS Scope Impact For Changes,"Determine PCI DSS scope impact for all changes to systems or networks, including additions of new systems and net network connections. Processes must include: 
+ -Performing a formal PCI DSS impact assessment 
+ -Identifying applicable PCI DSS requirements to the system or network 
+ -Updating PCI DSS scope as appropriate 
+ -Documented sign-off of the results of the impact assessment by responsible personnel (as defined in A3.1.3) 
+ PCI DSS Reference: Scope of PCI DSS Requirements; Requirements 1-12"
+A3,2.2.1,Reverify Relevant PCI DSS Requirements After Change,"Upon completion of a change, all relevant PCI DSS requirements shall be verified on all new or changed systems and networks, and documentation must be updated as applicable. Example of PCI DSS requirements that should be verified include, but are not limited to: 
+ -Network diagram is updated to reflect changes. 
+ -Systems are configured per configuration standards, with all default passwords changed and unnecessary services disabled. 
+ -Systems are protected with required controls - e.g., file-integrity monitoring (FIM), anti-virus, patches, audit logging. 
+ -Verify that sensitive authentication data (SAD) is not stored and that all cardholder data (CHD) storage is documented and incorporated into data-retention policy and procedures. 
+ -New systems are included in the quarterly vulnerability scanning process. 
+ PCI DSS Reference: Scope of PCI DSS Requirements; Requirement 1-12"
+A3,2.3,Impact Review After Organizational Structure Change,"Changes to organizational structure - for example, a company merger or acquisition, change or reassignment of personnel with responsibility for security controls - result in a formal (internal) review of the impact to PCI DSS scope and applicability of controls 
+ PCI DSS Reference: Requirement 12"
+A3,2.4,Penetration Testing on Segmentation Controls,"If segmentation is used, confirm PCI DSS scope by performing penetration testing on segmentation controls at least every six months and after any changes to segmentation controls/methods. 
+ PCI DSS Reference: Requirement 11"
+A3,2.5,Implement Data-Discovery Methodology,"Implement a data-discovery methodology to confirm PCI DSS scope and to locate all sources and locations of clear-text PAN at least quarterly and upon significant changes to the cardholder environment or processes. 
+ Data-discovery methodology must take into consideration the potential for clear-text PAN to reside on systems and networks outside of the currently defined CDE. 
+ PCI DSS Reference: Scope of PCI DSS Requirements"
+A3,2.5.1,Ensure Data-Discovery Methods Effectiveness,"Ensure effectiveness of methods used for data-discovery - e.g., methods must be able to discover clear-text PAN on all types of system components (for example, on each operating system or platform) and file formats in use. 
+ The effectiveness of data-discovery methods must be confirmed at least annually. 
+ PCI DSS Reference: Scope of PCI DSS Requirements"
+A3,2.5.2,PAN Detection Response Procedure,"Implement response procedures to be initiated upon the detection of clear-text PAN outside of the CDE to include: 
+ -Procedures for determining what to do if clear-text PAN is discovered outside of the CDE, including its retrieval, secure deletion and/or migration into the currently defined CDE, as applicable 
+ -Procedures for determining how the data ended up outside of the CDE 
+ -Procedures for remediating data leaks or process gaps that resulted in the data being outside of the CDE 
+ -Procedures for identifying the source of the data 
+ -Procedures for identifying whether any track data is stored with the PANs"
+A3,2.6,PAN Loss Prevention Mechanisms,"Implement mechanisms for detecting and preventing clear-text PAN from leaving the CDE via an unauthorized channel, method, or process, including generation of audit logs and alerts. 
+ PCI DSS Reference: Scope of PCI DSS Requirements."
+A3,2.6.1,PAN Loss Prevention and Detection Response Plan,"Implement response procedures to be initiated upon the detection of attempts to remove clear-text PAN from the CDE via an unauthorized channel, method, or process. 
+ Response procedures must include: 
+ -Procedures for the timely investigation of alerts by responsible personnel 
+ -Procedures for remediating data leaks or process gaps, as necessary, to prevent any data loss"
+A3,3.1,Critical Control Failure Detection and Alerts,"Implement a process to immediately detect and alert on critical security control failures. Examples of critical security controls include, but are not limited to: 
+ -Firewalls 
+ -IDS/IPS 
+ -FIM 
+ -Anti-virus 
+ -Physical Access Controls 
+ -Logical Access Controls 
+ -Audit Logging Mechanisms 
+ -Segmentation Controls (if used) 
+ 
+ PCI DSS Reference: Requirements 1-12"
+A3,3.1.1,Timely Response to Critical Control Failure,"Respond to failures of any critical security controls in a timely manner. Processes for responding to failures in security controls must include: 
+ -Restoring security functions 
+ -Identifying and documenting the duration (date and time start to end) of the security failure 
+ -Identifying and documenting cause(s) of failure, including root cause, and documenting remediation required to address root cause 
+ -Identifying and addressing any security issues that arose during the failure 
+ -Performing a risk assessment to determine whether further actions are required as a result of the security failure 
+ -Implementing controls to prevent cause of failure from recurring 
+ -Resuming monitoring of security controls 
+ 
+ PCI DSS Reference: Requirements 1-12"
+A3,3.2,Review Hardware and Software Technologies,"Review hardware and software technologies at least annually to confirm whether they continue to meet the organization's PCI DSS requirements. (For example, a review of technologies that are no longer supported by the vendor and/or no longer meet the security needs of the organization.) 
+ The process includes a plan for remediating technologies that no longer meet the organization's PCI DSS requirements, up to and including replacement of the technology, as appropriate. 
+ 
+ PCI DSS Reference: Requirements 2,6"
+A3,3.3,Business As Usual Activity Review,"Perform reviews at least quarterly to verify BAU activities are being followed. Reviews must be performed by personnel assigned to the PCI DSS compliance program (as identified in A3.1.3), and include the following: 
+ -Confirmation that all BAU activities (e.g., A3.2.2, A3.2.6, and A3.3.1) are being performed 
+ -Confirmation that personnel are following security policies and operational procedures (for example, daily log reviews, firewall ruleset reviews, configuration standards for new systems, etc.) 
+ -Documenting how the reviews were completed, including how all BAU activities were verified as being in place. 
+ -Collection of documented evidence as required for the annual PCI DSS assessment 
+ -Review and sign-off of results by personnel assigned responsibility for the PCI DSS compliance program (as identified in A3.1.3) 
+ -Retention of records and documentation for at least 12 months, covering all BAU activities 
+ 
+ PCI DSS Reference: Requirements 1-12"
+A3,4.1,User Account and Access Review,"Review user accounts and access privileges to in-scope system components at least every six months to ensure user accounts and access remain appropriate based on job function, and authorized. 
+ 
+ PCI DSS Reference: Requirement 7"
+A3,5.1,Methodology for Identifying Attack Patterns,"Implement a methodology for the timely identification of attack patterns and undesirable behavior across systems - for example, using coordinated manual reviews and/or centrally managed or automated log-correlation tools - to include at least the following: 
+ -Identification of anomalies or suspicious activity as it occurs 
+ -Issuance of timely alerts upon detection of suspicious activity or anomaly to responsible personnel 
+ -Response to alerts in accordance with documented response procedures 
+ 
+ PCI DSS Reference: Requirements 10,12"

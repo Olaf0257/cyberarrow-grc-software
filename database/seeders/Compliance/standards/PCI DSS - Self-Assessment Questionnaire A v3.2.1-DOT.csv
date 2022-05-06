@@ -1,0 +1,48 @@
+primary_id,sub_id,Name,Description
+2,1(a),Vendor Supplied Defaults,"The vendor-supplied defaults shall always be changed before installing a system on the network: 
+ This applies to ALL default passwords, including but not limited to those used by operating systems, software that provides security services, application and system accounts, point-of-sale (POS) terminals, payment applications, Simple Network Management Protocol (SNMP) community strings, etc.)."
+2,1(b),Unnecessary Default Accounts Removed or Disabled,The unnecessary default accounts shall be removed or disabled before installing a system on the network.
+6,2(a),System and Software Protection,All system components and software shall be protected from known vulnerabilities by installing applicable vendor-supplied security patches.
+6,2(b),Critical Security Patches,The critical security patches shall be installed within one month of release.
+8,1.1,Unique ID Assignment,All users shall be assigned a unique ID before allowing them to access system components or cardholder data. 
+8,1.3,Terminated USers Deactivated or Removed,The access for any terminated users shall be immediately deactivated or removed. 
+8,2,Authentication Methodology,"In addition to assigning a unique ID, one or more of the following methods shall be employed to authenticate all users: 
+ - Something you know, such as a password or passphrase 
+ - Something you have, such as a token device or smart card 
+ - Something you are, such as a biometric"
+8,2.3(a),Password Parameters,"The user password parameters shall be configured to require passwords/passphrases meet the following:  
+ - A minimum password length of at least seven characters 
+ - Contain both numeric and alphabetic characters 
+ 
+ Alternatively, the passwords/passphrases must have complexity and strength at least equivalent to the parameters specified above."
+8,5,Shared Account Credentials,"The group, shared, or generic accounts, passwords, or other authentication methods shall be prohibited as follows: 
+ - Generic user IDs and accounts are disabled or removed; 
+ - Shared user IDs for system administration activities and other critical functions do not exist; and 
+ - Shared and generic user IDs are not used to administer any system components. "
+9,5,Media Physically Secured,"All media shall be physically secured (including but not limited to computers, removable electronic media, paper receipts, paper reports, and faxes):
+For purposes of Requirement 9, media refers to all paper and electronic media containing cardholder data."
+9,6(a),Control Over Media Distribution,Strict control shall be maintained over the internal or external distribution of any kind of media.
+9,6(b).1,Media Classification,"Controls shall include the following: 
+The media shall be classified so the sensitivity of the data can be determined."
+9,6(b).2,Media Transport,"The controls shall include the following: 
+The media sent by secured courier or other delivery method that can be accurately tracked."
+9,6(b).3,Management Approval for Transportation,"The controls shall include the following: 
+Appropriate management approval shall be obtained prior to moving the media (especially when media is distributed to individuals)."
+9,7,Media Storage and Accessibility,Strict control shall be maintained over the storage and accessibility of media.
+9,8(a),Media Destruction,All media shall be destroyed when it is no longer needed for business or legal reasons. 
+9,8.1(a),Media Destruction - Hardcopy Materials,"Media destruction shall be performed as follows: 
+The hardcopy materials shall be cross-cut shredded, incinerated, or pulped so that cardholder data cannot be reconstructed. "
+9,8.1(b),Media Destruction - Storage Containers,"The media destruction shall be performed as follows: 
+The storage containers used for materials that contain information to be destroyed shall be secured to prevent access to the contents. "
+12,8.1,List of Service Providers,"The policies and procedures shall be maintained and implemented to manage service providers with whom cardholder data is shared, or that could affect the security of cardholder data, as follows: 
+A list of service providers shall be maintained, including a description of the service(s) provided. "
+12,8.2,Written Agreements Maintained,"The policies and procedures shall be maintained and implemented to manage service providers with whom cardholder data is shared, or that could affect the security of cardholder data, as follows: 
+A written agreement shall be maintained that includes an acknowledgement that the service providers are responsible for the security of cardholder data the service providers possess or otherwise store, process, or transmit on behalf of the customer, or to the extent that they could impact the security of the customers cardholder data environment.  
+ Note: The exact wording of an acknowledgement will depend on the agreement between the two parties, the details of the service being provided, and the responsibilities assigned to each party. The acknowledgement does not have to include the exact wording provided in this requirement."
+12,8.3,Established Process for Engaging Service Providers,"The policies and procedures shall be maintained and implemented to manage service providers with whom cardholder data is shared, or that could affect the security of cardholder data, as follows: 
+Document and implement an established process for engaging service providers, including proper due diligence prior to engagement."
+12,8.4,Monitor Service Providers,"The policies and procedures shall be maintained and implemented to manage service providers with whom cardholder data is shared, or that could affect the security of cardholder data, as follows: 
+A program shall be maintained to monitor service providers PCI DSS compliance status at least annually."
+12,8.5,PCI DSS Requirements Managed by Service Providers,"The policies and procedures shall be maintained and implemented to manage service providers with whom cardholder data is shared, or that could affect the security of cardholder data, as follows: 
+The information shall be maintained about which PCI DSS requirements are managed by each service provider, and which are managed by the entity. "
+12,10.1(a),Incident Response Plan,An incident response plan shall be created to be implemented in the event of system breach. 

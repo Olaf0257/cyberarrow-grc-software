@@ -1,0 +1,599 @@
+.navtab-bg li > a {
+  margin: 0;
+}
+
+#risk-setup-wizard-page .risk-register-title {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #000;
+}
+
+#risk-setup-wizard-page .accordion {
+  border-left: 2px solid var(--secondary-color);
+  padding-left: 10px;
+  margin-top: 5px;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0;
+}
+
+.br-dark {
+  border: 5px solid #f5f6f8;
+}
+
+#yourself-apporach .checkbox label {
+  cursor: pointer !important;
+}
+
+.row .go-to-next-step-btn {
+  width: auto !important;
+}
+/***********************
+    circular tabs
+***********************/
+.nested__tabs {
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+ul.circular {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.circular li a,
+.icon-box a {
+  color: #000;
+}
+
+.liner {
+  height: 2px;
+  background: #ddd;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 30px;
+}
+
+span.round-tabs {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background: #fff;
+  position: relative;
+}
+
+.top__head {
+  background: #f5f6f8;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 10px 0;
+}
+
+/*** search */
+
+.searchbox {
+  position: relative;
+  display: inline-block;
+  margin-left: 1.5rem;
+}
+
+.searchbox input:focus {
+  outline: none; /*by default,input shows an outline on focus */
+}
+
+.searchbox input {
+  z-index: 0;
+  height: 40px;
+  background: #fff;
+  border-radius: 25px;
+  border: 2px solid #f1f3f4;
+  margin-top: 0;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  transition: all 0.3s linear;
+}
+
+input:focus {
+  border: 2px solid var(--secondary-color);
+  background: #fff;
+}
+
+/* input[type='text']::placeholder {
+  position: relative;
+  left: -25px;
+} */
+
+/* form {
+  display: inline-block;
+} */
+
+.fa-search {
+  position: absolute;
+  top: 38%;
+  left: 5%;
+  color: #8e99a4;
+}
+
+.search {
+  color: #8e99a4;
+  font-weight: 400;
+  padding-left: 45px;
+  font-size: 18px;
+  z-index: 3;
+}
+
+.content__box {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+  margin-top: 2px;
+  padding: 10px 15px;
+}
+
+.icon-box {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.description__box {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+}
+
+.checkbox-success input[type='radio']:checked + label::before {
+  background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
+}
+
+.top__one h5 {
+  margin-left: -30px;
+  padding-top: 4px;
+}
+
+.top__three h5 {
+  margin-left: 45px;
+  padding-top: 5px;
+}
+
+a.risk-category-tab-nav.completed span,
+a.risk-category-tab-nav.current-stage span {
+  background: var(--secondary-color);
+  color: #fff;
+}
+
+a.risk-category-tab-nav.active span {
+  background: var(--secondary-color-darker);
+  color: #fff;
+}
+
+a.risk-category-tab-nav.disabled span {
+  background: var(--light-gray);
+  border: var(--light-gray);
+  color: #000;
+}
+
+.top__three .checkbox4 {
+  right: -15px;
+  position: relative;
+  top: -5px;
+}
+
+.descrip__checkbox {
+  position: relative;
+  top: -22px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  left: 7px;
+}
+
+.project-select-option h4 {
+  margin-right: 30px;
+}
+
+.select2-container .select2-selection--single {
+  min-width: 170px;
+}
+
+.nested__tabs ul li p {
+  display: none;
+}
+
+.standard {
+  white-space: nowrap;
+}
+
+.risklist__confirm-btn {
+  position: absolute;
+  right: 33px;
+}
+
+.risk__name-text {
+  display: inline-block;
+}
+
+/******* checkbox ********/
+.checkbox-btn label {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.9);
+  /* border: 2px solid rgba(139, 139, 139, .3); */
+  border: 2px solid var(--secondary-color);
+  color: #adadad;
+  border-radius: 25px;
+  white-space: nowrap;
+  margin: 3px 0px;
+  padding: 6px 12px;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: all 0.2s;
+}
+
+.checkbox-btn label::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 12px;
+  padding: 2px 6px 2px 2px;
+  content: '\f067';
+  transition: transform 0.3s ease-in-out;
+}
+
+.checkbox-btn input[type='radio']:checked + label::before {
+  content: '\f00c';
+  transform: rotate(-360deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.checkbox-btn input[type='radio']:checked + label {
+  border: 2px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.checkbox-btn input[type='radio'][disabled] + label {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid rgba(139, 139, 139, 0.3);
+  color: #adadad;
+  cursor: no-drop;
+}
+
+.checkbox-btn input[type='radio'] {
+  position: absolute;
+  opacity: 0;
+}
+
+#import-tab .nav-link.disabled {
+  background: none !important;
+}
+
+@media (min-width: 400px) {
+  .wizard-content-box p {
+    padding-bottom: 10px !important;
+    /* color: red !important; */
+  }
+}
+
+/**********************************
+        RESPONSIVE HERE
+ *********************************/
+
+@media (min-width: 500px) and (max-width: 713px) {
+  .searchbox input {
+    position: relative;
+    left: -10px;
+    top: 3px;
+  }
+
+  .search-icon {
+    z-index: 1;
+    position: absolute;
+    top: 40% !important;
+    left: 5px !important;
+  }
+}
+
+@media (min-width: 714px) and (max-width: 767px) {
+  .searchbox input {
+    position: relative;
+    left: -10px;
+    top: -3px;
+  }
+
+  .search-icon {
+    position: absolute;
+    top: 10px !important;
+    left: 5px !important;
+    z-index: 1;
+  }
+}
+
+/**************************
+  Remove effect of br on
+***************************/
+/* @media (max-width: 1239px) {
+    .standard-box br,
+    .approach-box br {
+        display: none;
+    }
+} */
+
+/**************************
+ risk name width reduced
+***************************/
+@media (min-width: 320px) and (max-width: 415px) {
+  .icon-box .collapse-el .icon {
+    display: none;
+  }
+
+  .icon-box h5.risk__name-text {
+    position: relative;
+    left: -20px;
+  }
+
+  .top__two .searchbox {
+    position: relative;
+    display: inline-block;
+    margin-left: -45px;
+  }
+
+  .top__two .searchbox input {
+    width: 220px;
+  }
+}
+
+@media (min-width: 416px) and (max-width: 500px) {
+  .icon-box h5.risk__name-text {
+    max-width: 200px;
+  }
+}
+
+/**********
+middle part
+**********/
+
+@media (min-width: 320px) and (max-width: 398px) {
+  .top__three {
+    position: relative;
+    left: -123px;
+    top: 35px;
+    padding-bottom: 30px;
+  }
+
+  .top__three .select_all_checkbox {
+    position: relative;
+    top: -23px;
+    left: 104px;
+  }
+
+  .top__three h5.select-all-text {
+    white-space: nowrap;
+    word-spacing: 10px;
+  }
+}
+
+@media (min-width: 399px) and (max-width: 415px) {
+  .top__three h5.select-all-text {
+    width: 85px;
+    word-break: break-all;
+  }
+
+  .top__two .searchbox input {
+    width: 202px;
+  }
+}
+
+/***********************
+*
+* Circular tabs here
+*
+***********************/
+@media (min-width: 320px) and (max-width: 335px) {
+  span.round-tabs {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background: #fff;
+    position: relative;
+  }
+
+  .nav-link {
+    padding: 0;
+  }
+
+  .liner {
+    display: none;
+  }
+}
+
+@media (min-width: 336px) and (max-width: 575px) {
+  span.round-tabs {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background: #fff;
+    position: relative;
+  }
+
+  .nested__tabs ul li a.nav-link {
+    padding: 0;
+  }
+
+  .liner {
+    height: 2px;
+    background: #ddd;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 11px;
+  }
+
+  ul.circular {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  span.round-tabs {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background: #fff;
+    position: relative;
+  }
+
+  .nested__tabs ul li a.nav-link {
+    padding: 0;
+  }
+
+  .liner {
+    height: 2px;
+    background: #ddd;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 16px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 959px) {
+  span.round-tabs {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background: #fff;
+    position: relative;
+  }
+
+  .nested__tabs ul li a.nav-link {
+    padding: 0;
+  }
+
+  .liner {
+    height: 2px;
+    background: #ddd;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 19px;
+  }
+}
+
+/*******************
+Risk Wizard Box >> standard
+***************/
+@media (min-width: 810px) and (max-width: 841px) {
+  .tab-content #standard-tab p.isr-subtext {
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 946px) and (max-width: 979px) {
+  .tab-content #standard-tab p.isr-subtext {
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 1071px) and (max-width: 1123px) {
+  .tab-content #standard-tab p.isr-subtext {
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1245px) {
+  .tab-content #standard-tab p.isr-subtext {
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 1448px) and (max-width: 1578px) {
+  .tab-content #standard-tab p.isr-subtext {
+    padding-bottom: 20px;
+  }
+}
+
+/*******************
+Risk Wizard Box >> Approach
+***************/
+
+@media (min-width: 768px) and (max-width: 812px) {
+  .tab-content #approach-tab p.yourself-subtext {
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 813px) and (max-width: 855px) {
+  .tab-content #approach-tab p.yourself-subtext {
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 856px) and (max-width: 1135px) {
+  .tab-content #approach-tab p.yourself-subtext {
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1259px) {
+  .tab-content #approach-tab p.yourself-subtext {
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 1538px) {
+  .tab-content #approach-tab p.yourself-subtext {
+    padding-bottom: 20px;
+  }
+}
+
+/* extra added css */
+.border-bottom-thin-1 {
+  border-bottom: 1px solid rgb(233, 236, 239);
+}
+
+.custom-no-result-background {
+  background-color: #f5f6f8;
+}

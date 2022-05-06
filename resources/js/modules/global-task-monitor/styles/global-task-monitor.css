@@ -1,0 +1,151 @@
+.card-body {
+    background-color  : #fff;
+    padding           : 1.5rem;
+    -webkit-box-shadow: 0 0.75rem 6rem rgb(56 65 74 / 3%);
+    box-shadow        : 0 0.75rem 6rem rgb(56 65 74 / 3%);
+    margin-bottom     : 24px;
+    border-radius     : .25rem;
+}
+
+.filter-row {
+    background-color: #f4f5f7;
+}
+
+.task-button-wrapper {
+    display        : flex;
+    justify-content: flex-end;
+}
+
+.filter-row__wrap>div {
+    min-width: 100px;
+}
+
+.ms-offscreen {
+    clip    : rect(0 0 0 0) !important;
+    width   : 1px !important;
+    height  : 1px !important;
+    border  : 0 !important;
+    margin  : 0 !important;
+    padding : 0 !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    outline : 0 !important;
+    left    : auto !important;
+    top     : auto !important;
+}
+
+.filter-row .all-tasks input,
+.filter-row .all-users input,
+.filter-row .all-approvers input,
+.filter-row .all-projects input,
+.filter-row .all-standards input {
+    width: 122px;
+}
+
+.task-button-wrapper>button {
+    margin    : 0 6px;
+    max-height: 38px;
+}
+
+/* Multi Select */
+.multi-select .dropdown-container {
+    width: 200px;
+}
+
+.multi-select .dropdown-container .clear-selected-button {
+    display: none;
+}
+
+.multi-select .select-panel {
+    padding: 10px 10px 0px 10px;
+}
+
+.multi-select .select-panel div {
+    margin-bottom: 10px;
+}
+
+.multi-select .search {
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.multi-select .dropdown-container .dropdown-content .search input {
+    border: 1px solid #aaa;
+}
+
+.multi-select .select-item.selected {
+    background-color: transparent !important;
+    padding: 0px 0px;
+}
+
+.multi-select .item-renderer input[type=checkbox] {
+    width: auto;
+}
+
+.multi-select-tree-dropdown .clear-selected-button {
+    display: none !important;
+}
+
+/* Calendar */
+.completion-date .flatpickr-input,
+.due-date .flatpickr-input {
+    border:1px solid #ccc;
+    padding: 0px 8px;
+}
+
+.completion-date .flatpickr-input:focus,
+.due-date .flatpickr-input:focus {
+    outline: none;
+}
+
+.flatpickr-calendar .flatpickr-month{
+    background: white !important;
+}
+
+.flatpickr-calendar .flatpickr-current-month .flatpickr-monthDropdown-months{
+    background: white;
+}
+
+.flatpickr-calendar .flatpickr-weekdays {
+    background: white;
+    margin-top: 5px;
+}
+
+.flatpickr-calendar .flatpickr-weekdays span.flatpickr-weekday{
+    background: white;
+}
+
+/* react select */
+.react-select .react-select__option--is-selected{
+    background-color: var(--secondary-color);
+}
+.react-select .react-select__option--is-focused{
+    background-color: var(--bs-light);
+}
+.react-select .react-select__option--is-focused.react-select__option--is-selected {
+    background-color: var(--secondary-color);
+}
+.react-select .react-select__control,
+.react-select .react-select__option {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .filter-row__wrap .all-department,
+    .filter-row__wrap .all-department div,
+    .filter-row__wrap .all-projects,
+    .filter-row__wrap .all-projects div,
+    .filter-row__wrap .all-standards,
+    .filter-row__wrap .all-standards input,
+    .filter-row__wrap .all-tasks,
+    .filter-row__wrap .all-tasks input,
+    .filter-row__wrap .all-users,
+    .filter-row__wrap .all-approvers,    
+    .filter-row__wrap .completion-date,
+    .filter-row__wrap .due-date,
+    .filter-row__wrap .all-status,
+    .filter-row__wrap .all-stages {       
+        width: 100% !important;
+    }
+}

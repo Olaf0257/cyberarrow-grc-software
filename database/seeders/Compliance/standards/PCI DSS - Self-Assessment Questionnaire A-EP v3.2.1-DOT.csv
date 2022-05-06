@@ -1,0 +1,298 @@
+primary_id,sub_id,Name,Description
+1,1.1,Formal Process For Approving and Testing Configuration Changes,There shall be a formal process for approving and testing all network connections and changes to the firewall and router configurations.
+1,1.2 (a),Current Network Diagram,"There shall be a current network diagram that documents all connections between the cardholder data environment and other networks, including any wireless networks."
+1,1.2 (b),Current Network Diagram - updates,There shall be a process to ensure the network diagram is kept current. 
+1,1.3 (a),Cardholder Data Flow Diagram,There shall be current network diagram that shows all cardholder data flows across systems and networks. 
+1,1.3 (b),Cardholder Data Flow Diagram - Kept current,There shall be a process to ensure the network diagram is kept current.
+1,1.4 (a),Firewall Placement,A firewall shall be required and implemented at each Internet connection and between any demilitarized zone (DMZ) and the internal network zone. 
+1,1.4 (b),Firewall Placement - Kept Current,The current network diagram shall be consistent with the firewall configuration standards.
+1,1.6 (a),Documented Ports and Services,"Firewall and router configuration standards shall include a documented list of services, protocols, and ports, including business justification and approval for each."
+1,1.6 (b),Documented Ports and Services - Insecure Services,"All insecure services, protocols, and ports shall be identified, and are security features documented and implemented for each identified service."
+1,1.7 (a),Firewall and Configuration Review,Firewall and router configuration standards shall require review of firewall and router rule sets at least every six months. 
+1,1.7 (b),Firewall and Configuration Review - Six Months,Firewall and router rule sets shall be reviewed at least every six months. 
+1,2.1(a),Ingress/Egress CHD Restrictions,Inbound and outbound traffic shall be restricted to that which is necessary for the cardholder data environment.
+1,2.1(b),Ingress/Egress Traffic Denials,"All other inbound and outbound traffic shall be specifically denied (for example by using an explicit ""deny all"" or an implicit deny after allow statement)."
+1,2.2,Router Configuration Files,"Router configuration files shall be secured from unauthorized access and synchronized, for example, the running (or active) configuration matches the startup configuration (used when machines are booted). "
+1,2.3,Firewalls between cardholder and wireless networks,"Perimeter firewalls shall be installed between all wireless networks and the cardholder data environment, and are these firewalls configured to deny or, if traffic is necessary for business purposes, permit only authorized traffic between the wireless environment and the cardholder data environment. "
+1,3.1,Implement a DMZ,"A DMZ shall be implemented to limit inbound traffic to only system components that provide authorized publicly accessible services, protocols, and ports. "
+1,3.2,Limit inbound traffic,Inbound Internet traffic shall be limited to IP addresses within the DMZ.
+1,3.3,Anti-Spoofing,"Anti-spoofing measures shall be implemented to detect and block forged sourced IP addresses from entering the network. 
+ (For example, block traffic originating from the internet with an internal address)"
+1,3.4,No Unauthorized Outbound Traffic,Outbound traffic from the cardholder data environment to the Internet shall be explicitly authorized.
+1,3.5,Implement Stateful Inspection,Only established connections shall be permitted into the network.
+1,3.7 (a),Do Not Disclose Private IP Address and Routing Information,"Methods shall be in place to prevent the disclosure of private IP addresses and routing information to the Internet:
+ Note: Methods to obscure IP addressing may include, but are not limited to: 
+ - Network Address Translation (NAT) 
+ - Placing servers containing cardholder data behind proxy servers/firewalls, 
+ - Removal or filtering of route advertisements for private networks that employ registered addressing, Internal use of RFC1918 address space instead of registered addresses"
+1,3.7 (b),Do Not Disclose Private IP Address and Routing Information - Authorizations,Any disclosure of private IP addresses and routing information to external entities shall be authorized.
+1,4 (a),Install Personal Firewall Software,"Personal firewall software (or equivalent functionality) shall be installed and shall be active on any portable computing devices (including company and/or employee-owned) that connect to the Internet when outside the network (for example, laptops used by employees), and which are also used to access the CDE."
+1,4 (b),Install Personal Firewall Software - Not Alterable,"The personal firewall software (or equivalent functionality) shall be configured to specific configuration settings, actively running, and not alterable by users of mobile and/or employee-owned devices."
+1,5,Implementation of Security Policies,"Security policies and operational procedures for managing firewalls shall be: 
+ - Documented 
+ - In use 
+ - Known to all affected parties."
+2,1 (a),Change Vendor Supplied Defaults,"Vendor-supplied defaults shall always be changed before installing a system on the network. 
+This applies to ALL default passwords, including but not limited to those used by operating systems, software that provides security services, application and system accounts, point-of-sale (POS) terminals, payment applications, Simple Network Management Protocol (SNMP) community strings, etc.)."
+2,1 (b),Change Vendor Supplied Defaults - Unnecessary Defaults,Unnecessary default accounts shall be removed or disabled before installing a system on the network. 
+2,2 (a),Develop Configuration Standards,"Configuration standards shall be developed for all system components and they shall be consistent with industry-accepted system hardening standards.  
+ Sources of industry-accepted system hardening standards may include, but are not limited to, SysAdmin Audit Network Security (SANS) Institute, National Institute of Standards Technology (NIST), International Organization for Standardization (ISO), and Center for Internet Security (CIS)."
+2,2 (b),Develop Configuration Standards - Updated as needed,"System configuration standards shall be updated as new vulnerability issues are identified, as defined in Requirement 6.1"
+2,2 (c),Develop Configuration Standards - Applied to new systems,System configuration standards shall be applied when new systems are configured.
+2,2 (d),Develop Configuration Standards - Checklist,"System configuration standards shall include all of the following: 
+ - Changing of all vendor-supplied defaults and elimination of unnecessary default accounts
+ - Implementing only one primary function per server to prevent functions that require different security levels from co-existing on the same server
+ - Enabling only necessary services, protocols, daemons, etc., as required for the function of the system
+ - Implementing additional security features for any required services, protocols or daemons that are considered to be insecure
+ - Configuring system security parameters to prevent misuse
+ - Removing all unnecessary functionality, such as scripts, drivers, features, subsystems, file systems, and unnecessary web servers"
+2,2.1 (a),One Primary Function Per Server,"Only one primary function shall be implemented per server, to prevent functions that require different security levels from coexisting on the same server.
+ For example, web servers, database servers, and DNS should be implemented on separate servers."
+2,2.1 (b),One Primary Function Per Server - One Primary Function,"If virtualization technologies are used, only one primary function shall be implemented per virtual system component or device. "
+2,2.2 (a),Enable Only Necessary Services,"Only necessary services, protocols, daemons, etc. shall be enabled as required for the function of the system (services and protocols not directly needed to perform the device's specified function are disabled)."
+2,2.2 (b),Enable Only Necessary Services - Documentation,"All enabled insecure services, daemons, or protocols shall be justified per documented configuration standards. "
+2,2.3,Security Features for Required Services,"Additional security features shall be documented and implemented for any required services, protocols or daemons that are considered to be insecure. "
+2,2.4 (a),Configure System Security,System administrators and/or personnel that configure system components shall be knowledgeable about common security parameter settings for those system components. 
+2,2.4 (b),Configure System Security - Common Settings,Common system security parameters settings shall be included in the system configuration standards.
+2,2.4 (c),Configure System Security - Set Appropriately,Security parameter settings shall be set appropriately on system components.
+2,2.5 (a),Remove Unnecessary Functionality,"All unnecessary functionality such as scripts, drivers, features, subsystems, file systems, and unnecessary web servers shall be removed."
+2,2.5 (b),Remove Unnecessary Functionality - Enabled Functions Documented,Enabled functions shall be documented and shall support secure configuration.
+2,2.5 (c),Remove Unnecessary Functionality - Documented Functions on Components,Only documented functionality shall be present on system components.
+2,3 (a),Encrypt All Non-Console Administrative Access - Strong Cryptography,"All non-console administrative access shall be encrypted with strong cryptography, and a strong encryption method shall be invoked before the administrator's password is requested."
+2,3 (b),Encrypt All Non-Console Administrative Access - Prevent Telnet,System services and parameter files shall be configured to prevent the use of Telnet and other insecure remote login commands.
+2,3 (c),Encrypt All Non-Console Administrative Access - Interface Encryption,Administrator access to web-based management interfaces shall be encrypted with strong cryptography.
+2,3 (d),Encrypt All Non-Console Administrative Access - Industry Best Practices,"For the technology in use, strong cryptography shall be implemented according to industry best practice and/or vendor recommendations."
+3,2 (c),Do not store sensitive authentication data after authorization,Sensitive authentication data shall be deleted or rendered unrecoverable upon completion of the authorization process.
+3,2 (d),Do not store sensitive authentication data after authorization - Non-Storage,All systems shall adhere to the following requirements regarding non-storage of sensitive authentication data after authorization (even if encrypted).
+3,2.2,Do not store the card verification code,The card verification code or value (three-digit or four-digit number printed on the front or back of a payment card) shall not be stored after authorization.
+3,2.3,Do not store the PIN,The personal identification number (PIN) or the encrypted PIN block shall be not stored after authorization.
+4,1 (a),Use Strong Cryptography to Protect Cardholder Data,"Strong cryptography and security protocols shall be used to safeguard sensitive cardholder data during transmission over open, public networks. 
+Examples of open, public networks include but are not limited to the Internet; wireless technologies, including 802.11 and Bluetooth; cellular technologies, for example, Global System for Mobile communications (GSM), Code division multiple access (CDMA); and General Packet Radio Service (GPRS)."
+4,1 (b),Use Strong Cryptography to Protect Cardholder Data - Trusted Keys,Only trusted keys and/or certificates shall be accepted.
+4,1 (c),Use Strong Cryptography to Protect Cardholder Data - Security Protocols,"Security protocols shall be implemented to use only secure configurations, and to not support insecure versions or configurations."
+4,1 (d),Use Strong Cryptography to Protect Cardholder Data - Encryption Strength,The proper encryption strength shall be implemented for the encryption methodology in use (check vendor recommendations/best practices).
+4,1 (e),Use Strong Cryptography to Protect Cardholder Data,"For TLS implementations, TLS shall be enabled whenever cardholder data is transmitted or received.
+ For example, for browser-based implementations: 
+ - ""HTTPS"" appears as the browser Universal Record Locator (URL) protocol, and 
+ - Cardholder data is only requested if ""HTTPS"" appears as part of the URL."
+4,2 (b),Never Send Unprotected PANs,Policies shall be in place that state that unprotected PANs are not to be sent via end-user messaging technologies.
+4,3,Cardholder Data Transmission Security Policies and Procedures,"Security policies and operational procedures for encrypting transmissions of cardholder data shall be: 
+ - Documented 
+ - In use 
+ - Known to all affected parties."
+5,1,Deploy Anti-virus software,Anti-virus software shall be deployed in all systems commonly affected by malicious software. 
+5,1.1,Ensure Anti-virus is Capable and Adequate,"Anti-virus programs shall be capable of detecting, removing, and protecting against all known types of malicious software (for example, viruses, Trojans, worms, spyware, adware, and rootkits)."
+5,1.2,Evaluate Low Risk Systems,Periodic evaluations shall be performed to identify and evaluate evolving malware threats in order to confirm whether those systems considered to not be commonly affected by malicious software continue as such.
+5,2 (a),Maintain Anti-virus,All anti-virus software and definitions shall be kept current.
+5,2 (b),Maintain Anti-virus - Automatic Updates,Automatic updates and periodic scans shall be enabled and be performed. 
+5,2 (c),Maintain Anti-virus - Audit Logs,"All anti-virus mechanisms shall be generating audit logs, and are logs retained in accordance with PCI DSS Requirement 10.7"
+5,3,Anti-virus Assurance,"All Anti-virus mechanisms shall be: 
+ Actively running
+ Unable to be disabled or altered by users
+ Note: Anti-virus solutions may be temporarily disabled only if there is legitimate technical need, as authorized by management on a case-by-case basis. If Anti-virus protection needs to be disabled for a specific purpose, it must be formally authorized. Additional security measures may also need to be implemented for the period of time during which Anti-virus protection is not active."
+5,4,Malware Security Policies and Procedures,"Security policies and operational procedures for protecting systems against malware shall be: 
+ - Documented 
+ - In use 
+ - Known to all affected parties."
+6,1,Identify Security Vulnerabilities,"There shall be a process to identify security vulnerabilities, including the following: 
+ Using reputable outside sources for vulnerability information
+ Assigning a risk ranking to vulnerabilities that includes identification of all ""high"" risk and ""critical"" vulnerabilities
+ Note: Risk rankings should be based on industry best practices as well as consideration of potential impact. For example, criteria for ranking vulnerabilities may include consideration of the CVSS base score and/or the classification by the vendor, and/or type of  systems affected. 
+ Methods for evaluating vulnerabilities and assigning risk ratings will vary based on an organization's environment and risk assessment strategy. Risk rankings should, at a minimum, identify all vulnerabilities considered to be a ""high risk"" to the environment. In addition to the risk ranking, vulnerabilities may be considered ""critical"" if they pose an imminent threat to the environment, impact critical systems, and/or would result in a potential compromise if not addressed. Examples of critical systems may include security systems, public-facing devices and systems, databases, and other systems that store, process or transmit cardholder data."
+6,2 (a),Ensure Systems Are Patched and Up-to-date,All system components and software shall be protected from known vulnerabilities by installing applicable vendor-supplied security patches. 
+6,2 (b),Ensure Systems Are Patched and Up-to-date - Timeframe,"Critical security patches shall be installed within one month of release. 
+ Note: Critical security patches should be identified according to the risk ranking process defined in Requirement 6.1."
+6,4.5 (a),Scope of Change Control Procedures - Documentation,"Change-control procedures shall be documented and require the following: 
+ Documentation of impact 
+ Documented change control approval by authorized parties 
+ Functionality testing to verify that the change does not adversely impact the security of the system 
+ Back-out procedures"
+6,4.5.1,Impact Documentation,An impact assessment shall be performed and documented for all changes.
+6,4.5.2,Document Change Approval,Documented approval shall be taken by authorized parties for all changes.
+6,4.5.3 (a),Perform Functionality Testing,Functionality testing shall be done to verify that the change does not adversely impact the security of the system.
+6,4.5.3 (b),Perform Functionality Testing - Custom Codes,"For custom code changes, testing of updates shall be conducted for compliance with PCI DSS Requirement 6.5 before being deployed into production."
+6,4.5.4,Rollback or Backout Procedure,Back-out procedures shall be documented and implemented. 
+6,4.6,Change Completion Verification,"Upon completion of a significant change, all relevant PCI DSS requirements shall be implemented on all new or changed systems and networks, and documentation updated as applicable."
+6,5 (a),Develop Applications With Secure Coding Guidelines,Software-development processes shall address common coding vulnerabilities.
+6,5 (b),Develop Applications With Secure Coding Guidelines - Trained Annually,"Developers shall be trained at least annually in up-to-date secure coding techniques, including how to avoid common coding vulnerabilities. "
+6,5.1,Secure Coding Practices - Injection Flaws,"Coding techniques shall address injection flaws, particularly SQL injection. 
+Note: Also consider OS Command Injection, LDAP and XPath injection flaws as well as other injection flaws. "
+6,5.2,Secure Coding Practices - Buffer Overflows,Coding techniques shall address buffer overflow vulnerabilities.
+6,5.4,Secure Coding Practices - Secure Communications,Coding techniques shall address insecure communications.
+6,5.5,Secure Coding Practices - Error Handling,Coding techniques shall address improper error handling.
+6,5.6,Secure Coding Practices - High Vulnerabilities,"Coding techniques shall address all ""high risk"" vulnerabilities identified in the vulnerability identification process (as defined in PCI DSS Requirement 6.1). "
+6,5.7,Secure Web Applications - XSS,Coding techniques shall address cross-site scripting (XSS) vulnerabilities.
+6,5.8,Secure Web Applications - Access Control,"Coding techniques shall address improper access control such as insecure direct object references, failure to restrict URL access, directory traversal, and failure to restrict user access to functions. "
+6,5.9,Secure Web Applications - CSRF,Coding techniques shall address cross-site request forgery (CSRF).
+6,5.1,Secure Web Applications - Sessions,Coding techniques shall address broken authentication and session management.
+6,6,Periodic Evaluation of Security - Public Facing Web Applications,"For public-facing web applications, new threats and vulnerabilities shall be addressed on an ongoing basis, and these applications shall be protected against known attacks by applying either of the following methods. 
+ Reviewing public-facing web applications via manual or automated application vulnerability security assessment tools or methods, as follows: 
+ - At least annually 
+ - After any changes 
+ - By an organization that specializes in application security 
+ - That, at a minimum, all vulnerabilities in Requirement 6.5 are included in the assessment 
+ - That all vulnerabilities are corrected 
+ - That the application is re-evaluated after the corrections 
+ Note: This assessment is not the same as the vulnerability scans performed for Requirement 11.2. 
+ --- OR --- 
+ Install an automated technical solution that detects and prevents web-based attacks (for example, a web-application firewall) as follows: 
+ - Is situated in front of public-facing web applications to detect and prevent web-based attacks. 
+ - Is actively running and up to date as applicable. 
+ - Is generating audit logs. 
+ - Is configured to either block web-based attacks, or generate an alert that is immediately investigated."
+6,7,Developing Secure Systems Policies and Procedures,"Security policies and operational procedures for developing and maintaining secure systems and applications shall be: 
+ - Documented 
+ - In use 
+ - Known to all affected parties."
+7,1.2,Principle of Least Privilege,"Access to privileged user IDs shall be restricted as follows: 
+- To least privileges necessary to perform job responsibilities 
+- Assigned only to roles that specifically require that privileged access"
+7,1.3,Privileges should be limited to job function,Access shall be assigned based on individual personnel's job classification and function.
+7,1.4,Document Required Privilege Approvals,"Documented approval by authorized parties shall be required, specifying required privileges."
+8,1.1,Unique IDs,All users shall be assigned a unique ID before allowing them to access system components or cardholder data.
+8,1.2,"Control Addition, Deletion, and Modification of Accounts","Additions, deletions, and modifications of user IDs, credentials, and other identifier objects shall be controlled such that user IDs are implemented only as authorized (including with specified privileges)."
+8,1.3,Revoke Access for Terminated Users,Access for any terminated users shall be immediately deactivated or removed.
+8,1.4,Remove Inactive Accounts,Inactive user accounts shall either be removed or disabled within 90 days.
+8,1.5 (a),Monitor Third Parties Remote Accounts,"Accounts used by third parties to access, support, or maintain system components via remote access shall be enabled only during the time period needed and disabled when not in use."
+8,1.5 (b),Monitor Third Parties Remote Accounts - In Use,Third-party remote access accounts shall be monitored when in use.
+8,1.6 (a),Limit Failed Access Attempts,Repeated access attempts shall be limited by locking out the user ID after no more than six attempts.
+8,1.7,Account Lockout Duration,"Once a user account is locked out, the lockout duration shall be set to a minimum of 30 minutes or until an administrator enables the user ID. "
+8,1.8,Timeouts and Reauthentication,"If a session has been idle for more than 15 minutes, users shall be required to re-authenticate (for example, re-enter the password) to re-activate the terminal or session."
+8,2,Authentication Methods,"In addition to assigning a unique ID, one or more of the following methods shall be employed to authenticate all users:
+ Something you know, such as a password or passphrase 
+ Something you have, such as a token device or smart card 
+ Something you are, such as a biometric"
+8,2.1 (a),Store and Transmit Passwords Securely,Strong cryptography shall be used to render all authentication credentials (such as passwords/phrases) unreadable during transmission and storage on all system components.
+8,2.2,Identify User Before Authentication Tasks,"User identity shall be verified before modifying any authentication credential (for example, performing password resets, provisioning new tokens, or generating new keys)."
+8,2.3 (a),Password Requirements,"User password parameters shall be configured to require passwords/passphrases meet the following: 
+ A minimum password length of at least seven characters 
+ Contain both numeric and alphabetic characters 
+ Alternatively, the passwords/passphrases must have complexity and strength at least equivalent to the parameters specified above."
+8,2.4 (a),Change User Passwords Every 90 Days,User passwords/passphrases shall be changed at least every 90 days.
+8,2.5 (a),Password reuse requirements,An individual must submit a new password/phrase that is different from any of the last four passwords/passphrases he or she has used.
+8,2.6,First Time Passwords and Password Resets,"Passwords/passphrases shall be set to a unique value for each user for first-time use and upon reset, and must each user change their password immediately after the first use."
+8,3.1,Multi-Factor Authentication for Administrative Access to CDE,Multi-factor authentication shall be incorporated for all nonconsole access into the CDE for personnel with administrative access. 
+8,3.2,Multi-Factor Authentication for Remote Access,"Multi-factor authentication shall be incorporated for all remote network access (both user and administrator, and including third-party access for support or maintenance) originating from outside the entity's network."
+8,4 (a),Communicate Policies and Procedures to End Users,Authentication policies and procedures shall be documented and communicated to all users.
+8,4 (b),Communicate Policies and Procedures to End Users - Checklist,"Authentication policies and procedures shall include the following: 
+ - Guidance on selecting strong authentication credentials 
+ - Guidance for how users should protect their authentication credentials 
+ - Instructions not to reuse previously used passwords 
+ - Instructions that users should change passwords if there is any suspicion the password could be compromised"
+8,5,Do Not Use Shared Accounts,"Group, shared, or generic accounts, passwords, or other authentication methods shall be prohibited as follows: 
+ Generic user IDs and accounts are disabled or removed; 
+ Shared user IDs for system administration activities and other critical functions do not exist; and 
+ Shared and generic user IDs are not used to administer any system components."
+8,6,Alternative Authentication Mechanisms,"Where other authentication mechanisms are used (for example, physical or logical security tokens, smart cards, and certificates, etc.), the use of these mechanisms shall be assigned as follows:
+ Authentication mechanisms must be assigned to an individual account and not shared among multiple accounts 
+ Physical and/or logical controls must be in place to ensure only the intended account can use that mechanism to gain access"
+8,8,Identification and Authentication Policies and Procedures,"Security policies and operational procedures for identification and authentication shall be: 
+ - Documented 
+ - In use 
+ - Known to all affected parties."
+9,1,Facility Entry Controls,Appropriate facility entry controls shall be in place to limit and monitor physical access to systems in the cardholder data environment. 
+9,5,Physically Secure All Media,"All media shall be physically secured (including but not limited to computers, removable electronic media, paper receipts, paper reports, and faxes).  
+ For purposes of Requirement 9, ""media"" refers to all paper and electronic media containing cardholder data."
+9,6 (a),Media Distribution Control - Maintained,Strict control shall be maintained over the internal or external distribution of any kind of media. 
+9,6.1,Classify Media Sensitivity,Media shall be classified so the sensitivity of the data can be determined.
+9,6.2,Send Media Securely,Media sent by secured courier or other delivery method shall be accurately tracked.
+9,6.3,Management Approval of Media Distribution,Management approval shall be obtained prior to moving the media (especially when media is distributed to individuals).
+9,7,Media Access and Storage Controls,Strict control shall be maintained over the storage and accessibility of media.
+9,8 (a),Destroy Unneeded Media,All media shall be destroyed when it is no longer needed for business or legal reasons. 
+9,8.1 (a),Adequately Destroy Hardcopy Media,"Hardcopy materials shall be cross-cut shredded, incinerated, or pulped so that cardholder data cannot be reconstructed. "
+9,8.1 (b),Adequately Destroy Hardcopy Media - Storage,Storage containers shall be used for materials that contain information to be destroyed secured to prevent access to the contents. 
+10,1,Implement Audit Trails,"Audit trails shall be enabled and active for system components. 
+ Access to system components shall be linked to individual users."
+10,2.2,Audit Administrative Privilege Use,Ensure logging/auditing all actions taken by any individual with root or administrative privileges. 
+10,2.3,Audit Access To Audit Trails,Ensure logging/auditing access to all audit trails.
+10,2.4,Audit Failed Access Attempts,Ensure logging/auditing invalid logical access attempts.
+10,2.5,Audit Use of Authentication,"Ensure logging/auditing the use of and changes to identification and authentication mechanisms, including but not limited to creation of new accounts and elevation of privileges, and all changes, additions, or deletions to accounts with root or administrative privileges. "
+10,2.6,"Audit Initialization, Stop, and Pause of Audit Log","Ensure initialization, stopping, or pausing of the audit logs."
+10,2.7,Audit Creation and Deletion of System Objects,Ensure logging/auditing creation and deletion of system-level objects.
+10,3.1,Audit Trail - User Identification,Ensure logging/auditing user identification.
+10,3.2,Audit Trail - Type of event,Ensure logging/auditing type of event(s). 
+10,3.3,Audit Trail - Time of Event,Ensure logging/auditing date and time.
+10,3.4,Audit Trail - Success or Failure,Ensure logging/auditing success or failure indication.
+10,3.5,Audit Trail - Origin,Ensure logging/auditing origination of event.
+10,3.6,Audit Trail - System Component,"Ensure logging/auditing of identity or name of affected data, system component, or resource. "
+10,4,Use time synchronization across systems,"All critical system clocks and times shall be synchronized through use of time synchronization technology, and is the technology kept current. 
+ Note: One example of time synchronization technology is Network Time Protocol (NTP)."
+10,4.1 (a),Time Synchronization - Correct and Consistent Time - IAT or UTC,"Only designated central time server(s) shall receive time signals from external sources, and time signals from external sources shall be based on International Atomic Time or UTC. "
+10,4.1 (b),Time Synchronization - Correct and Consistent Time - Peer for Accuracy,"Where there is more than one designated time server, the time servers shall peer with each other to keep accurate time. "
+10,4.1 (c),Time Synchronization - Correct and Consistent Time - Designated Servers,Systems shall receive time only from designated central time server(s).
+10,4.2 (a),Time Synchronization - Protect - Restricted,"Time data shall be protected as follows: 
+Access to time data shall be restricted to only personnel with a business need to access time data. "
+10,4.2 (b),Time Synchronization - Protect - Changes Logged,"Time data shall be protected as follows: 
+Changes to time settings on critical systems shall be logged, monitored, and reviewed."
+10,4.3,Time Synchronization - Sources,"Time settings shall be received from specific, industry-accepted time sources? (This is to prevent a malicious individual from changing the clock). 
+Optionally, those updates can be encrypted with a symmetric key, and access control lists can be created that specify the IP addresses of client machines that will be provided with the time updates (to prevent unauthorized use of internal time servers)."
+10,5.1,Audit Trails - Limit viewing,Viewing of audit trails shall be limited to those with a job-related need. 
+10,5.2,Audit Trails - Protection,"Audit trail files shall be protected from unauthorized modifications via access control mechanisms, physical segregation, and/or network segregation. "
+10,5.3,Audit Trails - Backups,Audit trail files shall be promptly backed up to a centralized log server or media that is difficult to alter. 
+10,5.4,Audit Trails - External Devices,"Logs for external-facing technologies (for example, wireless, firewalls, DNS, mail) shall be written onto a secure, centralized, internal log server or media. "
+10,5.5,Audit Trails - File Integrity,File-integrity monitoring or change-detection software shall be used on logs to ensure that existing log data cannot be changed without generating alerts (although new data being added should not cause an alert).
+10,6.1 (b),Daily Log and Events Review,"The following logs and security events shall be reviewed at least daily, either manually or via log tools: 
+ All security events 
+ Logs of all system components that store, process, or transmit CHD and/or SAD 
+ Logs of all critical system components 
+ Logs of all servers and system components that perform security functions (for example, firewalls, intrusion-detection systems/intrusion-prevention systems (IDS/IPS), authentication servers, e-commerce redirection servers, etc.)"
+10,6.2 (b),Review Other Logs Periodically,"Logs of all other system components shall be periodically reviewed, either manually or via log tools, based on the organization's policies and risk management strategy. "
+10,6.3 (b),Follow Up To Log Review,Follow up to exceptions and anomalies shall be identified during the review process. 
+10,7 (b),Audit Trails - Retention,Audit logs shall be retained for at least one year.
+10,7 (c),Audit Trails - Retention - Availability,At least the last three months' logs shall be immediately available for analysis.
+11,2.2 (a),External Vulnerability Scans,"Quarterly external vulnerability scans shall be performed.
+ Note: Quarterly external vulnerability scans must be performed by an Approved Scanning Vendor (ASV), approved by the Payment Card Industry Security Standards Council (PCI SSC). 
+ Refer to the ASV Program Guide published on the PCI SSC website for scan customer responsibilities, scan preparation, etc."
+11,2.2 (b),External Vulnerability Scans - Results,"External quarterly scan and rescan results shall satisfy the ASV Program Guide requirements for a passing scan (for example, no vulnerabilities rated 4.0 or higher by the CVSS, and no automatic failures). "
+11,2.2 (c),External Vulnerability Scans - Approved Vendor,Quarterly external vulnerability scans shall be performed by a PCI SSC Approved Scanning Vendor (ASV). 
+11,2.3 (a),Vulnerability Scans After Significant Changes,"Internal and external scans, and rescans as needed, shall be performed after any significant change. 
+ Note: Scans must be performed by qualified personnel"
+11,2.3 (b),Vulnerability Scans After Significant Changes - Rescan criteria,"The scan process shall include rescans until: 
+ - For external scans, no vulnerabilities exist that are scored 4.0 or higher by the CVSS; 
+ - For internal scans, a passing result is obtained or all ""high-risk"" vulnerabilities as defined in PCI DSS Requirement 6.1 are resolved"
+11,2.3 (c),Vulnerability Scans After Significant Changes - Approved Scanner,"Scans shall be performed by a qualified internal resource(s) or qualified external third party, and if applicable, does organizational independence of the tester exist (not required to be a QSA or ASV)."
+11,3,Penetration Testing Methodology,"The penetration-testing methodology shall include the following:  
+ Is based on industry-accepted penetration testing approaches (for example, NIST SP800-115) 
+ Includes coverage for the entire CDE perimeter and critical systems 
+ Includes testing from both inside and outside the network 
+ Includes testing to validate any segmentation and scope-reduction controls 
+ Defines application-layer penetration tests to include, at a minimum, the vulnerabilities listed in Requirement 6.5 
+ Defines network-layer penetration tests to include components that support network functions as well as operating systems 
+ Includes review and consideration of threats and vulnerabilities experienced in the last 12 months 
+ Specifies retention of penetration testing results and remediation activities results"
+11,3.1 (a),External Penetration Test,"External penetration testing shall be performed per the defined methodology, at least annually, and after any significant infrastructure or application changes to the environment (such as an operating system upgrade, a sub-network added to the environment, or an added web server). "
+11,3.1 (b),External Penetration Test,"Tests shall be performed by a qualified internal resource or qualified external third party, and if applicable, does organizational independence of the tester exist (not required to be a QSA or ASV). "
+11,3.3,Correct Penetration Test Findings,"Exploitable vulnerabilities found during penetration testing shall be corrected, followed by repeated testing to verify the corrections."
+11,3.4 (a),Segmentation Penetration Test - Procedures Defined,"Penetration-testing procedures shall be defined to test all segmentation methods, to confirm they are operational and effective, and isolate all out-of-scope systems from systems in the CDE. "
+11,3.4 (b),Segmentation Penetration Test - Segmentation Controls,"Penetration testing shall be conducted to verify segmentation controls meet the following: 
+ Performed at least annually and after any changes to segmentation controls/methods. 
+ Covers all segmentation controls/methods in use. 
+ Verifies that segmentation methods are operational and effective, and isolate all out-of-scope systems from systems in the CDE."
+11,3.4 (c),Segmentation Penetration Test - Qualified Vendors,"Tests shall be performed by a qualified internal resource or qualified external third party, and if applicable, does organizational independence of the tester exist (not required to be a QSA or ASV). "
+11,4 (a),Implement and Use IDS/IPS,"Intrusion-detection and/or intrusion-prevention techniques that detect and/or prevent intrusions into the network shall be in place to monitor all traffic: 
+ - At the perimeter of the cardholder data environment, and 
+ - At critical points in the cardholder data environment."
+11,4 (b),Implement and Use IDS/IPS - Configured for Alerting,Intrusion-detection and/or intrusion-prevention techniques shall be configured to alert personnel of suspected compromises. 
+11,4 (c),Implement and Use IDS/IPS - Kept Up-to-Date,"All intrusion-detection and prevention engines, baselines, and signatures shall be kept up-to-date."
+11,5 (a),Change Detection,"A change-detection mechanism (for example, file-integrity monitoring tools) shall be deployed to detect unauthorized modification (including changes, additions, and deletions) of critical system files, configuration files, or content files.  
+ Examples of files that should be monitored include: 
+ - System executables 
+ - Application executables 
+ - Configuration and parameter files 
+ - Centrally stored, historical or archived, log, and audit files 
+ - Additional critical files determined by entity (for example, through risk assessment or other means)"
+11,5 (b),Change Detection - Configured to Alert,"The change-detection mechanism shall be configured to alert personnel to unauthorized modification (including changes, additions, and deletions) of critical system files, configuration files or content files, and the tools shall perform critical file comparisons at least weekly. 
+Note: For change detection purposes, critical files are usually those that do not regularly change, but the modification of which could indicate a system compromise or risk of compromise. Change detection mechanisms such as file-integrity monitoring products usually come pre-configured with critical files for the related operating system. Other critical files, such as those for custom applications, must be evaluated and defined by the entity (that is the merchant or service provider)"
+11,5.1,Change Detection Response,A process shall be in place to respond to any alerts generated by the change-detection solution. 
+12,1,Security Policies,"A security policy shall be established, published, maintained, and disseminated to all relevant personnel. "
+12,1.1,Security Policy Review,The security policy shall be reviewed at least annually and updated when the environment changes. 
+12,4,Security Policies Define Responsibilities,Security policy and procedures shall be clearly define information security responsibilities for all personnel. 
+12,5.3,Security Assignment - Incident Response,"Ensure establishing, documenting, and distributing security incident response and escalation procedures to make sure timely and effective handling of all situations. "
+12,6 (a),Security Awareness Training,A formal security awareness program shall be in place to make all personnel aware of the cardholder data security policy and procedures. 
+12,8.1,List of Service Providers with Access to Cardholder Data,"A list of service providers shall be maintained, including a description of the service(s) provided. "
+12,8.2,Service Provider Acknowledgement,"A written agreement shall be maintained that includes an acknowledgement that the service providers are responsible for the security of cardholder data the service providers possess or otherwise store, process, or transmit on behalf of the customer, or to the extent that they could impact the security of the customer's cardholder data environment. 
+ Note: The exact wording of an acknowledgement will depend on the agreement between the two parties, the details of the service being provided, and the responsibilities assigned to each party. The acknowledgement does not have to include the exact wording provided in this requirement."
+12,8.3,Service Provider Engagement,"There should be an established process for engaging service providers, including proper due diligence prior to engagement."
+12,8.4,Service Provider Compliance,A program shall be maintained to monitor service providers' PCI DSS compliance status at least annually.
+12,8.5,Service Provider PCI Requirements Management,"Information shall be maintained about which PCI DSS requirements are managed by each service provider, and which are managed by the entity. "
+12,10.1 (a),Context of Incident Response Plan,An incident response plan shall be created to be implemented in the event of system breach. 

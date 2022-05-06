@@ -1,0 +1,250 @@
+primary_id,sub_id,Name,Description
+4,1, Understanding The Organization and Its Context,"The organization shall determine external and internal issues that are relevant to its purpose and that affect its ability to achieve the intended outcome(s) of its BCMS.
+ Note: These issues will be influenced by the organization's overall objectives, its products and services and the amount and type of risk that it may or may not take."
+4,2.1.a,Understanding The Needs and Expectations of Interested Parties - Management System,The organization shall determine the interested parties that are relevant to the business continuity management system.
+4,2.1.b,Understanding The Needs and Expectations of Interested Parties - Business Continuity,"The organization shall determine the requirements of these interested parties relevant to business continuity.
+NOTE: The requirements of interested parties may include legal and regulatory requirements and contractual obligations. "
+4,2.2.a,Understanding The Legal and Regulatory Requirements - Business Continuity,"The organization shall establish, implement, and maintain a process to identify, have access to, and assess the applicable legal and regulatory requirements related to the continuity of its products and services, activities and resources."
+4,2.2.b,Understanding The Legal and Regulatory Requirements - Management System,"The organization shall ensure that applicable legal, regulatory and other requirements are taken into account in implementing and maintaining its BCMS."
+4,2.2.c,Understanding The Legal and Regulatory Requirements - Documentation,"The organization shall ensure that applicable legal, regulatory and other requirements are documented and kept up to date. "
+4,3,Business Continuity Scope Determination,"The organization shall determine the boundaries and applicability of the business continuity management system to establish its scope. 
+This scope shall be available as documented information."
+4,3.1.a,Business Continuity Scope Determination - External and Internal Issues,"When determining the scope of the business continuity management system, the organization shall consider the external and internal issues referred to in Requirement 4.1 (Understanding the organization and its context)"
+4,3.1.b,Business Continuity Scope Determination - Requirements of 4.2,When determining the scope of the business continuity management system the organization shall consider the requirements referred to in Requirement 4.2 (Understanding the needs and expectations of interested parties)
+4,3.1.c,Business Continuity Scope Determination - Interfaces and Dependencies,"When determining the scope of the business continuity management system, the organization shall consider its mission, goals, and internal and external obligations."
+4,3.2,Scope of The Business Continuity Management System,"The organization shall when defining the scope document and explain exclusions. They shall not affect the organization's ability and responsibility to provide business continuity, as determined by the business impact analysis or risk assessment and applicable legal or regulatory requirements."
+4,3.2.a,Scope of The Business Continuity Management System - Scope Inclusion ,"The organization shall establish the parts of the organization to be included in the BCMS, taking into account its location(s), size, nature and complexity."
+4,3.2.b,Scope of The Business Continuity Management System - Products and Services ,The organization shall identify products and services to be included in the BCMS. 
+4,4,Business Continuity Management System,"The organization shall establish, implement, maintain, and continually improve an business continuity management system, including the processes needed and their interactions, in accordance with the requirements of this document."
+5,1.a,Leadership and Commitment - Establish Policy,Top management shall demonstrate leadership and commitment with respect to the business continuity management system by ensuring the business continuity policy and the business continuity objectives are established and are compatible with the strategic direction of the organization.
+5,1.b,Leadership and Commitment - Integration,Top management shall demonstrate leadership and commitment with respect to the business continuity management system by ensuring the integration of the business continuity management system requirements into the organization's processes.
+5,1.c,Leadership and Commitment - Resources,Top management shall demonstrate leadership and commitment with respect to the business continuity management system by ensuring that the resources needed for the business continuity management system are available.
+5,1.d,Leadership and Commitment - Communication,Top management shall demonstrate leadership and commitment with respect to the business continuity management system by communicating the importance of effective business continuity management and of conforming to the business continuity management system requirements.
+5,1.e,Leadership and Commitment - Achievement,Top management shall demonstrate leadership and commitment with respect to the business continuity management system by ensuring the business continuity management system achieves its intended outcome(s).
+5,1.f,Leadership and Commitment - Support,Top management shall demonstrate leadership and commitment with respect to the business continuity management system by directing and supporting persons to contribute to the effectiveness of the business continuity management system.
+5,1.g,Leadership and Commitment - Continual Improvement,Top management shall demonstrate leadership and commitment with respect to the business continuity management system by promoting continual improvement.
+5,1.h,Leadership and Commitment - Demonstrate,Top management shall demonstrate leadership and commitment with respect to the business continuity management system by supporting other relevant management roles to demonstrate their leadership as it applies to their areas of responsibility.
+5,"2.a, 2.b, 2.c, 2.d, 2.2.a","Policy Establishment - Appropriateness, Objectives,  Commitment to Satisfy, Commitment to Continually Improve, Documented","Top management shall establish an business continuity policy that is appropriate to the purpose of the organization and includes business continuity objectives or provides the framework for setting business continuity objectives, includes a commitment to satisfy applicable requirements related to business continuity, and includes a commitment to the continual improvement of the business continuity management system. The business continuity policy shall be available as documented information."
+5,2.2.b,Policy Establishment - Communication,The business continuity policy shall be communicated within the organization.
+5,2.2.c,Policy Establishment - Availability to Others,"The business continuity policy shall be available to interested parties, as appropriate."
+5,3,"Roles, Responsibilities, and Authorities",Top management shall ensure that the responsibilities and authorities for roles relevant to business continuity are assigned and communicated.
+5,3.a,"Roles, Responsibilities, and Authorities - Conformity",Top management shall assign responsibility and authority for ensuring that the business continuity management system conforms to the requirements of this International Standard.
+5,3.b,"Roles, Responsibilities, and Authorities - Reporting",Top management shall assign the responsibility and authority for reporting on the performance of the business continuity management system to top management. 
+6,"1.1.a, 1.1.b, 1.1.c","Address Risks and Opportunities - Planning for Success, Reduce Undesired Effects, Achieve Continual Improvement","When planning for the business continuity management system, the organization shall consider the issues referred to in Requirements 4.1 (Understanding the organization and its context) and 4.2 (Understanding the needs and expectations of interested parties), and determine the risks and opportunities that need to be addressed to ensure the business continuity management system can achieve its intended outcome(s), prevent or reduce undesired effects, and achieve continual improvement."
+6,1.2.a,Address Risks and Opportunities - Plan to Address Risks,"When planning for the business continuity management system, the organization shall plan actions to address risks and opportunities."
+6,1.2.b.1,Address Risks and Opportunities - Plan to Integrate Process,"When planning for the business continuity management system, the organization shall plan how to integrate and implement the actions into its business continuity management system processes."
+6,1.2.b.2,Address Risks and Opportunities - Plan to Evaluate,"When planning for the business continuity management system, the organization shall plan how to evaluate the effectiveness of these actions."
+6,2,Business Continuity Objectives,The organization shall establish business continuity objectives at relevant functions and levels. The organization shall retain documented information on the business continuity objectives.
+6,"2.1.a, 2.1.b, 2.1.c, ","Business Continuity Objectives - Consistent With Policies, Measurable, Account Other Requirements","The organizations business continuity objectives shall be consistent with the business continuity policy, shall be measurable (if practicable), and shall take into account applicable business continuity requirements."
+6,2.1.d,Business Continuity Objectives - Monitored,The organizations business continuity objectives shall be monitored.
+6,2.1.e,Business Continuity Objectives - Communicated,The organizations business continuity objectives shall be communicated.
+6,2.1.f,Business Continuity Objectives - Updated,The organizations business continuity objectives shall be updated as appropriate.
+6,2.2.a,Business Continuity Objectives Planning - Tasks,"When planning how to achieve its business continuity objectives, the organization shall determine what will be done."
+6,2.2.b,Business Continuity Objectives Planning - Resources,"When planning how to achieve its business continuity objectives, the organization shall determine what resources will be required."
+6,2.2.c,Business Continuity Objectives Planning - Responsibilities,"When planning how to achieve its business continuity objectives, the organization shall determine who will be responsible."
+6,2.2.d,Business Continuity Objectives Planning - Timeline,"When planning how to achieve its business continuity objectives, the organization shall determine when it will be completed."
+6,2.2.e,Business Continuity Objectives Planning - Results Evaluation,"When planning how to achieve its business continuity objectives, the organization shall determine how the results will be evaluated."
+6,3,Planning Changes To The Business Continuity Management System,"When the organization determines the need for changes to the BCMS, including those identified to take corrective action and for continual improvement, the changes shall be carried out in a planned manner.
+The organization shall consider:
+a) the purpose of the changes and their potential consequences;
+b) the integrity of the BCMS;
+c) the availability of resources;
+d) the allocation or reallocation of responsibilities and authorities."
+7,1,Resources,"The organization shall determine and provide the resources needed for the establishment, implementation, maintenance, and continual improvement of the business continuity management system."
+7,2.a,Competence - Necessary Competency,The organization shall determine the necessary competence of person(s) doing work under its control that affects its business continuity performance.
+7,2.b,Competence - Appropriate Training and Education,"The organization shall ensure these persons are competent on the basis of appropriate education, training, or experience."
+7,2.c,Competence - Evaluate Effectiveness,"The organization shall, where applicable, take actions to acquire the necessary competence, and evaluate the effectiveness of the actions taken. 
+ Note: Applicable actions may include, for example: the provision of training to, the mentoring of, or the re-assignment of current employees; or the hiring or contracting of competent persons."
+7,2.d,Competence - Documentation,The organization shall retain appropriate documented information as evidence of competence.
+7,3.a,Awareness - Business Continuity Policy,Persons doing work under the organization's control shall be aware of the business continuity policy.
+7,3.b,Awareness - Contribution,"Persons doing work under the organization's control shall be aware of their contribution to the effectiveness of the business continuity management system, including the benefits of improved business continuity performance."
+7,3.c,Awareness - Consequences,Persons doing work under the organization's control shall be aware of the implications of not conforming with the business continuity management system requirements.
+7,4.a,Communication - What,"The organization shall determine the need for internal and external communications relevant to the business continuity management system. 
+ The organization must determine 'what' to communicate."
+7,4.b,Communication - When,"The organization shall determine the need for internal and external communications relevant to the business continuity management system. 
+ The organization must determine 'when' to communicate."
+7,4.c,Communication - With Whom,"The organization shall determine the need for internal and external communications relevant to the business continuity management system. 
+ The organization must determine 'with whom' to communicate."
+7,4.d,Communication - Who,"The organization shall determine the need for internal and external communications relevant to the business continuity management system. 
+ The organization must determine 'who' shall communicate."
+7,4.e,Communication - Effected Processes,"The organization shall determine the need for internal and external communications relevant to the business continuity management system. 
+ The organization must determine the processes by which communication shall be effected."
+7,5.1.a,Documentation for Business Continuity Management System - Iso,The organization's business continuity management system shall include documented information required by this International Standard (ISO 22301).
+7,5.1.b,Documentation for Business Continuity Management System - Necessary Information,"The organization's business continuity management system shall include documented information determined by the organization as being necessary for the effectiveness of the business continuity management system. 
+ Note: The extent of documented information for an business continuity management system can differ from one organization to another due to: 
+ 1) The size of organization and its type of activities, processes, products and services, and resources
+ 2) The complexity of processes and their interactions 
+ 3) The competence of persons"
+7,5.2.a,Documented Business Continuity Management System - Description,"When creating and updating documented information the organization shall ensure appropriate identification and description (e.g. a title, date, author, or reference number)."
+7,5.2.b,Documented Business Continuity Management System - Format,"When creating and updating documented information the organization shall ensure appropriate format (e.g. language, software version, graphics) and media (e.g. paper, electronic)"
+7,5.2.c,Documented Business Continuity Management System - Adequacy,When creating and updating documented information the organization shall ensure appropriate review and approval for suitability and adequacy.
+7,5.3.1,Control Documented Information,"Documented information required by the business continuity management system and by this International Standard (ISO 22301) shall be controlled. Documented information of external origin determined by the organization to be necessary for the planning and operation of the BCMS shall be identified, as appropriate, and controlled.
+NOTE Access can imply a decision regarding the permission to view the documented information only, or
+the permission and authority to view and change the documented information."
+7,5.3.1.a,Control Documented Information - Availability,"Documented information required by the business continuity management system and by this International Standard (ISO 22301) shall be controlled to ensure its available and suitable for use, where it is needed."
+7,5.3.1.b,Control Documented Information - Protection,"Documented information required by the business continuity management system and by this International Standard (ISO 22301) shall be controlled to ensure it is adequately protected (e.g. from loss of confidentiality, improper use, or loss of integrity)"
+7,5.3.2.a,Control Documented Information - Distribution,"For the control of documented information, the organization shall address the distribution, access, retrieval and use."
+7,5.3.2.b,Control Documented Information - Storage,"For the control of documented information, the organization shall address the storage and preservation, including the preservation of legibility."
+7,5.3.2.c,Control Documented Information - Change Control,"For the control of documented information, the organization shall address the control of changes (e.g. version control)."
+7,5.3.2.d,Control Documented Information - Retention,"For the control of documented information, the organization shall address the retention and disposition."
+8,1,Operational Planning and Control - Implementation,"The organization shall plan, implement and control the process needed to meet business continuity requirements, and to implement the actions determined in requirement related to actions to address risks and opportunities. The organization shall control planned changes and review the consequences of unintended changes, taking action to mitigate any adverse effects, as necessary. The organization shall ensure that outsourced processes and the supply chain are controlled."
+8,1.a,Operational Planning and Control - Criteria,"The organization shall plan, implement and control the process needed to meet business continuity requirements, and to implement the actions determined in requirement related to actions to address risks and opportunities by establishing criteria for the processes."
+8,1.b,Operational Planning and Control - Control of Processes,"The organization shall plan, implement and control the process needed to meet business continuity requirements, and to implement the actions determined in requirement related to actions to address risks and opportunities by implementing control of the processes in accordance with the criteria."
+8,1.c,Operational Planning and Control - Documented Information,"The organization shall plan, implement and control the process needed to meet business continuity requirements, and to implement the actions determined in requirement related to actions to address risks and opportunities by keeping documented information to the extent necessary to have confidence that the processes have been carried out as planned."
+8,2.1.a,Business Impact Analysis and Risk Assessment - Systematic Processes,The organization shall implement and maintain systematic processes for analyzing the business impact and assessing the risks of disruption.
+8,2.1.b,Business Impact Analysis and Risk Assessment - Periodic Review,"The organization shall review the business impact analysis and risk assessment at planned intervals and when there are significant changes within the organization or the context in which it operates. 
+NOTE The organization determines the order in which the business impact analysis and risk assessment are conducted."
+8,2.2,Business Impact Analysis ,The organization shall use the process for analyzing business impacts to determine business continuity priorities and requirements.
+8,2.2.a,Business Impact Analysis - Impact Types ,The business impact analysis process shall define the impact types and criteria relevant to the organization's context.
+8,2.2.b,Business Impact Analysis - Supported Activities,The business impact analysis process shall identify the activities that support the provision of products and services.
+8,2.2.c,Business Impact Analysis - Impact Over Time,The business impact analysis process shall use the impact types and criteria for assessing the impacts over time resulting from the disruption of these activities.
+8,2.2.d,Business Impact Analysis - MTPD,"The business impact analysis process shall identify the time frame within which the impacts of not resuming activities would become unacceptable to the organization.
+NOTE 1 This time frame can be referred to as the ""maximum tolerable period of disruption (MTPD)""."
+8,2.2.e,Business Impact Analysis - RTO,"The business impact analysis process shall set prioritized time frames within the time identified in d) for resuming disrupted activities at a specified minimum acceptable capacity. 
+NOTE 2 This time frame can be referred to as the ""recovery time objective (RTO)""."
+8,2.2.f,Business Impact Analysis - Prioritized Activities,The business impact analysis process shall use this analysis to identify prioritized activities.
+8,2.2.g,Business Impact Analysis - Needed Resources,The business impact analysis process shall determine which resources are needed to support prioritized activities.
+8,2.2.h,Business Impact Analysis - Dependencies,"The business impact analysis process shall determine the dependencies, including partners and suppliers, and interdependencies of prioritized activities."
+8,2.3,Risk Assessment,"The organization shall implement and maintain a risk assessment process.
+NOTE The process for risk assessment is addressed in ISO 31000."
+8,2.3.a,Risk Assessment - Risk Identification,The organization shall identify the risks of disruption to the organization's prioritized activities and to their required resources.
+8,2.3.b,Risk Assessment - Risk Analysis ,The organization shall analyze and evaluate the identified risks.
+8,2.3.c,Risk Assessment - Risk Treatment,The organization shall determine which risks require treatment.
+8,3.1,Business Continuity Strategies and Solutions,"Based on the outputs from the business impact analysis and risk assessment, the organization shall identify and select business continuity strategies that consider options for before, during and after disruption. The business continuity strategies shall be comprised of one or more solutions."
+8,3.2.a,Identification of Strategies and Solutions - Meet Requirements,Identification shall be based on the extent to which strategies and solutions meet the requirements to continue and recover prioritized activities within the identified time frames and agreed capacity.
+8,3.2.b,Identification of Strategies and Solutions - Protect Activities,Identification shall be based on the extent to which strategies and solutions protect the organization's prioritized activities.
+8,3.2.c,Identification of Strategies and Solutions - Reduce Likelihood,Identification shall be based on the extent to which strategies and solutions reduce the likelihood of disruption.
+8,3.2.d,Identification of Strategies and Solutions - Shorten Disruption,Identification shall be based on the extent to which strategies and solutions shorten the period of disruption.
+8,3.2.e,Identification of Strategies and Solutions - Limit Impact,Identification shall be based on the extent to which strategies and solutions limit the impact of disruption on the organization's products and services.
+8,3.2.f,Identification of Strategies and Solutions - Provide Availability,Identification shall be based on the extent to which strategies and solutions provide for the availability of adequate resources.
+8,3.3.a,Selection of Strategies and Solutions - Meet Requirements,"Selection shall be based on the extent to which strategies and solutions meet the requirements to continue and recover prioritized activities within the identified
+time frames and agreed capacity."
+8,3.3.b,Selection of Strategies and Solutions - Risk Appetite ,Selection shall be based on the extent to which strategies and solutions consider the amount and type of risk the organization may or may not take.
+8,3.3.c,Selection of Strategies and Solutions - Costs & Benefits,Selection shall be based on the extent to which strategies and solutions consider associated costs and benefits.
+8,"3.4.a, 3.4.b, 3.4.c, 3.4.d, 3.4.e, 3.4.f, 3.4.g, 3.4.h",Resource Requirements,"The organization shall determine the resource requirements to implement the selected business continuity solutions. The types of resources considered shall include, but not be limited to:
+a) people
+b) information and data
+c) physical infrastructure such as buildings, workplaces or other facilities and associated utilities
+d) equipment and consumables
+e) information and communication technology (ICT) systems
+f) transportation and logistics
+g) finance
+h) partners and suppliers."
+8,3.5,Implementation of Solutions,"The organization shall implement and maintain selected business continuity solutions so they can be
+activated when needed."
+8,4.1,Business Continuity Plans and Procedures - General,"The organization shall implement and maintain a response structure that will enable timely warning and communication to relevant interested parties. It shall provide plans and procedures to manage the organization during a disruption. The plans and procedures shall be used when required to activate
+business continuity solutions.
+NOTE There are different types of procedures that comprise business continuity plans. 
+The organization shall identify and document business continuity plans and procedures based on the output of the selected strategies and solutions."
+8,4.1.a,Business Continuity Plans and Procedures - Specific,The business continuity plans and procedures shall be specific regarding the immediate steps that are to be taken during a disruption.
+8,4.1.b,Business Continuity Plans and Procedures - Flexible,The business continuity plans and procedures shall be flexible to respond to the changing internal and external conditions of a disruption.
+8,4.1.c,Business Continuity Plans and Procedures - Focus On Impact,The business continuity plans and procedures shall focus on the impact of incidents that potentially lead to disruption.
+8,4.1.d,Business Continuity Plans and Procedures - Effective,The business continuity plans and procedures shall be effective in minimizing the impact through the implementation of appropriate solutions.
+8,4.1.e,Business Continuity Plans and Procedures - Assign Roles,The business continuity plans and procedures shall assign roles and responsibilities for tasks within them.
+8,4.2.1,Response Structure - Roles and Responsibilities,"The organization shall implement and maintain a structure, identifying one or more teams responsible for responding to disruptions."
+8,4.2.2,Response Structure - Team Relationships,The roles and responsibilities of each team and the relationships between the teams shall be clearly stated.
+8,4.2.3.a,Team Competency - Assess Disruption,"Collectively, the teams shall be competent to assess the nature and extent of a disruption and its potential impact."
+8,4.2.3.b,Team Competency - Assess Impact,"Collectively, the teams shall be competent to assess the impact against pre-defined thresholds that justify initiation of a formal response."
+8,4.2.3.c,Team Competency - Activate Response,"Collectively, the teams shall be competent to activate an appropriate business continuity response."
+8,4.2.3.d,Team Competency - Plan Actions,"Collectively, the teams shall be competent to plan actions that need to be undertaken."
+8,4.2.3.e,Team Competency - Establish Priorities,"Collectively, the teams shall be competent to establish priorities (using life safety as the first priority)."
+8,4.2.3.f,Team Competency - Monitor Effects,"Collectively, the teams shall be competent to monitor the effects of the disruption and the organization's response."
+8,4.2.3.g,Team Competency - Activate BC Solutions,"Collectively, the teams shall be competent to activate the business continuity solutions."
+8,4.2.3.h,Team Competency - Communicate,"Collectively, the teams shall be competent to communicate with relevant interested parties, authorities and the media."
+8,4.2.4.a,BCMS Team - Alternative Team,"For each team there shall be identified personnel and their alternates with the necessary responsibility, authority and competence to perform their designated role."
+8,4.2.4.b,BCMS Team - Documented Procedures,"For each team there shall be documented procedures to guide their actions, including those for the activation, operation, coordination and communication of the response."
+8,4.3.1.a,Warning and Communication - Documentation,"The organization shall document and maintain procedures for communicating internally and externally to relevant interested parties, including what, when, with whom and how to communicate.
+NOTE The organization can document and maintain procedures for how, and under what circumstances, the organization communicates with employees and their emergency contacts.
+The warning and communication procedures shall be exercised as part of the organization's exercise program described."
+8,4.3.1.b,Warning and Communication - Response Procedures ,"The organization shall document and maintain procedures for receiving, documenting and responding to communications from interested parties, including any national or regional risk advisory system or equivalent."
+8,4.3.1.c,Warning and Communication - Ensuring Availability,The organization shall document and maintain procedures for ensuring the availability of the means of communication during a disruption.
+8,4.3.1.d,Warning and Communication - Structured Communication,The organization shall document and maintain procedures for facilitating structured communication with emergency responders.
+8,4.3.1.e,Warning and Communication - Media Response ,"The organization shall document and maintain procedures for providing details of the organization's media response following an incident, including a communications strategy."
+8,4.3.1.f,Warning and Communication - Recording Details,"The organization shall document and maintain procedures for recording the details of the disruption, the actions taken and the decisions made."
+8,4.3.2.a,Warning and Communication - Alert Interested Parties,"Where applicable, the organization shall consider alerting interested parties potentially impacted by an actual or impending disruption."
+8,4.3.2.b,Warning and Communication - Appropriate Coordination,"Where applicable, the organization shall consider ensuring appropriate coordination and communication between multiple responding organizations."
+8,4.4.1,Business Continuity Plans,The organization shall document and maintain business continuity plans and procedures. The business continuity plans shall provide guidance and information to assist teams to respond to a disruption and to assist the organization with response and recovery. Each plan shall be usable and available at the time and place at which it is required.
+8,4.4.2.a.1,Business Continuity Plans - Continuity & Recovery Procedures,"Collectively, the business continuity plans shall contain details of the actions that the teams will take in order to continue or recover prioritized activities within predetermined time frames."
+8,4.4.2.a.2,Business Continuity Plans - Monitor Impact,"Collectively, the business continuity plans shall contain details of the actions that the teams will take in order to monitor the impact of the disruption and the organization's response to it."
+8,4.4.2.b,Business Continuity Plans - Thresholds ,"Collectively, the business continuity plans shall contain reference to the pre-defined threshold(s) and process for activating the response."
+8,4.4.2.c,Business Continuity Plans - Delivery,"Collectively, the business continuity plans shall contain procedures to enable the delivery of products and services at agreed capacity."
+8,4.4.2.d.1,Business Continuity Plans - Welfare of Individuals ,"Collectively, the business continuity plans shall contain details to manage the immediate consequences of a disruption giving due regard to the welfare of individuals."
+8,4.4.2.d.2,Business Continuity Plans - Prevention,"Collectively, the business continuity plans shall contain details to manage the immediate consequences of a disruption giving due regard to the prevention of further loss or unavailability of prioritized activities."
+8,4.4.2.d.3,Business Continuity Plans - Impact on Environment,"Collectively, the business continuity plans shall contain details to manage the immediate consequences of a disruption giving due regard to the impact on the environment."
+8,4.4.3.a,Business Continuity Plans - Scope & Objectives,"Each plan shall include the purpose, scope and objectives."
+8,4.4.3.b,Business Continuity Plans - Roles & Responsibilities,Each plan shall include the roles and responsibilities of the team that will implement the plan.
+8,4.4.3.c,Business Continuity Plans - Implementation Actions,Each plan shall include actions to implement the solutions.
+8,4.4.3.d,Business Continuity Plans - Activation Criteria,"Each plan shall include supporting information needed to activate (including activation criteria), operate, coordinate and communicate the team's actions."
+8,4.4.3.e,Business Continuity Plans - Dependencies,Each plan shall include internal and external interdependencies.
+8,4.4.3.f,Business Continuity Plans - Resource Requirements,Each plan shall include the resource requirements.
+8,4.4.3.g,Business Continuity Plans - Reporting Requirements,Each plan shall include the reporting requirements.
+8,4.4.3.h,Business Continuity Plans - Process for Standing Down,Each plan shall include a process for standing down.
+8,4.5,Recovery ,The organization shall have documented processes to restore and return business activities from the temporary measures adopted during and after a disruption.
+8,8.5,Exercise Program,The organization shall implement and maintain a program of exercising and testing to validate over time the effectiveness of its business continuity strategies and solutions. The organization shall act on the results of its exercising and testing to implement changes and improvements.
+8,8.5.a,Exercise Program - Consistent,The organization shall conduct exercises and tests that are consistent with its business continuity objectives.
+8,8.5.b,Exercise Program - Scenarios,The organization shall conduct exercises and tests that are based on appropriate scenarios that are well planned with clearly defined aims and objectives.
+8,8.5.c,Exercise Program - Develop Teamwork,"The organization shall conduct exercises and tests that develop teamwork, competence, confidence and knowledge for those who have roles to perform in relation to disruptions."
+8,8.5.d,Exercise Program - Validate Strategies,"The organization shall conduct exercises and tests that taken together over time, validate its business continuity strategies and solutions."
+8,8.5.e,Exercise Program - Formalized Reports,"The organization shall conduct exercises and tests that produce formalized post-exercise reports that contain outcomes, recommendations and actions to implement improvements."
+8,8.5.f,Exercise Program - Reviewed,The organization shall conduct exercises and tests that are reviewed within the context of promoting continual improvement.
+8,8.5.g,Exercise Program - Periodic,The organization shall conduct exercises and tests that are performed at planned intervals and when there are significant changes within the organization or the context in which it operates.
+8,8.6,Evaluation of Business Continuity Documentation and Capabilities,"These evaluations shall be conducted at planned intervals, after an incident or activation, and when significant changes occur."
+8,8.6.a,Evaluation of Business Continuity Documentation and Capabilities - Evaluate BIA & RA,"The organization shall evaluate the suitability, adequacy and effectiveness of its business impact analysis, risk assessment, strategies, solutions, plans and procedures."
+8,8.6.b,Evaluation of Business Continuity Documentation and Capabilities - Evaluation Methods,"The organization shall undertake evaluations through reviews, analysis, exercises, tests, post-incident reports and performance evaluations."
+8,8.6.c,Evaluation of Business Continuity Documentation and Capabilities - Partners & Suppliers,The organization shall conduct evaluations of the business continuity capabilities of relevant partners and suppliers.
+8,8.6.d,Evaluation of Business Continuity Documentation and Capabilities - Evaluate Compliance ,"The organization shall evaluate compliance with applicable legal and regulatory requirements, industry best practices, and conformity with its own business continuity policy and objectives."
+8,8.6.e,Evaluation of Business Continuity Documentation and Capabilities - Update Documentation,The organization shall update documentation and procedures in a timely manner.
+9,1,"Monitoring, Measurement, Analysis and Evaluation","The organization shall retain appropriate documented information as evidence of the results.
+The organization shall evaluate the BCMS performance and the effectiveness of the BCMS."
+9,1.a,"Monitoring, Measurement, Analysis and Evaluation - Scope",The organization shall determine what needs to be monitored and measured.
+9,1.b,"Monitoring, Measurement, Analysis and Evaluation - Methods","The organization shall determine the  methods for monitoring, measurement, analysis and evaluation, as applicable, to ensure valid results."
+9,1.c,"Monitoring, Measurement, Analysis and Evaluation - When",The organization shall determine when and by whom the monitoring and measurement of the business continuity management system effectiveness shall be performed.
+9,1.d,"Monitoring, Measurement, Analysis and Evaluation - Review of Results",The organization shall determine when and by whom the results from business continuity management system effectiveness monitoring and measurement shall be analyzed and evaluated.
+9,"2.1.a.1, 2.1.a.2, 2.1.b",Internal Audit - General Requirements,"The organization shall conduct internal audits at planned intervals to provide information on whether the BCMS:
+a) conforms to:
+1) the organization's own requirements for its BCMS;
+2) the requirements of this document;
+b) is effectively implemented and maintained.
+"
+9,2.2.a ,Audit Program(s) - Establish,"The organization shall plan, establish, implement and maintain an audit program(s) including the frequency, methods, responsibilities, planning requirements and reporting, which shall take into consideration the importance of the processes concerned and the results of previous audits"
+9,2.2.b,Audit Program(s) - Scope,The organization shall define the audit criteria and scope for each audit.
+9,2.2.c,Audit Program(s) - Objectivity,The organization shall select auditors and conduct audits that ensure objectivity and the impartiality of the audit process.
+9,2.2.d,Audit Program(s) - Reporting,The organization shall ensure that the results of the audits are reported to relevant managers.
+9,2.2.e,Audit Program(s) - Documentation,The organization shall retain documented information as evidence of the audit program(s) and the audit results.
+9,2.2.f,Audit Program(s) - Corrective Action,The organization shall ensure that any necessary corrective actions are taken without undue delay to eliminate detected nonconformities and their causes.
+9,2.2.g,Audit Program(s) - Follow up,The organization shall ensure that follow-up audit actions include the verification of the actions taken and the reporting of verification results.
+9,3.1,Management Review - Business Continuity Management System,"Top management shall review the organization's BCMS, at planned intervals, to ensure its continuing suitability, adequacy and effectiveness."
+9,3.2.a,Management Review Input - Status of Past Actions,The management review shall include consideration of the status of actions from previous management reviews.
+9,3.2.b,Management Review Input - Internal and External Issues,The management review shall include consideration of changes in external and internal issues that are relevant to the business continuity management system.
+9,3.2.c.1,Management Review Input - Corrective Actions,"The management review shall include consideration of information on the business continuity performance, including trends in nonconformities and corrective actions."
+9,3.2.c.2,Management Review Input - Monitoring,The management review shall include consideration of information on the business continuity monitoring and measurement evaluation results.
+9,3.2.c.3,Management Review Input - Audit Results,The management review shall include consideration of information on the business continuity audit results.
+9,3.2.d,Management Review Input - Feedback,The management review shall include consideration of feedback from interested parties.
+9,3.2.e,Management Review Input - Changes,"The management review shall include consideration of the need for changes to the BCMS, including the policy and objectives."
+9,3.2.f,Management Review Input - Improvement,The management review shall include consideration of procedures and resources that could be used in the organization to improve the BCMS' performance and effectiveness.
+9,3.2.g,Management Review Input - BIA & RA,The management review shall include consideration of information from the business impact analysis and risk assessment.
+9,3.2.h,Management Review Input - Capabilities Evaluation,The management review shall include consideration of output from the evaluation of business continuity documentation and capabilities.
+9,3.2.i,Management Review Input - Risks,The management review shall include consideration of risks or issues not adequately addressed in any previous risk assessment.
+9,3.2.j,Management Review Input - Lesson Learned,The management review shall include consideration of lessons learned and actions arising from near-misses and disruptions.
+9,3.2.k,Management Review Input - Continual Improvement,The management review shall include consideration of opportunities for continual improvement.
+9,3.3.1.a,Management Review Outputs - Continual Improvement,"The outputs of the management review shall include decisions related to continual improvement opportunities and any need for changes to the BCMS to improve its efficiency and effectiveness, including variations to the scope of the BCMS."
+9,3.3.1.b,Management Review Outputs - Update,"The outputs of the management review shall include decisions related to continual improvement opportunities and any need for changes to update of the business impact analysis, risk assessment, business continuity strategies and solutions, and business continuity plans."
+9,3.3.1.c,Management Review Outputs - Modification,The outputs of the management review shall include decisions related to continual improvement opportunities and any need for changes to modification of procedures and controls to respond to internal or external issues that may impact the BCMS.
+9,3.3.1.d,Management Review Outputs - Effectiveness Measurement,The outputs of the management review shall include decisions related to continual improvement opportunities and any need for changes to how the effectiveness of controls will be measured.
+9,3.3.2.a,Management Review Outputs - Document & Communicate,The organization shall retain documented information as evidence of the results of management reviews. It shall communicate the results of the management review to relevant interested parties.
+9,3.3.2.b,Management Review Outputs - Take Action,The organization shall take appropriate action relating to management review output results. 
+10,1.1,Nonconformity and Corrective action,The organization shall determine opportunities for improvement and implement necessary actions to achieve the intended outcomes of its BCMS.
+10,1.2.a.1,Nonconformity and Corrective action - Corrective Action,"When nonconformity occurs, the organization shall react to the nonconformity, and as applicable take action to control and correct it."
+10,1.2.a.2,Nonconformity and Corrective action - Consequences,"When nonconformity occurs, the organization shall react to the nonconformity and as applicable deal with the consequences."
+10,1.2.b.1,Nonconformity and Corrective action - Review,"When a nonconformity occurs, the organization shall evaluate the need for action to eliminate the causes of nonconformity, in order that it does not recur or occur elsewhere by reviewing the nonconformity."
+10,1.2.b.2,Nonconformity and Corrective action - Root Cause,"When a nonconformity occurs, the organization shall evaluate the need for action to eliminate the causes of nonconformity, in order that it does not recur or occur elsewhere by determining the causes of the nonconformity."
+10,1.2.b.3,Nonconformity and Corrective action - Potential to Recur,"When a nonconformity occurs, the organization shall evaluate the need for action to eliminate the causes of nonconformity, in order that it does not recur or occur elsewhere by determining if similar nonconformities exist, or could potentially occur."
+10,1.2.c,Nonconformity and Corrective action - Corrective Action,"When a nonconformity occurs, the organization shall implement any action needed to correct the nonconformity."
+10,1.2.d,Nonconformity and Corrective action - Review Corrective Action,"When a nonconformity occurs, the organization shall review the effectiveness of any corrective action taken."
+10,1.2.e,Nonconformity and Corrective action - Changes to Business Continuity Management System,"When a nonconformity occurs, the organization shall make changes to the business continuity management system, if necessary. 
+ Corrective actions shall be appropriate to the effects of the nonconformities encountered."
+10,1.3.a,Nonconformity and Corrective action - Documentation,"When a nonconformity occurs, the organization shall retain documented information as evidence of the nature of the nonconformities and any subsequent actions taken."
+10,1.3.b,Nonconformity and Corrective action - Results,"When a nonconformity occurs, the organization shall retain documented information as evidence of the results of any corrective action."
+10,2,Continual Improvement,"The organization shall continually improve the suitability, adequacy and effectiveness of the business continuity management system.
+The organization shall consider the results of analysis and evaluation, and the outputs from management review, to determine if there are needs or opportunities, relating to the business, or to the BCMS, that shall be addressed as part of continual improvement.
+NOTE The organization can use the processes of the BCMS, such as leadership, planning and performance evaluation, to achieve improvement."

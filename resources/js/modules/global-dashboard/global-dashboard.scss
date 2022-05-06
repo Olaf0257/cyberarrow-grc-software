@@ -1,0 +1,352 @@
+#global-dashboard {
+    /************
+        calendar
+    ************/
+    /************
+    Responsive
+    part
+    ************/
+    .ms-drop {
+        .selected {
+            input[type="checkbox"] {
+                margin-right: 5px;
+            }
+        }
+    }
+    .disabled_click {
+        // pointer-events: none;
+        cursor: not-allowed;
+     }
+    .select-dropdown {
+        .projects-filter-wp {
+            display: flex;
+            .ms-parent {
+                margin: auto;
+                button {
+                    position: relative;
+                    padding-right: 100px !important;
+                    height: 36px;
+                    line-height: 2.5;
+                    border-radius: 0.15rem;
+                }
+            }
+        }
+        .show {
+            .project-select {
+                border-color: var(--secondary-color) !important;
+                background: var(--secondary-color) !important;
+            }
+        }
+    }
+    .task-box {
+        .title {
+            background: var(--primary-color);
+            text-align: center;
+            padding: 1px 4px;
+            h4 {
+                color: #fff;
+                font-size: 16px;
+            }
+        }
+        .implementation {
+            .chart-box {
+                display: flex;
+                justify-content: center;
+                .c3-chart-arcs-title {
+                    font-size: 1.86rem !important;
+                    fill: #6e6b7b !important;
+                }
+            }
+        }
+        .go-btn {
+            &:hover {
+                background-color: darken(#f3f7f9, 3);
+            }
+            &:active {
+                transform: scale(0.85);
+                opacity: 0.7;
+            }
+        }
+    }
+    .task-monitor {
+        i {
+            color: var(--secondary-color);
+        }
+    }
+    .task {
+        padding: 5px 10px;
+    }
+    .control-items {
+        padding: 5px 10px;
+        span.control-num {
+            font-weight: 700;
+        }
+        span.control-text {
+            font-weight: 700;  
+        }
+    }
+    hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid #ccc;
+        margin: 1em 2em;
+        padding: 0;
+    }
+    .control-stat {
+        svg {
+            color: var(--secondary-color);
+            height: 23px;
+            width: 32px;
+        }
+        span.control-text {
+            position: relative;
+            // top: 2px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        &.widget-1 {
+            background-image: url("../../../../public/assets/images/bg-pattern-3.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+    .overview-div {
+        .select-dropdown {
+            form {
+                .row {
+                    margin-right: 0;
+                }
+            }
+            .dashboard-btn {
+                min-width: 113px;
+            }
+        }
+    }
+    .card-body {
+        ul.rect-div {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: -42px;
+        }
+        ul {
+            li.rect {
+                border: none;
+                .badge {
+                    padding: 1px 6px;
+                    height: 9px;
+                    width: 5px;
+                    border-radius: 0;
+                }
+            }
+        }
+    }
+    #task-completion-widget {
+        canvas {
+            padding: 0 1px;
+        }
+    }
+    #page-loader {
+        background-color: #ffffffd1;
+        top: 159px;
+    }
+    #content-loading {
+        position: fixed;
+        width: auto;
+        margin-top: -32px;
+        margin-left: -74px;
+        top: 50%;
+        left: 50%;
+        background-color: #f4f5f7;
+        opacity: 1;
+        display: flex;
+        z-index: 999;
+        box-shadow: 14px 11px 25px -9px #c5c5c5;
+    }
+
+    // Task Calendar
+    .fc {
+        .fc-toolbar {
+            .fc-button-group {
+                .fc-button {
+                    background: #f1f5f7;
+                    border: 0;
+                    color: #6c757d;
+                    text-transform: capitalize;
+                    box-shadow: none;
+                    border-radius: 3px;
+                    margin: 0 3px;
+                    padding: 6px 12px;
+                    height: auto;
+                }
+                .fc-button-primary {
+                    &:hover {
+                        color: #fff;
+                        background-color: #1e2b37;
+                        border-color: #1a252f;
+                    }
+
+                    &:not(:disabled).fc-button-active {
+                        color: #fff;
+                        background-color: #1e2b37;
+                        border-color: #1a252f;
+                    }
+                }
+                > .fc-button {
+                    &:not(:first-child) {
+                        margin-left: -1px;
+                    }
+                }
+            }
+            .fc-content-skeleton{
+                table{
+                    tbody{
+                        tr{
+                            &:hover{
+                                background-color: transparent !important;
+                            }
+                        }
+                    }
+                }
+            }
+            .fc-button {
+                padding: 6px 12px;
+            }
+            h2 {
+                font-size: 1.25rem;
+                line-height: 1.875rem;
+                text-transform: uppercase;
+            }
+            > * {
+                > {
+                    :not(:first-child) {
+                        margin-left: 0.75em;
+                    }
+                }
+            }
+        }
+    }
+    .apexcharts-tooltip{
+        background-color: white;
+        color: black;
+        box-shadow: rgb(0 0 0 / 20%) 1px 2px 10px;
+    }
+
+    @media (min-width: 320px) and (max-width: 460px) {
+        .overview-div {
+            span.overview-break-text {
+                display: block;
+            }
+            h4.overview-text {
+                font-size: 14px;
+            }
+        }
+        .card-body {
+            ul.rect-div {
+                display: flex;
+                justify-content: center;
+                margin-top: 0;
+            }
+            ul {
+                li {
+                    span.status-color {
+                        display: flex;
+                        justify-content: center;
+                        width: 5px;
+                        border-radius: 0;
+                    }
+                    span.status-text {
+                        font-size: 10px;
+                        font-weight: 600;
+                        display: block;
+                        white-space: normal;
+                    }
+                }
+            }
+            h5.head-text {
+                display: none;
+            }
+        }
+        ul {
+            li.rect {
+                padding: 2px 8px;
+            }
+        }
+        .fc-toolbar.fc-header-toolbar {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    @media (min-width: 320px) and (max-width: 375px) {
+        .second {
+            h5 {
+                font-size: 13px;
+            }
+        }
+        .third {
+            h5 {
+                font-size: 13px;
+            }
+        }
+        .boxx {
+            .go-btn {
+                min-width: 80px;
+            }
+        }
+    }
+    @media (min-width: 461px) and (max-width: 608px) {
+        .card {
+            ul {
+                li {
+                    span.status-text {
+                        display: block;
+                    }
+                }
+            }
+            h5.head-text {
+                display: none;
+            }
+        }
+        .card-body {
+            ul.rect-div {
+                display: flex;
+                justify-content: center;
+                margin-top: 0;
+            }
+        }
+    }
+    @media (min-width: 1200px) and (max-width: 1305px) {
+        .task-monitor {
+            .task {
+                .task-break-text {
+                    display: block;
+                }
+                .go-btn {
+                    min-width: 73px !important;
+                }
+            }
+        }
+        // .card-body {
+        //     height: 270px;
+        // }
+    }
+    @media (max-width: 992px) {
+        .overview-div {
+            flex-direction: column;
+        }
+        .select-dropdown {
+            margin-top: 10px !important;
+        }
+    }
+    @media (max-width: 753px) {
+        .projects-filter-wp {
+            margin-left: 0px !important;
+        }
+
+        // Task Calendar
+        .fc-today-button {
+            display: none;
+        }
+    }
+}

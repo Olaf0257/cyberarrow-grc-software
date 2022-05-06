@@ -1,0 +1,44 @@
+primary_id,sub_id,Name,Description
+1,4,Maintain Detailed Asset Inventory,"Maintain an accurate and up-to-date inventory of all technology assets with the potential to store or process information. This inventory shall include all assets, whether connected to the organization's network or not."
+1,6,Address Unauthorized Assets,"Ensure that unauthorized assets are either removed from the network, quarantined or the inventory is updated in a timely manner."
+2,1,Maintain Inventory of Authorized Software,Maintain an up-to-date list of all authorized software that is required in the enterprise for any business purpose on any business system.
+2,2,Ensure Software is Supported by Vendor,Ensure that only software applications or operating systems currently supported and receiving vendor updates are added to the organization's authorized software inventory. Unsupported software should be tagged as unsupported in the inventory system.
+2,6,Address Unapproved Software,Ensure that unauthorized software is either removed or the inventory is updated in a timely manner.
+3,4,Deploy Automated Operating System Patch Management Tools,Deploy automated software update tools in order to ensure that the operating systems are running the most recent security updates provided by the software vendor.
+3,5,Deploy Automated Software Patch Management Tools,Deploy automated software update tools in order to ensure that third-party software on all systems is running the most recent security updates provided by the software vendor.
+4,2,Change Default Passwords,"Before deploying any new asset, ensure to change all default passwords to have values consistent with administrative level accounts."
+4,3,Ensure the Use of Dedicated Administrative Accounts,"Ensure that all users with administrative account access use a dedicated or secondary account for elevated activities. This account should only be used for administrative activities and not internet browsing, email, or similar activities."
+5,1,Establish Secure Configurations,Maintain documented security configuration standards for all authorized operating systems and software.
+6,2,Activate Audit Logging,Ensure that local logging has been enabled on all systems and networking devices.
+7,1,Ensure Use of Only Fully Supported Browsers and Email Clients,"Ensure that only fully supported web browsers and email clients are allowed to execute in the organization, ideally only using the latest version of the browsers and email clients provided by the vendor."
+7,7,Use DNS Filtering Services,Use Domain Name System (DNS) filtering services to help block access to known malicious domains.
+8,2,Ensure Anti-Malware Software and Signatures are Updated,Ensure that the organization's anti-malware software updates its scanning engine and signature database on a regular basis.
+8,4,Configure Anti-Malware Scanning of Removable Media,Configure devices so that they automatically conduct an anti-malware scan of removable media when inserted or connected.
+8,5,Configure Devices to Not Auto-run Content,Configure devices to not auto-run content from removable media.
+9,4,Apply Host-based Firewalls or Port Filtering,"Apply host-based firewalls or port filtering tools on end systems, with a default-deny rule that drops all traffic except those services and ports that are explicitly allowed."
+10,1,Ensure Regular Automated Backups,Ensure that all system data is automatically backed up on regular basis.
+10,2,Perform Complete System Backups,"Ensure that all of the organization's key systems are backed up as a complete system, through processes such as imaging, to enable the quick recovery of an entire system."
+10,4,Protect Backups,"Ensure that backups are properly protected via physical security or encryption when they are stored, as well as when they are moved across the network. This includes remote backups and cloud services."
+10,5,Ensure All Backups Have at Least One Offline Backup Destination,"Ensure that all backups have at least one offline (i.e., not accessible via a network connection) backup destination."
+11,4,Install the Latest Stable Version of Any Security-related Updates on All Network Devices,Install the latest stable version of any security-related updates on all network devices.
+12,1,Maintain an Inventory of Network Boundaries,Maintain an up-to-date inventory of all of the organization's network boundaries.
+12,4,Deny Communication over Unauthorized Ports,Deny communication over unauthorized TCP or UDP ports or application traffic to ensure that only authorized protocols are allowed to cross the network boundary in or out of the network at each of the organization's network boundaries.
+13,1,Maintain an Inventory of Sensitive Information,"Maintain an inventory of all sensitive information stored, processed, or transmitted by the organization's technology systems, including those located on-site or at a remote service provider."
+13,2,Remove Sensitive Data or Systems Not Regularly Accessed by Organization,Remove sensitive data or systems not regularly accessed by the organization from the network. These systems shall only be used as stand-alone systems (disconnected from the network) by the business unit needing to occasionally use the system or completely virtualized and powered off until needed.
+13,6,Encrypt Mobile Device Data,Utilize approved cryptographic mechanisms to protect enterprise data stored on all mobile devices.
+14,6,Protect Information through Access Control Lists,"Protect all information stored on systems with file system, network share, claims, application, or database specific access control lists. These controls shall enforce the principle that only authorized individuals should have access to the information based on their need to access the information as a part of their responsibilities."
+15,7,Leverage the Advanced Encryption Standard (AES) to Encrypt Wireless Data,Leverage the Advanced Encryption Standard (AES) to encrypt wireless data in transit.
+15,1,Create Separate Wireless Network for Personal and Untrusted Devices,Create a separate wireless network for personal or untrusted devices. Enterprise access from this network should be treated as untrusted and filtered and audited accordingly.
+16,8,Disable Any Unassociated Accounts,Disable any account that cannot be associated with a business process or business owner.
+16,9,Disable Dormant Accounts,Automatically disable dormant accounts after a set period of inactivity.
+16,11,Lock Workstation Sessions After Inactivity,Automatically lock workstation sessions after a standard period of inactivity.
+17,3,Implement a Security Awareness Program,Create a security awareness program for all workforce members to complete on a regular basis to ensure they understand and exhibit the necessary behaviors and skills to help ensure the security of the organization. The organization's security awareness program should be communicated in a continuous and engaging manner.
+17,5,Train Workforce on Secure Authentication,Train workforce members on the importance of enabling and utilizing secure authentication
+17,6,Train Workforce on Identifying Social Engineering Attacks,"Train the workforce on how to identify different forms of social engineering attacks, such as phishing, phone scams and impersonation calls."
+17,7,Train Workforce on Sensitive Data Handling,"Train workforce members on how to identify and properly store, transfer, archive and destroy sensitive information."
+17,8,Train Workforce on Causes of Unintentional Data Exposure,"Train workforce members to be aware of causes for unintentional data exposures, such as losing their mobile devices or emailing the wrong person due to autocomplete in email."
+17,9,Train Workforce Members on Identifying and Reporting Incidents,Train workforce members to be able to identify the most common indicators of an incident and be able to report such an incident.
+19,1,Document Incident Response Procedures,Ensure that there are written incident response plans that defines roles of personnel as well as phases of incident handling/management.
+19,3,Designate Management Personnel to Support Incident Handling,"Designate management personnel, as well as backups, who will support the incident handling process by acting in key decision-making roles."
+19,5,Maintain Contact Information For Reporting Security Incidents,"Assemble and maintain information on third-party contact information to be used to report a security incident, such as Law Enforcement, relevant government departments, vendors, and Information Sharing and Analysis Center (ISAC) partners."
+19,6,Publish Information Regarding Reporting Computer Anomalies and Incident,"Publish information for all workforce members, regarding reporting computer anomalies and incidents, to the incident handling team. Such information should be included in routine employee awareness activities."

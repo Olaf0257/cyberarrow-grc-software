@@ -1,0 +1,451 @@
+primary_id,sub_id,Name,Description
+1,1,Firewall and Router Configuration Standards,Establish and implement firewall and router configuration standards.
+1,1.1,Formal Process For Approving and Testing Configuration Changes,Ensure that there is a formal process for approving and testing all network connections and changes to the firewall and router configurations. 
+1,1.2,Current Network Diagram,"Ensure that there is a current network diagram with all connections to cardholder data, including any wireless networks."
+1,1.3,Cardholder Data Flow Diagram,Ensure that the current network diagram shows all cardholder data flows across systems and networks.
+1,1.4,Firewall Placement,A firewall is required at each Internet connection and between any demilitarized zone (DMZ) and the internal network zone
+1,1.5,Description of logical management,"Document the description of groups, roles, and responsibilities for logical management of network components."
+1,1.6,Documentation for Allowed Ports and Services,"Ensure the documentation of business justification and approval for use of all services, protocols, and ports allowed, including documentation of security features implemented for those protocols considered to be insecure."
+1,1.7,Review of Firewall and Router Rule Sets,Ensure that the requirement to review firewall and router rule sets at least every six months.
+1,2,Firewall and Router Configurations Restrict Untrusted Networks,"Build firewall and router configurations that restrict connections between untrusted networks and any system components in the cardholder data environment. 
+ Note: An untrusted network is any network that is external to the networks belonging to the entity under review, and/or which is out of the entity's ability to control or manage"
+1,2.1,Restrict unnecessary traffic,"Restrict inbound and outbound traffic to that which is necessary for the cardholder data environment, and specifically deny all other traffic."
+1,2.2,Secure Router Configurations,Secure and Synchronize Router Configuration Files.
+1,2.3,Firewalls between cardholder and wireless networks,"Install perimeter firewalls between all wireless networks and the cardholder data environment, and configure these firewalls to deny or, if such traffic is necessary for business purposes, permit only authorized traffic between the wireless environment and the cardholder data environment."
+1,3,Prohibit Direct Internet Access,Prohibit direct public access between the Internet and any system component in the cardholder data environment.
+1,3.1,Implement a DMZ,"Implement a DMZ to limit inbound traffic to only system components that provide authorized publicly accessible services, protocols, and ports."
+1,3.2,Limit inbound traffic,Limit inbound Internet traffic to IP addresses within the DMZ
+1,3.3,Anti-Spoofing,"Implement anti-spoofing measures to detect and block forged source IP addresses from entering the network. 
+ (For example, block traffic originating from the Internet with an internal source address.)"
+1,3.4,No Unauthorized Outbound Traffic,Do not allow unauthorized outbound traffic from the cardholder data environment to the Internet.
+1,3.5,Implement Stateful Inspection,"Permit only ""established"" connections into the network."
+1,3.6,Segregate Cardholder Data Components,"Place system components that store cardholder data (such as a database) in an internal network zone, segregated from the DMZ and other untrusted networks."
+1,3.7,Do Not Disclose Private IP Address and Routing Information,"Do not disclose private IP addresses and routing information to unauthorized parties. 
+ Note: Methods to obscure IP addressing may include, but are not limited to: 
+ -Network Address Translation (NAT) 
+ -Placing servers containing cardholder data behind proxy servers/firewalls 
+ -Removal or filtering of route advertisements for private networks that employ registered addressing 
+ -Internal use of RFC1918 address space instead of registered addresses"
+1,4,Install Personal Firewall Software,"Install personal firewall software or equivalent functionality on any portable computing devices (including company and/or employee owned) that connect to the Internet when outside the network (for example, laptops used by employees), and which are also used to access the CDE. Firewall (or equivalent) configurations include: 
+ -Specific configuration settings are defined 
+ -Personal firewall (or equivalent functionality) is actively running. 
+ -Personal firewall (or equivalent functionality) is not alterable by users of the portable computing devices."
+1,5,Implementation of Security Policies,"Ensure that security policies and operational procedures for managing firewalls are documented, in use, and known to all parties."
+2,1,Change vendor supplied default,"Always change vendor-supplied defaults and remove or disable unnecessary default accounts before installing a system on the network. This applies to ALL default passwords, including but not limited to those used by operating systems, software that provides security services, application and system accounts, point-of-sale (POS) terminals, payment applications, Simple Network Management Protocol (SNMP) community strings, etc. 
+"
+2,1,Change Vendor Supplied Defaults,"Always change vendor-supplied defaults and remove or disable unnecessary default accounts before installing a system on the network. 
+ This applies to ALL default passwords, including but not limited to those used by operating systems, software that provides security services, application and system accounts, point-of-sale (POS) terminals, payment applications, Simple Network Management Protocol (SNMP) community strings, etc."
+2,1.1,Change Wireless Network Defaults,"For wireless environments connected to the cardholder data environment or transmitting cardholder data, change all wireless vendor defaults at installation, including but not limited to default wireless encryption keys, passwords, and SNMP community strings."
+2,2,Develop Configuration Standards,"Develop configuration standards for all system components. Assure that these standards address all known security vulnerabilities and are consistent with industry-accepted system hardening standards. 
+ 
+ Sources of industry-accepted system hardening standards may include, but are not limited to: 
+ - Center for Internet Security (CIS) 
+ - International Organization for Standardization (ISO) 
+ - SysAdmin Audit Network Security (SANS) Institute 
+ - National Institute of Standards Technology (NIST)"
+2,2.1,One Primary Function Per Server,"Implement only one primary function per server to prevent functions that require different security levels from co-existing on the same server. (For example, web servers, database servers, and DNS should be implemented on separate servers.) 
+ Note: Where virtualization technologies are in use, implement only one primary function per virtual system component."
+2,2.2,Enable Only Necessary Services,"Enable only necessary services, protocols, daemons, etc. as required for the function of the system."
+2,2.3,Security Features for Required Services,"Implement additional security features for any required services, protocols, or daemons that are considered to be insecure. 
+ Note: SSL/early TLS is not considered strong cryptography and may not be used as a security control, except by POS POI terminals that are verified as not being susceptible to known exploits and the termination points to which they connect as defined in Appendix A2."
+2,2.4,Configure System Security,Configure system security parameters to prevent misuse.
+2,2.5,Remove Unnecessary Functionality,"Remove all unnecessary functionality, such as scripts, drivers, features, subsystems, file systems, and unnecessary web servers."
+2,3,Encrypt All Non-Console Administrative Access,"Encrypt all non-console administrative access using strong cryptography. 
+ Note: SSL/early TLS is not considered strong cryptography and may not be used as a security control, except by POS POI terminals that are verified as not being susceptible to known exploits and the termination points to which they connect as defined in Appendix A2."
+2,4,System Component Inventory,Maintain an inventory of system components that are in scope for PCI DSS.
+2,5,Vendor Defaults and Parameters Policies,"Ensure that security policies and operational procedures for managing vendor defaults and other security parameters are documented, in use, and known to all affected parties."
+2,6,Ensure Shared Hosting Providers Are Protecting Cardholder Data,Shared hosting providers must protect each entitys hosted environment and cardholder data. These providers must meet specific requirements as detailed in Appendix A: Additional PCI DSS Requirements for Shared Hosting Providers.
+3,1,Cardholder Data Storage Policies and Procedures,"Keep cardholder data storage to a minimum by implementing data retention and disposal policies, procedures and processes that include at least the following for all cardholder data (CHD) storage: 
+ - Limiting data storage amount and retention to that which is required for legal, regulatory, and business requirements. 
+ - Processes for secure deletion of data when no longer needed. 
+ - Specific retention requirements for cardholder data 
+ - A quarterly process for identifying and securely deleting stored cardholder data that exceeds defined retention."
+3,2,Do not store sensitive authentication data after authorization,"Do not store sensitive authentication data after authorization (even if encrypted). If sensitive authentication data is received, render all data unrecoverable upon completion of the authorization process. 
+ It is permissible for issuers and companies that support issuing services to store sensitive authentication data if: 
+ - There is a business justification and 
+ - The data is stored securely. 
+ 
+ Sensitive authentication data includes the data as cited in the following Requirements 3.2.1 through 3.2.3"
+3,2.1,Do not store the full contents of any track,"Do not store the full contents of any track (from the magnetic stripe located on the back of a card, equivalent data contained on a chip, or elsewhere) after authorization. This data is alternatively called full track, track, track 1, track 2, and magnetic-stripe data. 
+ Note: In the normal course of business, the following data elements from the magnetic stripe may need to be retained: 
+ - The cardholders name 
+ - Primary account number (PAN) 
+ - Expiration date 
+ - Service code 
+ To minimize risk, store only these data elements as needed for business."
+3,2.2,Do not store the card verification code,Do not store the card verification code or value (three-digit or four-digit number printed on the front or back of a payment card used to verify card-not-present transactions) after authorization.
+3,2.3,Do not store the PIN,Do not store the personal identification number (PIN) or the encrypted PIN block after authorization.
+3,3,Mask PAN When Displayed,"Mask PAN when displayed (the first six and last four digits are the maximum number of digits to be displayed), such that only personnel with a legitimate business need can see more than the first six/last four digits of the PAN. 
+ Note: This requirement does not supersede stricter requirements in place for displays of cardholder data - for example, legal or payment card brand requirements for point-of-sale (POS) receipts."
+3,4,Render PAN unreadable when stored,"Render PAN unreadable anywhere it is stored (including on portable digital media, backup media, and in logs) by using any of the following approaches: 
+ - One-way hashes based on strong cryptography, (hash must be of the entire PAN) 
+ - Truncation (hashing cannot be used to replace the truncated segment of PAN) 
+ - Index tokens and pads (pads must be securely stored) 
+ - Strong cryptography with associated key-management processes and procedures. 
+ Note: It is a relatively trivial effort for a malicious individual to reconstruct original PAN data if they have access to both the truncated and hashed version of a PAN. Where hashed and truncated versions of the same PAN are present in an entitys environment, additional controls must be in place to ensure that the hashed and truncated versions cannot be correlated to reconstruct the original PAN. 
+"
+3,4.1,Logical Access to Encrypted Disks Must Be Independent,"If disk encryption is used (rather than file- or column-level database encryption), logical access must be managed separately and independently of native operating system authentication and access control mechanisms (for example, by not using local user account databases or general network login credentials). Decryption keys must not be associated with user accounts. 
+ Note: This requirement applies in addition to all other PCI DSS encryption and key-management requirements."
+3,5,Protect Keys Procedure,"Document and implement procedures to protect keys used to secure stored cardholder data against disclosure and misuse: 
+ Note: This requirement applies to keys used to encrypt stored cardholder data, and also applies to key-encrypting keys used to protect data-encrypting keys, such key-encrypting keys must be at least as strong as the data-encrypting key."
+3,5.1,Documentation of Cryptographic Architecture - Service Provider Only,"Additional requirement for service providers only, ensure to maintain a documented description of the cryptographic architecture that includes: 
+ -Details of all algorithms, protocols, and keys used for the protection of cardholder data, including key strength and expiry date 
+ -Description of the key usage for each key 
+ -Inventory of any HSMs and other SCDs used for key management"
+3,5.2,Restrict Access to Cryptographic Keys,Restrict access to cryptographic keys to the fewest number of custodians necessary.
+3,5.3,Key Storage Formats,"Store secret and private keys used to encrypt/decrypt cardholder date in one (or more) of the following forms at all times: 
+ -Encrypted with a key-encrypting key that is at least as strong as the data-encrypting key, and that is stored separately from the data-encrypting key 
+ -Within a secure cryptographic device (such as hardware (host) security module (HSM) or PTS-approved point-of-interaction device) 
+ -As at least two full-length key components or key shares, in accordance with an industry-accepted method. 
+ Note: It is not required that public keys be stored in one of these forms."
+3,5.4,Limit Storage Locations of Cryptographic Keys,Store cryptographic keys in the fewest possible locations.
+3,6,Fully Document and Implement all Key-Management Processes and Procedures,"Fully document and implement all key-management processes and procedures for cryptographic keys used for encryption of cardholder data, including the following: 
+ Note: Numerous industry standards for key management are available from various resources including NIST, which can be found at http://csrc.nist.gov."
+3,6.1,Generate Strong Cryptographic Keys,Ensure generation of strong cryptographic keys.
+3,6.2,Secure Key Distribution,Ensure secure cryptographic key distribution.
+3,6.3,Secure Key Storage,Ensure secure cryptographic key storage.
+3,6.4,Periodic Key Changes,"Cryptographic key changes for keys that have reached the end of their cryptoperiod (for example, after a defined period of time has passed and/or after a certain amount of cipher-text has been produced by a given key), as defined by the associated application vendor or key owner, and based on industry best practices and guidelines (for example, NIST Special Publication 800-57)."
+3,6.5,Retire or Replace Keys When Necessary,"Retirement or replacement (for example, archiving, destruction, and/or revocation) of keys as deemed necessary when the integrity of the key has been weakened (for example, departure of an employee with knowledge of a clear-text key), or keys are suspected of being compromised. 
+ Note: If retired or replaced cryptographic keys need to be retained, these keys must be securely archived (for example, by using a key encryption key). Archived cryptographic keys should only be used for decryption/verification purposes."
+3,6.6,Key management for clear-text cryptography,"If manual clear-text cryptographic key management operations are used, these operations must be managed using split knowledge and dual control (for example, requiring two or three people, each knowing only their own key component, to reconstruct the whole key). 
+ Note: Examples of manual key management operations include, but are not limited to: key generation, transmission, loading, storage and destruction."
+3,6.7,Prevent Unauthorized Key Substitution,Ensure prevention of unauthorized substitution of cryptographic keys.
+3,6.8,Key Custodian Responsibility Acknowledgement,Ensure that the cryptographic key custodians formally acknowledge that they understand and accept their key-custodian responsibilities.
+3,7,Cardholder Data Protection Policies and Procedures,"Ensure that security policies and operational procedures for protecting stored cardholder data are documented, in use, and known to all affected parties."
+4,1,Use Strong Cryptography to Protect Cardholder Data,"Use strong cryptography and security protocols to safeguard sensitive cardholder data during transmission over open, public networks, including the following: 
+ - Only trusted keys and certificates are accepted. 
+ - The protocol in use only supports secure versions or configurations. 
+ - The encryption strength is appropriate for the encryption methodology in use. 
+ Examples of open, public networks include but are not limited to: 
+ - The Internet 
+ - Wireless technologies, including 802.11 and Bluetooth 
+ - Cellular technologies, for example, Global System for Mobile communications (GSM), Code division multiple access (CDMA) 
+ - General Packet Radio Service (GPRS) 
+ - Satellite communications 
+"
+4,1.1,Wireless Networks Must Implement Strong Encryption,"Ensure wireless networks transmitting cardholder data or connected to the cardholder data environment, use industry best practices to implement strong encryption for authentication and transmission."
+4,2,Never Send Unprotected PANs,"Never send unprotected PANs by end-user messaging technologies (for example, e-mail, instant messaging, SMS, chat, etc.)."
+4,3,Cardholder Data Transmission Security Policies and Procedures,"Ensure that security policies and operational procedures for encrypting transmissions of cardholder data are documented, in use, and known to all affected parties."
+5,1,Deploy Antivirus software,Deploy anti-virus software on all systems commonly affected by malicious software (particularly personal computers and servers).
+5,1.1,Ensure Antivirus is Capable and Adequate,"Ensure that all anti-virus programs are capable of detecting, removing, and protecting against all known types of malicious software."
+5,1.2,Evaluate Low Risk Systems,"For systems considered to be not commonly affected by malicious software, perform periodic evaluations to identify and evaluate evolving malware threats in order to confirm whether such systems continue to not require anti-virus software."
+5,2,Maintain Anti-Virus,"Ensure that all anti-virus mechanisms are maintained as follows: 
+ - Are kept current 
+ - Perform periodic scans 
+ - Generate audit logs which are retained per PCI DSS Requirement 10.7"
+5,3,Anti-Virus Assurance,"Ensure that anti-virus mechanisms are actively running and cannot be disabled or altered by users, unless specifically authorized by management on a case-by-case basis for a limited time period. 
+ Note: Anti-virus solutions may be temporarily disabled only if there is legitimate technical need, as authorized by management on a case-by-case basis. If anti-virus protection needs to be disabled for a specific purpose, it must be formally authorized. Additional security measures may also need to be implemented for the period of time during which anti-virus protection is not active."
+5,4,Malware Security Policies and Procedures,"Ensure that security policies and operational procedures for protecting systems against malware are documented, in use, and known to all affected parties."
+6,1,Identify Security Vulnerabilities,"Establish a process to identify security vulnerabilities, using reputable outside sources for security vulnerability information, and assign a risk ranking (for example, as ""high"", ""medium"", or ""low"") to newly discovered security vulnerabilities. 
+ Note: Risk rankings should be based on industry best practices as well as consideration of potential impact. For example, criteria for ranking vulnerabilities may include consideration of the CVSS base score, and/or the classification by the vendor, and/or type of systems affected. 
+ Methods for evaluating vulnerabilities and assigning risk ratings will vary based on an organization's environment and risk-assessment strategy. Risk rankings should, at a minimum, identify all vulnerabilities considered to be a ""high risk"" to the environment. In addition to the risk ranking, vulnerabilities may be considered ""critical"" if they post an imminent threat to the environment, impact critical systems, and/or would result in a potential compromise if not addressed. Examples of critical systems may include security systems, public-facing devices and systems, databases, and other systems that store, process, or transmit cardholder data."
+6,2,Ensure Systems Are Patched and Up-to-date,"Ensure that all system components and software are protected from known vulnerabilities by installing applicable vendor-supplied security patches. Install critical security patches within one month of release. 
+ Note: Critical security patches should be identified according to the risk ranking process defined in Requirement 6.1"
+6,3,Develop Software in Accordance with PCI DSS,"Develop internal and external software applications (including web-based administrative access to applications) securely, as follows: 
+ - In accordance with PCI DSS (for example, secure authentication and logging) 
+ - Based on industry standards and/or best practices. 
+ - Incorporating information security throughout the software-development life cycle. 
+ Note: this applies to all software developed internally as well as bespoke or custom software developed by a third party."
+6,3.1,Remove Custom Application Accounts,"Remove development, test and/or custom application accounts, user IDs, and passwords before applications become active or are released to customers."
+6,3.2,Code Review Prior To Release,"Review custom code prior to release to production or customers in order to  identify any potential coding vulnerability  (using either manual or automated processes) to include at least the following: 
+ - Code changes are reviewed by individuals other than the originating code author, and by individuals knowledgeable about code-review techniques and secure coding practices. 
+ - Code reviews ensure code is developed according to secure coding guidelines. 
+ - Appropriate corrections are implemented prior to release. 
+ - Code-review results are reviewed and approved by management prior to release. 
+ Note: This requirement for code reviews applies to all custom code (both internal and public-facing), as part of the system development life cycle. 
+ Code reviews can be conducted by knowledgeable internal personnel or third parties. Public-facing web applications are also subject to additional controls, to address ongoing threats and vulnerabilities after implementation, as defined at PCI DSS Requirement 6.6"
+6,4,Follow Change Control Processes,Follow change control processes and procedures for all changes to system components.
+6,4.1,Separate Testing and Production Environments,"Ensure separation of development/test environments from production environments, and enforce the separation with access controls."
+6,4.2,Separation of Duties for Testing and Production,Ensure separation of duties between development/test and production environments.
+6,4.3,Production Data Should Not be Used For Testing,Production data (live PANs) shall not be used for testing or development. 
+6,4.4,Remove Test Data Before Moving to Production,Ensure removal of test data and accounts from system components before the system becomes active / goes into production.
+6,4.5,Scope of Change Control Procedures,Change control procedures shall not be limited to patches and software modifications.
+6,4.5.1,Impact Documentation,Ensure documentation of Impact of System Changes.
+6,4.5.2,Document Change Approval,Ensure documented change approval by authorized parties.
+6,4.5.3,Perform Functionality Testing,Ensure that functionality testing to verify that the change does not adversely impact the security of the system is carried out.
+6,4.5.4,Back-out Procedure,Ensure documentation of a Rollback or Back-Out Procedure.
+6,4.6,Verify PCI DSS Requirements Impacted by Change,"Upon completion of a significant change, all relevant PCI DSS requirements must be implemented on all new or changed systems and networks, and documentation updated as applicable."
+6,5,Develop Applications With Secure Coding Guidelines,"Address common coding vulnerabilities in software-development processes as follows: 
+ -Train developers at least annually in up-to-date secure coding techniques, including how to avoid common coding vulnerabilities 
+ -Develop applications based on secure coding guidelines 
+ Note: The vulnerabilities listed at 6.5.1 through 6.5.10 were current with industry best practices when this version of PCI DSS was published. However, as industry best practices for vulnerability management are updated (for example, the OWASP Guide, SANS CWE Top 25, CERT Secure Coding, etc.), the current best practices must be used for these requirements."
+6,5.1,Secure Coding Practices - Injection Flaws,"Examine software-development policies and procedures and interview responsible personnel to verify that injection flaws are addressed by coding techniques that include:
+ Validating input to verify user data cannot modify meaning of commands and queries.
+ Utilizing parameterized queries.
+Also consider OS Command Injection, LDAP and XPath injection flaws as well as other injection flaws. E"
+6,5.2,Secure Coding Practices - Buffer Overflows,Applications should be written to prevent buffer overflow attacks.
+6,5.3,Secure Coding Practices - Insecure Cryptographic Storage,Applications should be written to prevent weak or insecure cryptographic storage.
+6,5.4,Secure Coding Practices - Secure Communications,Applications should be written with secure communication protocols.
+6,5.5,Secure Coding Practices - Error Handling,Applications should be written to properly handle errors.
+6,5.6,Secure Coding Practices - High Vulnerabilities,"Applications should be written to address all ""high risk"" vulnerabilities identified in the vulnerability identification process (as defined in PCI DSS Requirement 6.1)."
+6,5.7,Secure Web Applications - XSS,Web applications should be written to prevent Cross Site Scripting Attacks (XSS)
+6,5.8,Secure Web Applications - Access Control,"Ensure applications are protected from improper access control, such as insecure direct object references, failure to restrict URL access, directory traversal, and failure to restrict user access to functions. "
+6,5.9,Secure Web Applications - CSRF,Web applications should be written to prevent Cross Site Request Forgery Attacks. (CSRF)
+6,5.1,Secure Web Applications - Sessions,Web applications should be written to protect against broken authentication and session management.
+6,6,Periodic Evaluation of Security - Public Facing Web Applications,"For public-facing web applications ensure to address new threats and vulnerabilities on an ongoing basis to ensure these applications are protected against known attacks by either of the following methods: 
+ - Reviewing public-facing web applications via manual or automated application vulnerability security assessment tools or methods, at least annually and after any changes. 
+ Note: This assessment is not the same as the vulnerability scans performed for Requirement 11.2 
+ - Installing an automated technical solution that detects and prevents web-based attacks (for example, a web-application firewall) in front of public-facing web applications, to continually check all traffic."
+6,7,Developing Secure Systems Policies and Procedures,"Ensure that security policies and operational procedures for developing and maintaining secure systems and applications are documented, in use, and known to all affected parties."
+7,1,Limit access based on job function,Limit access to system components and cardholder data to only those individuals whose job requires such access.
+7,1.1,Access Definitions,"Define access needs for each role, including: 
+ - System components and data resources that each role needs to access for their job function. 
+ - Level of privilege required (for example, user, administrator, etc) for accessing resources."
+7,1.2,Principle of Least Privilege,Restrict access to privileged user IDs to least privileges necessary to perform job responsibilities.
+7,1.3,Privileges should be limited to job function,Assign access based on individual personnel's job classification and function.
+7,1.4,Document Required Privilege Approvals,Require documented approval by authorized parties specifying required privileges.
+7,2,Establish an Access Control System,"Establish an access control system(s) for system components that restricts access based on a user's need to know, and is set to ""deny all"" unless specifically allowed."
+7,2.1,Access Control Should Cover All System Components,Automated Access Control must cover all components of the system.
+7,2.2,Assign Privileges Based On Job Function,Access Control System should assign privileges based on job classification and function.
+7,2.3,Access Control - Default Deny All,"The Automated Access Control System should have a Default Deny-All Setting. 
+Note: Some access control systems are set by default to allow-all, thereby permitting access unless/until a rule is written to specifically deny it."
+7,3,Access Restriction Policies and Procedures,"Ensure that security policies and operational procedures for restricting access to cardholder data are documented, in use, and known to all affected parties."
+8,1,Ensure Proper User Identification and Authentication Management,Define and implement policies and procedures to ensure proper user identification management for non-consumer users and administrators on all system components.
+8,1.1,Unique IDs,Assign all users a unique ID before allowing then to access system components or cardholder data.
+8,1.2,"Control Addition, Deletion, and Modification of Accounts","Control addition, deletion and modification of user IDs, credentials, and other identifier objects."
+8,1.3,Revoke Access for Terminated Users,Immediately revoke access for any terminated users.
+8,1.4,Remove Inactive Accounts,Remove/disable inactive user accounts within 90 days.
+8,1.5,Monitor Third Parties Remote Accounts,"Manage IDs used by third parties to access, support, or maintain system components via remote access as follows: 
+ -Enabled only during the time period needed and disabled when not in use. 
+ -Monitored when in use."
+8,1.6,Limit Failed Access Attempts,Limit repeated access attempts by locking out the user ID after not more than six attempts.
+8,1.7,Account Lockout Duration,Set the lockout duration to a minimum of 30 minutes or until an administrator enables the user ID.
+8,1.8,Timeouts and Reauthentication,"If a session has been idle for more than 15 minutes, the system(s) shall require the user to re-authenticate to re-activate the terminal or session."
+8,2,Authentication Methods,"In addition to assigning a unique ID, ensure proper user-authentication management for non-consumer users and administrators on all system components by employing at least one of the following methods to authenticate all users: 
+ - Something you know, such as password or passphrase 
+ - Something you have, such as a token device or smart card 
+ - Something you are, such as a biometric."
+8,2.1,Store and Transmit Passwords Securely,"Using strong cryptography, ensure to render all authentication credentials (such as passwords/phrases) unreadable during transmission and storage on all system components."
+8,2.2,Identify User Before Authentication Tasks,"Verify user identity before modifying any authentication credential - for example, performing password resets, provisioning new tokens, or generating new keys."
+8,2.3,Password Requirements,"Passwords/phrases must meet the following: 
+ - Require a minimum length of at least seven characters. 
+ - Contain both numeric and alphabetic characters. 
+ Alternatively, the password/phrases must have complexity and strength at least equivalent to the parameters specified above."
+8,2.4,Change User Passwords Every 90 Days,Change user passwords/passphrases at least once every 90 days.
+8,2.5,Password re-use requirements,Do not allow an individual to submit a new password/phrase that is the same as any of the last four passwords/phrases he or she has used.
+8,2.6,First Time Passwords and Password Resets,"Set passwords/phrases for first time use and upon reset to a unique value for each user, and change immediately after the first use."
+8,3,Incorporate Multi-Factor Authentication,"Secure all individual non-console administrative access and all remote access to the CDE using multi-factor authentication. 
+ Note: Multi-factor authentication requires that a minimum of two of the three authentication methods (see Requirement 8.2 for descriptions of authentication methods) be used for authentication. Using one factor twice (for example, using two separate passwords) is not considered multi-factor authentication."
+8,3.1,Multi-Factor Authentication for Administrative Access to CDE,Incorporate multi-factor authentication for all non-console access into the CDE for personnel with administrative access.
+8,3.2,Multi-Factor Authentication for Remote Access,"Incorporate multi-factor authentication for all remote network access (both user and administrator, and including third-party access for support or maintenance) originating from outside the entity's network."
+8,4,Communicate Policies and Procedures to End Users,"Document and communicate authentication procedures and policies to all users including: 
+ - Guidance on selecting strong authentication credentials. 
+ - Guidance for how users should protect their authentication credentials 
+ - Instructions not to reuse previously used passwords 
+ - Instructions to change passwords if there is suspicion the password could be compromised."
+8,5,Do Not Use Shared Accounts,"Do not use group, shared, or generic ID's, passwords, or other authentication methods as follows: 
+ - Generic user IDs are disabled or removed. 
+ - Shared user IDs do not exist for system administrators and other critical functions. 
+ - Shared and generic user IDs are not used to administer any system components."
+8,5.1,Service Providers - Remote Access Requirements,"Service providers with remote access to customer premises (for example, for support of POS systems or servers) must use a unique authentication credential (such as a password/phrase) for each customer. (additional requirement for service providers only)
+ Note: This requirement is not intended to apply to shared hosting providers accessing their own hosting environment, where multiple customer environments are hosted."
+8,6,Alternative Authentication Mechanisms,"Where other authentication mechanisms are user (for example, physical or logical security tokens, smart cards, certificates, etc), use of these mechanisms must be assigned as follows: 
+ - Authentication mechanisms must be assigned to an individual account and not shared among multiple accounts. 
+ - Physical and/or logical controls must be in place to ensure only the intended account that can use that mechanism to gain access."
+8,7,Cardholder Database Information Security,"All access to any database containing cardholder data (including access by applications, administrators, and all other users) shall be restricted as follows: 
+ - All user access to, user queries of, and user actions on databases are through programmatic methods. 
+ - Only database administrators have the ability to directly access or query databases. 
+ - Application IDs for database applications can only be used by the applications (and not by individual user or other non-application processes)."
+8,8,Identification and Authentication Policies and Procedures,"Ensure that security policies and operational procedures for identification and authentication are documented, in use, and known to all affected parties."
+9,1,Facility Entry Controls,Use appropriate facility entry controls to limit and monitor physical access to systems in the cardholder data environment.
+9,1.1,"Use, Monitor, and Review Facility Access Controls","Use either video cameras or access control mechanisms (or both) to monitor individual physical access to sensitive areas. Review collected data and correlate with other entries. Store for at least three months, unless otherwise restricted by law. 
+ Note: ""Sensitive areas"" refers to any data center, server room or any area that houses systems that store, process, or transmit cardholder data. This excludes public-facing areas where only point-of-sale terminals are present, such as the cashier areas in a retail store."
+9,1.2,Restrict Access to Network Jacks,"Implement physical and/or logical controls to restrict access to publicly accessible network jacks. 
+ For example, network jacks located in public areas and areas accessible to visitors could be disabled and only enabled when network access is explicitly authorized. Alternatively, processes could be implemented to ensure that visitors are escorted at all times in areas with active network jacks."
+9,1.3,Restrict Physical Access To Networking Devices,"Restrict physical access to wireless access points, gateways, handheld devices, networking/communications hardware, and telecommunication lines."
+9,2,Develop Procedures To Distinguish Personnel and Visitors,"Develop procedures to easily distinguish between onsite personnel and visitors, to include: 
+ - Identifying onsite personnel and visitors (for example, assigning badges). 
+ - Changes to access requirements 
+ - Revoking or terminating onsite personnel and expired visitor identification (such as ID badges)."
+9,3,Physical Access Controls,"Control physical access for onsite personnel to the sensitive areas as follows: 
+ - Access must be authorized and based on individual job function. 
+ - Access is revoked immediately upon termination, and all physical access mechanisms, such as keys, access cards, etc, are returned or disabled."
+9,4,Visitor Identification and Authorization Procedures,Implement procedures to identify and authorize visitors.
+9,4.1,Visitor Access Controls - Authorize and Escort,"Visitors shall be authorized before entering, and escorted at all times within, areas where cardholder data is processed or maintained."
+9,4.2,Visitor Access Controls - Identification,Visitors shall be identified and given a badge or other identification that expires and that visibly distinguishes the visitors from onsite personnel.
+9,4.3,Visitor Access Controls - Return Identification,Visitors shall be asked to surrender the badge or identification before leaving the facility or at the date of expiration.
+9,4.4,Visitor Access Controls - Visitor Log,"A visitor log shall be used to maintain a physical audit trail of visitor activity to the facility as well as computer rooms and data centers where cardholder data is stored or transmitted. 
+Ensure to document the visitor's name, the firm represented, and the onsite personnel authorizing physical access on the log. 
+Ensure to retain this log for a minimum of three months, unless otherwise restricted by law."
+9,5,Physically Secure All Media,Ensure to physically secure all media.
+9,5.1,Store Media Backups Securely,"Store media backups in a secure location, preferably an off-site facility, such as an alternate or backup site, or a commercial storage facility. Review the location's security at least annually."
+9,6,Media Distribution Control,Maintain strict control over the internal or external distribution of any kind of media.
+9,6.1,Classify Media Sensitivity,Classify media so the sensitivity of the data can be determined.
+9,6.2,Send Media Securely,Send the media by secured courier or other delivery method that can be accurately tracked.
+9,6.3,Management Approval of Media Distribution,Ensure management approves any and all media that is moved from a secured area (including when media is distributed to individuals).
+9,7,Media Access and Storage Controls,Maintain strict control over the storage and accessibility of media.
+9,7.1,Media Inventory Logs,Ensure to maintain proper inventory logs of all media and conduct media inventories at least annually.
+9,8,Destroy Unneeded Media,Destroy media when it is no longer needed for business or legal reasons.
+9,8.1,Adequately Destroy Hardcopy Media,"Shred, incinerate, or pulp hard-copy materials so that cardholder data cannot be reconstructed. Secure storage containers used for materials that are to be destroyed."
+9,8.2,Adequately Destroy Electronic Media,Render cardholder data on electronic media unrecoverable so that cardholder data cannot be reconstructed.
+9,9,Protect Payment Capture Devices,"Protect devices that capture payment card data via direct physical interaction with the card from tampering and substitution. 
+ Note: These requirements apply to card-reading devices used in card-present transactions (that is, card swipe or dip) at the point of sale. This requirement is not intended to apply to manual key-entry components such as computer keyboards and POS keypads."
+9,9.1,Inventory of Payment Devices,"Maintain an up-to-date list of devices. The list should include the following: 
+ - Make, model of device 
+ - Location of device (for example, the address of the site or facility where the device is located) 
+ - Device serial number of other method of unique identification."
+9,9.2,Payment Device Tampering Inspection,"Periodically inspect device surfaces to detect tampering (for example, addition of card skimmers to devices), or substitution (for example, by checking the serial number or other device characteristics to verify it has not been swapped with a fraudulent device). 
+ Note: Examples of signs that a device might have been tampered with or substituted include unexpected attachments or cables plugged into the device, missing or changed security labels, broken or differently colored casing, or changes to the serial number or other external markings."
+9,9.3,Payment Device Tampering Identification Training,"Provide training for personnel to be aware of attempted tampering or replacement of devices. Training should include the following: 
+ - Verify the identity of any third-party persons claiming to be repair or maintenance personnel, prior to granting them access to modify or troubleshoot devices. 
+ - Do not install, replace, or return devices without verification. 
+ - Be aware of suspicious behavior around devices (for example, attempts by unknown persons to unplug or open devices). 
+ - Report suspicious behavior and indications of device tampering or substitution to appropriate personnel (for example, to a manager or security officer)."
+9,1,Physical Access Restrictions Policies and Procedures,"Ensure that security policies and operational procedures for restricting physical access to cardholder data are documented, in use, and known to all affected parties."
+10,1,Implement Audit Trails,Implement audit trails to link all access to system components to each individual user.
+10,2,Automate Audit Trails,Implement automated audit trails for all system components to reconstruct system events
+10,2.1,Audit Access To Cardholder Data,Audit all individual accesses to cardholder data. 
+10,2.2,Audit Administrative Privilege Use,Audit all actions taken by any individual with root or administrative privileges.
+10,2.3,Audit Access To Audit Trails,Audit all access to audit trails.
+10,2.4,Audit Failed Access Attempts,Audit all invalid logical access attempts.
+10,2.5,Audit Use of Authentication,"Audit all use of and changes to identification and authentication mechanisms - including but not limited to creation of new accounts and elevation of privileges - and all changes, additions, or deletions to accounts with root or administrative privileges."
+10,2.6,"Audit Initialization, Stop, and Pause of Audit Log","Audit all initialization, stopping, or pausing of the audit logs."
+10,2.7,Audit Creation and Deletion of System Objects,Audit all creation and deletion of system level objects.
+10,3.1,Audit Trail - User Identification,Record audit trail events for all user identification system events.
+10,3.2,Audit Trail - Type of event,Record the type of event in the audit trail for each system.
+10,3.3,Audit Trail - Time of Event,Record the date and time of each audit trail event.
+10,3.4,Audit Trail - Success or Failure,Record whether or not the audit trail event was a success or failure.
+10,3.5,Audit Trail - Origin,Record the origin of each audit trail event.
+10,3.6,Audit Trail - System Component,"For each audit trail event record the identity or name of the affected data, system component, or resource."
+10,4,Use time synchronization across systems,"Use time-synchronization technology to synchronize all critical system clocks and times and ensure that the following is implemented for acquiring, distributing, and storing time. 
+ Note: One example of time synchronization technology is Network Time Protocol (NTP)."
+10,4.1,Time Synchronization - Correct and Consistent Time,Ensure critical systems have the correct and consistent time.
+10,4.2,Time Synchronization - Protect,Ensure time information is protected.
+10,4.3,Time Synchronization - Sources,Ensure time settings are received from industry-accepted time sources.
+10,5,Secure and Protect Audit Trails,Secure audit trails so they cannot be altered.
+10,5.1,Audit Trails - Limit viewing,Limit viewing of audit trail information to those with a job-related function.
+10,5.2,Audit Trails - Protection,Protect audit trails from unauthorized modifications.
+10,5.3,Audit Trails - Backups,Promptly back up audit trail files to a centralized log server or media that is difficult to alter. 
+10,5.4,Audit Trails - External Devices,"Write logs for external-facing technologies onto a secure, centralized, internal log server or media device."
+10,5.5,Audit Trails - File Integrity,Use file-integrity monitoring or change-detection software on logs to ensure that existing log data cannot be changed without generating alerts (although new data being added should not cause an alert).
+10,6,Review Logs and Events,"Review logs and security events for all system components to identify anomalies or suspicious activity. 
+ Note: Log harvesting, parsing, and alerting tools may be used to meet this Requirement"
+10,6.1,Daily Log and Events Review,"Review the following at least daily: 
+ - All security events 
+ - Logs of all system components that store, process, or transmit CHD and/or SAD 
+ - Logs of all critical system components 
+ - Logs of all servers and system components that perform security functions (for example, firewalls, intrusion-detection systems/intrusion-prevention systems (IDS/IPS), authentication servers, e-commerce redirection servers, etc.)."
+10,6.2,Review Other Logs Periodically,"Review logs of all other system components periodically based on the organization's policies and risk management strategy, as determined by the organization's annual risk assessment."
+10,6.3,Follow Up To Log Review,Follow up exceptions and anomalies identified during the review process.
+10,7,Audit Trails - Retention,"Retain audit trail history for at least one year, with a minimum of three months immediately available for analysis (for example, online, archived, or restorable from back-up)."
+10,8,Detection and Reporting of Control Failures - Service Providers Only,"Implement a process for the timely detection and reporting of failures of critical security control systems, including but not limited to failure of: (Additional requirement for service providers only)
+ - Firewalls 
+ - IDS/IPS 
+ - FIM 
+ - Anti-virus 
+ - Physical access controls 
+ - Logical access controls 
+ - Audit logging mechanisms 
+ - Segmentation controls (if used)"
+10,8.1,Respond to Failures of Security Controls,"Respond to failures of any critical security controls in a timely manner. Processes for responding to failures in security controls must include: (Additional requirement for service providers only)
+ - Restoring security functions 
+ - Identifying and documenting the duration (date and time start to end) of the security failure 
+ - Identifying and documenting cause(s) of failure, including root cause, and documenting remediation required to address root cause 
+ - Identifying and addressing any security issues that arose during the failure 
+ - Performing a risk assessment to determine whether further actions are required as a result of the security failure 
+ - Implementing controls to prevent cause of failure from reoccurring 
+ - Resuming monitoring of security controls"
+10,9,Audit Log Policies and Procedures,"Ensure that security policies and operational procedures for monitoring all access to network resources and cardholder data are documented, in use, and known to all affected parties."
+11,1,Wireless Network Detection Quarterly,"Implement processes to test for the presence of wireless access points (802.11), and detect and identify all authorized and unauthorized wireless access points on a quarterly basis. 
+ Note: Methods that may be used in the process include but are not limited to wireless network scans, physical/logical inspections of system components and infrastructure, network access control (NAC), or wireless IDS/IPS. 
+ Whichever methods are used, they must be sufficient to detect and identify both authorized and unauthorized devices."
+11,1.1,Wireless Access Point Inventory,Maintain an inventory of authorized wireless access points including a documented business justification.
+11,1.2,Wireless Network Incident Response,Implement incident response procedures in the event unauthorized wireless access points are detected.
+11,2,Vulnerability Scanning,"Run internal and external network vulnerability scans at least quarterly and after any significant change in the network (such as new system component installations, changes in network topology, firewall rule modifications, product upgrades). 
+ Note: Multiple scan reports can be combined for the quarterly scan process to show that all systems were scanned and all applicable vulnerabilities have been addressed. Additional documentation may be required to verify non-remediated vulnerabilities are in the process of being addressed. 
+ For initial PCI DSS compliance, it is not required that four quarters of passing scans be completed if the assessor verifies 1) the most recent scan result was a passing scan, 2) the entity has documented policies and procedures requiring quarterly scanning, and 3) vulnerabilities noted in the scan results have been corrected as shown in a re-scan(s). For subsequent years after the initial PCI DSS review, four quarters of passing scans must have occurred."
+11,2.1,Internal Vulnerability Scans,"Perform quarterly internal vulnerability scans. Address vulnerabilities and perform rescans to verify all ""high risk"" vulnerabilities are resolved in accordance with the entity's vulnerability ranking (per Requirement 6.1) Scans must be performed by qualified personnel."
+11,2.2,External Vulnerability Scans,"Perform quarterly external vulnerability scans, via an Approved Scanning Vendor (ASV) approved by the Payment Card Industry Security Standards Council (PCI SSC). Perform rescans as needed, until passing scans are achieved. 
+ Note: Quarterly external vulnerability scans must be performed by an Approved Scanning Vendor (ASV), approved by the Payment Card Industry Security Standards Council (PCI SSC). 
+ Refer to the ASV Program Guide published on the PCI SSC website for scan customer responsibilities, scan preparation, etc."
+11,2.3,Vulnerability Scans After Significant Changes,"Perform internal and external scans, and rescans as needed, after any significant change. Scans must be performed by qualified personnel."
+11,3,Penetration Testing Methodology,"Implement a methodology for penetration testing that includes the following: 
+ - Is based on industry-accepted penetration testing approaches (for example, NIST SP800-15) 
+ - Includes coverage for the entire CDE perimeter and critical systems 
+ - Includes testing from both inside and outside the network 
+ - Includes testing to validate any segmentation and scope-reduction controls 
+ - Defines application-layer penetration tests to include, at a minimum, the vulnerabilities listed in Requirement 6.5 
+ - Defines network-layer penetration tests to include components that support network functions as well as operating systems 
+ - Includes review and consideration of threats and vulnerabilities experienced in the last 12 months 
+ - Specifies retention of penetration testing results and remediation activities results."
+11,3.1,External Penetration Test,"Perform external penetration testing at least annually and after any significant infrastructure or application upgrade or modification (such as an operating system upgrade, a sub-network added to the environment, or a web server added to the environment)."
+11,3.2,Internal Penetration Test,"Perform internal penetration testing at least annually and after any significant infrastructure or application upgrade or modification (such as an operating system upgrade, a sub-network added to the environment, or a web server added to the environment)."
+11,3.3,Correct Penetration Test Findings,Exploitable vulnerabilities found during penetration testing shall be corrected and testing shall be repeated to verify the corrections.
+11,3.4,Segmentation Penetration Test,"If segmentation is used to isolate the CDE from other networks, ensure to perform penetration tests at least annually and after any changes to segmentation controls/methods to verify that the segmentation methods are operational and effective, and isolate all out-of-scope systems from systems in the CDE.."
+11,3.4.1,Segmentation Controls Penetration Test - Service Providers,"If segmentation is used, confirm PCI DSS scope by performing penetration testing on segmentation controls at least every six months and after any changes to segmentation controls/methods. (Additional requirement for service providers only)"
+11,4,Implement and Use IDS/IPS,"Use intrusion-detection and/or intrusion-prevention techniques to detect and/or prevent intrusions into the network. Monitor all traffic at the perimeter of the cardholder data environment as well as at critical points in the cardholder data environment, and alert personnel to suspected compromises. 
+ Keep all intrusion-detection and prevention engines, baselines, and signatures up to date."
+11,5,Change Detection,"Deploy a change-detection mechanism (for example, file-integrity monitoring tools) to alert personnel to unauthorized modification (including changes, additions, and deletions) of critical system files, configuration files, or content files; and configure the software to perform critical file comparisons at least weekly. 
+ Note: For change-detection purposes, critical files are usually those that do not regularly change, but the modification of which could indicate a system compromise or risk of compromise. Change-detection mechanisms such as file-integrity monitoring products usually come pre-configured with critical files for the related operating system. Other critical files, such as those for custom applications, must be evaluated and defined by the entity (that is, the merchant or the service provider)."
+11,5.1,Change Detection Response,Implement a process to respond to any alerts generated by the change-detection solution.
+11,6,Security Monitoring Policies and Procedures,"Ensure that security policies and operational procedures for security monitoring and testing are documented, in use, and known to all affected parties."
+12,1,Security Policies,"Establish, publish, maintain, and disseminate a security policies"
+12,1.1,Security Policy Review,Review the security policy at least annually and update the policy when the environment changes.
+12,2,Risk Assessment Process,"Implement a risk-assessment process that: 
+ - Is performed at least annually and upon significant changes to the environment (for example, acquisition, merger, relocation, etc). 
+ - Identifies critical assets, threats, and vulnerabilities, and 
+ - Results in a formal, documented analysis of risk. 
+ Examples of risk-assessment methodologies include but are not limited to OCTAVE, ISO 27005, and NIST SP 800-30"
+12,3,Usage Policies for Critical Technologies,"Develop usage policies for critical technologies and define proper use of these technologies. 
+ Note: Examples of critical technologies include, but are not limited to, remote access and wireless technologies, laptops, tablets, removable electronic media, e-mail usage and Internet usage."
+12,3.1,Usage Policies - Approval,Ensure usage policies cover explicit approval by authorized parties
+12,3.2,Usage Policies - Authentication,Ensure usage policies cover authentication for the use of the technology
+12,3.3,Usage Policies - Listing,Ensure usage policies include a listing of all such critical devices and the personnel with access to those devices
+12,3.4,Usage Policies - Labeling and Identification,"Ensure usage policies include a method to accurately and readily determine owner, contact information, and purpose (for example, labeling, coding, and/or inventorying of devices)"
+12,3.5,Usage Policies - Acceptable Use,Ensure usage policies cover acceptable use of critical technologies
+12,3.6,Usage Policies - Network Location,Ensure usage policies include acceptable network locations for the technologies.
+12,3.7,Usage Policies - Approved Devices,Ensure usage policies include a list of company-approved products.
+12,3.8,Usage Policies - Automatic Disconnect,Ensure usage policies cover the automatic disconnect of sessions for remote-access technologies after a specific period of inactivity
+12,3.9,Usage Policies - Remote Access Activation and Deactivation,"Ensure usage policies cover the activation of remote-access technologies for vendors and business partners only when needed by vendors and business partners, with immediate deactivation after use"
+12,3.1,Usage Policies - Data Transfer,"Ensure usage policies for personnel accessing cardholder data via remote-access technologies, prohibit the copying, moving, and storage of cardholder data onto local hard drives and removable electronic media, unless explicitly authorized for a defined business need. 
+ Where there is an authorized business need, the usage policies must require the data be protected in accordance with all applicable PCI DSS Requirements."
+12,4,Security Policies Define Responsibilities,Ensure that the security policy and procedures clearly define information security responsibilities for all personnel.
+12,4.1,Protection of Cardholder Data Responsibilities - Service Provider,"Executive management shall establish responsibility for the protection of cardholder data and a PCI DSS compliance program to include: (Additional requirement for service providers only)
+ - Overall accountability for maintaining PCI DSS compliance 
+ - Defining a charter for a PCI DSS compliance program and communication to executive management"
+12,5,Assignment of security responsibilities,Assign to individuals or teams the information security management responsibilities.
+12,5.1,Security Assignment - Policies and Procedures,"Assign a person or team the following responsibility:Establish, document, and distribute security policies and procedures."
+12,5.2,Security Assignment - Security Alerts,"Assign an individual or team the following security responsibility:Monitor and analyze security alerts and information, and distribute to appropriate personnel."
+12,5.3,Security Assignment - Incident Response,"Assign an individual or team the following security responsibility:Establish, document, and distribute security incident response and escalation procedures to ensure timely and effective handling of all situations."
+12,5.4,Security Assignment - Account Administration,"Assign an individual or team the following security responsibility:Administer user accounts, including additions, deletions, and modifications."
+12,5.5,Security Assignment - Data Access Control,Assign an individual or team the following security function:Monitor and control all access to data.
+12,6,Security Awareness Training,Implement a formal security awareness training program to make all personnel aware of the cardholder data security policy and procedures.
+12,6.1,Security Awareness Program Frequency,"Educate personnel upon hire and at least annually. 
+ Note: Methods can vary depending on the role of the personnel and their level of access to the cardholder data."
+12,6.2,Security Awareness Program Acknowledgement,Require personnel to acknowledge at least annually that they have read and understood the security policy and procedures.
+12,7,Personnel Screening,"Screen potential personnel prior to hire to minimize the risk of attacks from internal sources. (Examples of background checks include previous employment history, criminal record, credit history, and reference checks.) 
+ Note: For those potential personnel to be hired for certain positions such as store cashiers who only have access to one card number at a time when facilitating a transaction, this requirement is a recommendation only."
+12,8,Cardholder Data Sharing Policies,"Maintain and implement policies and procedures to manage service providers with whom cardholder data is shared, or that could affect the security of cardholder data."
+12,8.1,List of Service Providers with Access to Cardholder Data,Maintain a list of service providers including a description of the service provided.
+12,8.2,Service Provider Acknowledgement,"Maintain a written agreement that includes an acknowledgement that the service providers are responsible for the security of cardholder data the service providers possess or otherwise store, process or transmit on behalf of the customer, or to the extent that they could impact the security of the customer's cardholder data environment. 
+ Note: The exact wording of an acknowledgement will depend on the agreement between the two parties, the details of the service being provided, and the responsibilities assigned to each party. The acknowledgement does not have to include the exact wording provided in this requirement."
+12,8.3,Service Provider Engagement,Ensure there is an established process for engaging service providers including proper due diligence prior to engagement.
+12,8.4,Service Provider Compliance,Maintain a program to monitor service providers PCI DSS compliance status at least annually.
+12,8.5,Service Provider PCI Requirements Management,"Maintain information about which PCI DSS requirements are managed by each service provider, and which are managed by the entity."
+12,9,Service Providers Acknowledgement,"Service providers shall acknowledge in writing to customers that they are responsible for the security of cardholder data the service provider possesses or otherwise stores, processes, or transmits on behalf of the customer, or to the extent that they could impact the security of the customers cardholder data environment. (Additional requirement for service providers only) 
+ Note: The exact wording of an acknowledgement will depend on the agreement between the two parties, the details of the service being provided, and the responsibilities assigned to each party. 
+ The acknowledgement does not have to include the exact wording provided in this requirement."
+12,1,Incident Response Plan,Implement an incident response plan and ensure that you are prepared to respond immediately to a system breach.
+12,10.1,Context of Incident Response Plan,"Create an incident response plan to be implemented in the event of system breach. Ensure the plan addresses the following, at a minimum: 
+ - Roles, responsibilities, and communication and contact strategies in the event of a compromise including notification of the payment brands, at a minimum 
+ - Specific incident response procedures 
+ - Business recovery and continuity procedures 
+ - Data backup process 
+ - Analysis of legal requirements for reporting compromises 
+ - Coverage and responses of all critical system components 
+ - Reference or inclusion of incident response procedures from the payment brands"
+12,10.2,Incident Response Plan - Testing,"Review and test the plan, including all elements listed in Requirement 12.10.1, at least annually."
+12,10.3,Incident Response Plan - Personnel,Designate specific personnel to be available on a 24/7 basis to respond to alerts.
+12,10.4,Incident Response Plan - Training,Provide appropriate training to staff with security breach response responsibilities.
+12,10.5,Incident Response Plan - Covered Actions,"Include alerts from security monitoring systems, including but not limited to intrusion-detection, intrusion-prevention, firewalls, and file-integrity monitoring systems."
+12,10.6,Incident Response Plan - Updates,Develop a process to modify and evolve the incident response plan according to lessons learned and to incorporate industry developments.
+12,11,Quarterly Review of Personnel Following Policies and Procedures - Service Providers,"Perform reviews at least quarterly to confirm personnel are following security policies and operational procedures. Reviews must cover the following processes: (Additional requirement for service providers only)
+ - Daily log reviews 
+ - Firewall rule-set reviews 
+ - Applying configuration standards to new systems 
+ - Responding to security alerts 
+ - Change management processes"
+12,11.1,Quarterly Review Documentation - Service Providers,"Maintain documentation of quarterly review process to include: (Additional requirement for service providers only)  
+ - Documenting results of the reviews 
+ - Review and sign-off of results by personnel assigned responsibility for the PCI DSS compliance program. 
+"

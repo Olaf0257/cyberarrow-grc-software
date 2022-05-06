@@ -1,0 +1,188 @@
+.react-collapsible {
+    table-layout: fixed;
+    font-size: 10px;
+}
+
+/* only works on user data-table */
+.react-collapsible td.role_names span:first-child{
+    display: none;
+}
+
+.react-collapsible tr.no-results td {
+    text-align: center;
+}
+
+.react-collapsible thead {
+    font-size: 0.875rem !important;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+    color: #555;
+    text-align: left;
+    font-weight: 400;
+}
+
+.react-collapsible-theme .react-collapsible thead,
+.react-collapsible-theme .react-collapsible .child-label {
+    font-size: 0.875rem !important;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+    color: #555;
+    text-align: left;
+    font-weight: 400;
+}
+
+.child-cell .child-label {
+		margin: 0 1.6rem 0 0 !important;
+}
+
+/* .react-collapsible-theme .react-collapsible th:first-child {
+    width: 80px;
+} */
+
+.react-collapsible-theme .react-collapsible th:first-child,
+.react-collapsible-theme .react-collapsible tr td:first-child {
+    padding: 0.8rem;
+}
+
+.react-collapsible-theme .react-collapsible tr td:first-child svg {
+    height: 18px !important;
+    width: 18px !important;
+    margin-top: -3px;
+    cursor: pointer;
+}
+
+.react-collapsible-theme .react-collapsible td {
+    padding: 0.8rem 0.8rem 0.8rem 0;
+    font-size: 0.875rem !important;
+    font-weight: 200;
+}
+
+.react-collapsible-theme .react-collapsible-page {
+    font-size: 0.875rem !important;
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+.react-collapsible-theme .brand-primary-light {
+    color: #6c757d !important;
+}
+
+.react-collapsible-theme .brand-primary-light {
+    color: #6c757d !important;
+}
+
+.dropdown-menu.show {
+    left: 0%;
+}
+
+tbody td:hover {
+    overflow: visible !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+}
+
+tbody td {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    max-width: 150px !important;
+}
+
+tbody tr:hover {
+    color: #6c757d;
+    background-color: #f1f5f7;
+}
+
+.dataTables_length label {
+    font-weight: normal;
+    text-align: left;
+    white-space: nowrap;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+div.dataTables_length select {
+    width: auto;
+    display: inline-block;
+}
+
+div.dataTables_filter label {
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.react-collapsible-theme .react-collapsible thead tr:first-child {
+    border-top: 1px solid #dee2e6;
+}
+
+.react-collapsible-theme .react-collapsible tbody tr:last-child {
+    border-bottom: none;
+}
+
+.react-collapsible-theme .react-collapsible thead tr th {
+    padding: 0.8rem 0.8rem 0.8rem 0;
+}
+
+div.dataTables_filter {
+    text-align: right;
+}
+
+div.dataTables_filter input {
+    margin-left: 0.5em;
+    display: inline-block;
+    width: auto;
+}
+
+/* Pagination CSS */
+
+div.dataTables_info {
+    padding-top: 0.85em;
+    white-space: nowrap;
+}
+
+div.dataTables_paginate {
+    margin: 0;
+    white-space: nowrap;
+    text-align: right;
+}
+
+div.dataTables_paginate ul.pagination {
+    margin: 3px 0;
+    white-space: nowrap;
+    justify-content: flex-end;
+}
+
+/* pagination controls */
+div.dataTables_paginate ul.pagination .page-item .page-link {
+    line-height: 1.25rem;
+}
+
+/* control List */
+#control-list .react-collapsible-theme .react-collapsible thead tr th.column-controlId {
+    width: 10% !important;
+}
+
+#control-list .react-collapsible-theme .react-collapsible thead tr th.column-name {
+    width: 20% !important;
+}
+
+#control-list .react-collapsible-theme .react-collapsible thead tr th.column-description {
+    width: 50% !important;
+}
+
+#control-list .react-collapsible-theme .react-collapsible tr.expanded-row td {
+    overflow: visible !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+}
+
+.dataTables_paginate .pagination-rounded .page-item .page-link.previous {
+    background-color: transparent !important;
+}
+
+.dataTables_paginate .pagination-rounded .page-item .page-link.next {
+    background-color: transparent !important;
+}

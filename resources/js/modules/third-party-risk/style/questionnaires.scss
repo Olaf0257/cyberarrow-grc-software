@@ -1,0 +1,28 @@
+#questionnaire {
+    .title-heading {
+        p {
+            margin-bottom: 5px;
+        }
+    }
+    .m-30 {
+        margin: 30px 0;
+    }
+}
+.btn-group {
+    input[type=radio] {
+        display: none !important;
+    }
+    .btn {
+        border: 1px solid #e9ebec;
+        background-color: #f1f5f7;
+        color: #414141;
+        cursor: pointer;
+    }    
+   
+}
+
+ol {
+    li {
+        margin-bottom: 10px;
+    }
+}
