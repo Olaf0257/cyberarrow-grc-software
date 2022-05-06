@@ -1669,6 +1669,7 @@ class ProjectControlController extends Controller
         $page = $request->page ?? 1;
         $per_page = $request->per_page ?? 10;
         $keyword = $request->search ?? null;
+        $status = ["implemented", "not implemented", "rejected", "under review"];
 
 
         // filtring control for only loging user
@@ -1679,8 +1680,38 @@ class ProjectControlController extends Controller
             });
 
             if ($keyword) {
-                $projectControlsQuery->where(function ($query) use ($keyword) {
-                    $query->where('name', 'LIKE', "%{$keyword}%")
+                if(in_array(strtolower($keyword), $status)) {
+                    $projectControlsQuery->where(function ($query) use ($keyword) {
+                        $query->where('status', '=', "{$keyword}");
+                    });
+                }else{
+                    $projectControlsQuery->where(function ($query) use ($keyword) {
+                        $query->where('name', 'LIKE', "%{$keyword}%")
+                            ->orWhere('description', 'LIKE', "%{$keyword}%")
+                            ->orWhere('status', '=', "{$keyword}")
+                            ->orWhere(DB::raw("CONCAT_WS(id_separator, primary_id, sub_id)"), 'LIKE', "%{$keyword}%")
+                            ->orWhereHas('responsibleUser', function ($q) use ($keyword) {
+                                $q->where(DB::raw("CONCAT(first_name,' ',last_name)"), 'LIKE', "%{$keyword}%");
+                            })
+                            ->orWhereHas('approverUser', function ($q) use ($keyword) {
+                                $q->where(DB::raw("CONCAT(first_name,' ',last_name)"), 'LIKE', "%{$keyword}%");
+                            });
+                    });
+                }
+            }
+
+            $count = $projectControlsQuery->count();
+            $controls = $projectControlsQuery->skip(--$page * $per_page)->take($per_page)->paginate($per_page);
+        } else {
+            if ($keyword) {
+                if (in_array(strtolower($keyword), $status)) {
+                    $projectControlsQuery = $project->controls()
+                        ->where('status', '=', "{$keyword}");
+                } else {
+                    $projectControlsQuery = $project->controls()
+                        ->where('name', 'LIKE', "%{$keyword}%")
+                        ->orWhere('description', 'LIKE', "%{$keyword}%")
+                        ->orWhere('status', '=', "{$keyword}")
                         ->orWhere(DB::raw("CONCAT_WS(id_separator, primary_id, sub_id)"), 'LIKE', "%{$keyword}%")
                         ->orWhereHas('responsibleUser', function ($q) use ($keyword) {
                             $q->where(DB::raw("CONCAT(first_name,' ',last_name)"), 'LIKE', "%{$keyword}%");
@@ -1688,24 +1719,11 @@ class ProjectControlController extends Controller
                         ->orWhereHas('approverUser', function ($q) use ($keyword) {
                             $q->where(DB::raw("CONCAT(first_name,' ',last_name)"), 'LIKE', "%{$keyword}%");
                         });
-                });
+                }
+            } else {
+                $projectControlsQuery = $project->controls();
             }
-
-            $count = $projectControlsQuery->count();
-            $controls = $projectControlsQuery->skip(--$page * $per_page)->take($per_page)->paginate($per_page);
-        } else {
-            $projectControlsQuery = $keyword ?
-                $project->controls()
-                    ->where('name', 'LIKE', "%{$keyword}%")
-                    ->orWhere(DB::raw("CONCAT_WS(id_separator, primary_id, sub_id)"), 'LIKE', "%{$keyword}%")
-                    ->orWhereHas('responsibleUser', function ($q) use ($keyword) {
-                        $q->where(DB::raw("CONCAT(first_name,' ',last_name)"), 'LIKE', "%{$keyword}%");
-                    })
-                    ->orWhereHas('approverUser', function ($q) use ($keyword) {
-                        $q->where(DB::raw("CONCAT(first_name,' ',last_name)"), 'LIKE', "%{$keyword}%");
-                    })
-                : $project->controls();
-
+            
             $count = $projectControlsQuery->count();
             $controls = $projectControlsQuery->skip(--$page * $per_page)->take($per_page)->paginate($per_page);
         }
